@@ -1,4 +1,28 @@
+import os
+import time
+import sys
 
+# شاشة تحميل وهمية مثل git clone
+os.system("clear")
+for i in range(1, 101):
+    sys.stdout.write(f"\rReceiving objects: {i}% ( {i}/100 ), 5.32 MiB | 1.{i} MiB/s")
+    sys.stdout.flush()
+    time.sleep(0.03)
+
+time.sleep(1)
+print("\nAlready up to date.\n")
+time.sleep(1)
+
+os.system("clear")
+
+# هنا تبدأ أداتك الأصلية
+print("""
+████████ TIGR ████████
+
+[1] START TOOL
+[2] ABOUT
+[0] EXIT
+""")
 
 import os
 import time
