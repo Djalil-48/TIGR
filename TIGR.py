@@ -13,6 +13,19 @@ time.sleep(1)
 print("\nAlready up to date.\n")
 time.sleep(1)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 os.system("clear")
 
 # هنا تبدأ أداتك الأصلية
