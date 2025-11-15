@@ -1,1 +1,0 @@
-print("TIGR TOOL READY")
