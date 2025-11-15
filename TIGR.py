@@ -1,6 +1,6 @@
-hereimport os
+import os
 
-# Banner مثل الصورة
+# Banner
 banner = """
 \033[1;31m   d8888b.  d8888b. d8888b. 
 \033[1;32m   88  `8D  88  `8D 88  `8D 
