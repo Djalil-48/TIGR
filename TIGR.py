@@ -20,12 +20,6 @@ except ModuleNotFoundError:
     
 import os
 try:
-    import requests
-except ImportError:
-    print('\n [✓] installing requests !...\n')
-    os.system('pip install requests')
-
-try:
     import concurrent.futures
 except ImportError:
     print('\n [✓] installing futures !...\n')
@@ -263,3 +257,4 @@ def rcrack1(uid,pwx,tl):
 
     
 Main()
+
