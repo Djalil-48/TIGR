@@ -4,8 +4,7 @@
 from os import path
 import os,base64,zlib,pip,urllib
 import random
-try:
-        import random
+try: 
 import os, requests, json, time, re, sys, uuid, string, subprocess
         from concurrent.futures import ThreadPoolExecutor as tred
 except ModuleNotFoundError:
@@ -807,4 +806,5 @@ def apix(ids,passlist):
 
 
 Spy()
+
 
