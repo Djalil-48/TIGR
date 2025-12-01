@@ -3,9 +3,10 @@
 #Github : SPY1x1
 from os import path
 import os,base64,zlib,pip,urllib
+import random
 try:
-        import os,requests,json,time,re,random,sys,uuid,string,subprocess
-        from string import *
+        import random
+import os, requests, json, time, re, sys, uuid, string, subprocess
         from concurrent.futures import ThreadPoolExecutor as tred
 except ModuleNotFoundError:
         os.system(f'pip install requests futures==2 > /dev/null')
@@ -806,3 +807,4 @@ def apix(ids,passlist):
 
 
 Spy()
+
