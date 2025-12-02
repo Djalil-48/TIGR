@@ -411,7 +411,7 @@ def file():
     except:
         ps_limit =100
     clear()
-    print(f"{rad}[{green}≈{rad}]{grlastomega firstmix44 lastmix55 firstsun2 lastsun3 firstdeep1 lastdeep2 ");linex()
+    print(f"{rad}[{green}≈{rad}]{green} first last firstlast firs");linex()
     for i in range(ps_limit):
         plist.append(input(f'{rad}[{green}≈{rad}]{green} PUT PASSWORD {rad}[{green}{i+1}{rad}]{green} : '))
     with tred(max_workers=30) as _A_x_M_:
@@ -837,6 +837,7 @@ if __name__=='__main__':
 
 
 #----[ FUCKED BY HIS FATHER - DARK LMNx9 ]----#
+
 
 
 
