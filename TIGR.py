@@ -1,5 +1,4 @@
-DECODED BY CRIMINAL WITH ICDEC
-# OWNER  DJALIL_MK 
+
 import os,time,_md5,marshal,inspect,hashlib
 import http.client
 import platform
@@ -969,3 +968,4 @@ def main_apv():
             msg = str(os.geteuid()) 
             time.sleep(1) 
             menu()
+
