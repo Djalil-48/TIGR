@@ -961,7 +961,7 @@ def main_apv():
     os.system("clear");print(logo)
     print(f" Your Key : \x1b[1;31m"+Xyteee)
     print("\x1b[1;92m--------------------------------------------------
-            try:
+  try:
     sec = newkey()
     if sec=='Fuck':Fuck()
     if 'Trial' in sec:
@@ -998,3 +998,4 @@ raise SystemExit
 open('').close()
 
       
+
