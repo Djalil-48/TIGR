@@ -967,5 +967,4 @@ def main_apv():
             print()
             msg = str(os.geteuid()) 
             time.sleep(1) 
-            menu()
-
+            menu() 
