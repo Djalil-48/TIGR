@@ -940,7 +940,3 @@ def main_apv():
             msg = str(os.geteuid()) 
             time.sleep(1) 
             menu()
-
-
-
-
