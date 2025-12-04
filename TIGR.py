@@ -924,29 +924,40 @@ def rcrack(uid,pwx,tl):
 ############            
 
 #######
-def main_apv():
-    os.system("clear")
-    print(logo)
-    uuid = str(os.geteuid())
-    Xyteee = ('Nix1x6b7b5c%s85b8n9nfdi%s' % (uuid, uuid))
-    print(logo)
-    os.system("clear"); print(logo)
-    print(f" Your Key : \x1b[1;31m" + Xyteee)
-    print("\x1b[1;92m--------------------------------------------------")
+def approval():
+  clear()
+  try:
+    sec = newkey()
+    if sec=='Fuck':Fuck()
+    if 'Trial' in sec:
+        Trial(sec[1])
+    if 'Napv' in sec:
+      boos = random.choice([P, M, H, K, B, U, O, N])
+      print(f" \033[1;32m[\033[1;31m√\033[1;32m] YOUR KEY 🔐 \033[1;37m : {boos}DJALIL_MK+\033[1;32m"+sec.replace('Napv',''))
+      print('\033[1;34m─────────────────────────────────────────────')
+      print(' \033[1;32m[\033[1;31m–\033[1;32m] You are not premuim user first buy premuim ')
+      print('\033[1;34m-─────────────────────────────────────────────')
+      print(f"\033[1;32m[\033[1;31m–\033[1;32m] {boos} Binance \033[1;33m >> \033[1;31m ID : 782102873 ")
+      print('\033[1;34m-─────────────────────────────────────────────')
+      print("\033[1;32m[\033[1;31m–\033[1;32m] 15$ Approval For 1 month  ")
+      print("\033[1;32m[\033[1;31m–\033[1;32m] 10$ Approval For 15 days  ")
+      print("\033[1;32m[\033[1;31m–\033[1;32m] 5$ Approval For 7 days  ")        
+      print('\033[1;34m─────────────────────────────────────────────')     
+      print(" \033[1;32m[\033[1;31m–\033[1;32m] Note : \033[1;32mPAY AND TRY")
+      print('\033[1;34m─────────────────────────────────────────────')
+      input(' \033[1;32m[\033[1;31m–\033[1;32m] Press Enter To Go To WhatsApp')
+      os.system('am start https://wa.me/+213655643510')
+      approval()
+    if sec=='Apv':menu()
+    else:exit()
+  except KeyboardInterrupt:exit()
+  except Exception as e:e=base64.b16encode(str(e).encode('ascii'));print('Something went wrong error code : '+e.decode('ascii'));exit() 
 
-    try:
-        system = requests.get("https://github.com/Mr-Nix8/Paid/blob/main/Approve.txt").text
-        if Xyteee in system:
-            print()
-            msg = str(os.geteuid())
-            time.sleep(1)
-            menu()
-        else:
-            print("\x1b[1;31m KEY NOT APPROVED ❌")
-            exit()
-
-    except Exception as e:
-        print("\x1b[1;31m ERROR : ", e)
-        exit()
-   
-
+#------------------[  END  ]-------------------#
+menu()
+exit()
+while True: requests
+raise KeyError ("XD")
+"HaN".FuCk
+raise SystemExit
+open('').close()
