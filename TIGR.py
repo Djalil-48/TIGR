@@ -389,7 +389,6 @@ def auto_passwords(name):
     pw.append(first + last + "123")
     pw.append(first + "786")
     pw.append("123456"
-
 return pw   # صحيح
 class main_crack():
     def __init__(self):
@@ -976,3 +975,4 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
