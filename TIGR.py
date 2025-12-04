@@ -920,6 +920,7 @@ def rcrack(uid,pwx,tl):
         sys.stdout.flush()
     except:
         pass 
+		
 ############            
 
 ##########
@@ -939,4 +940,5 @@ def main_apv():
             print()
             msg = str(os.geteuid()) 
             time.sleep(1) 
-            menu()
+            menu() 
+   
