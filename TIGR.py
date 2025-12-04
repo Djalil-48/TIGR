@@ -923,22 +923,30 @@ def rcrack(uid,pwx,tl):
 		
 ############            
 
-##########
-   
+#######
 def main_apv():
     os.system("clear")
     print(logo)
     uuid = str(os.geteuid())
-    Xyteee=('Nix1x6b7b5c%s85b8n9nfdi%s'%(uuid,uuid))
+    Xyteee = ('Nix1x6b7b5c%s85b8n9nfdi%s' % (uuid, uuid))
     print(logo)
-    os.system("clear");print(logo)
-    print(f" Your Key : \x1b[1;31m"+Xyteee)
+    os.system("clear"); print(logo)
+    print(f" Your Key : \x1b[1;31m" + Xyteee)
     print("\x1b[1;92m--------------------------------------------------")
+
     try:
-        system = requests.get("https://github.com/Mr-Nix8/Paid/blob/main/Approve.txt").text 
+        system = requests.get("https://github.com/Mr-Nix8/Paid/blob/main/Approve.txt").text
         if Xyteee in system:
             print()
-            msg = str(os.geteuid()) 
-            time.sleep(1) 
-            menu() 
+            msg = str(os.geteuid())
+            time.sleep(1)
+            menu()
+        else:
+            print("\x1b[1;31m KEY NOT APPROVED ❌")
+            exit()
+
+    except Exception as e:
+        print("\x1b[1;31m ERROR : ", e)
+        exit()
    
+
