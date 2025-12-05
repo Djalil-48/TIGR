@@ -414,8 +414,8 @@ class main_crack():
             fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])
             ######m1#####
             sony = random.choice(['SonyEricssonST25iv','SonyEricssonST25i','Xperia U'])
-        aa = [ "Mozilla/5.0 (Linux; Android 14; SM-S928B Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.82 Mobile Safari/537.36 [FB_IA/FB4A;FBAV/465.0.0.51.69;]","Mozilla/5.0 (Linux; Android 14; Pixel 8 Pro Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/125.0.6302.72 Mobile Safari/537.36 [FB_IA/FB4A;FBAV/466.0.0.55.68;]"]
-          fs = name.split(' ')[0]
+        aa = ["Mozilla/5.0 (Linux; Android 14; SM-S928B Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.82 Mobile Safari/537.36 [FB_IA/FB4A;FBAV/465.0.0.51.69;]","Mozilla/5.0 (Linux; Android 14; Pixel 8 Pro Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/125.0.6302.72 Mobile Safari/537.36 [FB_IA/FB4A;FBAV/466.0.0.55.68;]"]
+          fs = name.split('')[0]
             try:
                 ls = name.split(' ')[1]
             except:
@@ -965,6 +965,7 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
 
 
