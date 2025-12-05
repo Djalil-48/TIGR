@@ -516,7 +516,7 @@ class main_crack():
             fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])
             sony = random.choice(['SonyEricssonST25iv','SonyEricssonST25i','Xperia U'])
             #######m3####
-            uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/207.0.0.72.166;FBBV/74287579;FBDM/{density=3.7,width=1019,height=2540};FBLC/en_US;FBRV/93070009;FBCR/null;FBMF/HMD Global;FBBD/samsung;FBPN/com.facebook.katana;FBDV/Samsung J120FN;FBSV/8.9;FBOP/1;FBCA/arm64-v8a:;]
+            uax = [f"FBAN/FBAA;FBBV/{random.randint(100,500)}.0.0.{random.randint(10,199)};FBAV/{random.randint(100,300)}.0.0.{random.randint(10,999)};FBDV/samsung;FBMD/SM-{random.randint(100,999)}F;FBSN/Android;FBSV/{random.randint(5,13)};FBCA/arm64-v8a;",   f"FBAN/FB4A;FBAV/{random.randint(100,300)}.0.0.{random.randint(10,999)};FBLC/en_US;FBDV/samsung;FBCA/arm64;", f"FBAN/FB4A;FBBV/{random.randint(200,400)}.0.0.{random.randint(10,999)};FBMD/Huawei;FBSV/{random.randint(6,14)};FBCA/arm64;"]
             ######
             fs = name.split(' ')[0]
             try:
@@ -971,5 +971,6 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
 
