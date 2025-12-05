@@ -414,7 +414,7 @@ class main_crack():
             fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])
             ######m1#####
             sony = random.choice(['SonyEricssonST25iv','SonyEricssonST25i','Xperia U'])
-            uax =["FBAN/FB4A;FBAV/355.0.0.83.164;FBBV/15972112;FBDM={density=2.6,width=1286,height=2249};FBLC=en_US;FBRV=605424219;FBCR/Ufone;FBMF/HMD Global;FBBBD/samsung;FBDV/Samsung J120EN;FBOS/8.1;FBDR/QP1A;FBCA/arm64-v8a;"f"FBAN/FB4A;FBAV/207.0.0.{random.randint(11,99)};FBBV/{random.randint(11111111,99999999)};FBDM={{density=3.7,width=1019,height=2540}};FBLC=en_US;FBRV/930780009;FBCR/null;FBMF/HMD Global;FBBBD/samsung;FBDV/com.facebook.katana;FBOS/8.9;FBCA/arm64-v8a;"]
+        aa = [ "Mozilla/5.0 (Linux; Android 14; SM-S928B Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.82 Mobile Safari/537.36 [FB_IA/FB4A;FBAV/465.0.0.51.69;]","Mozilla/5.0 (Linux; Android 14; Pixel 8 Pro Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/125.0.6302.72 Mobile Safari/537.36 [FB_IA/FB4A;FBAV/466.0.0.55.68;]"]
           fs = name.split(' ')[0]
             try:
                 ls = name.split(' ')[1]
@@ -965,6 +965,7 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
 
 
