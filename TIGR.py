@@ -347,7 +347,7 @@ def menu():
        # os.system('xdg-open https://wa.me/+8801310067277')
 #---------------------[ USER - AGENT ] -------------------#
 def uaxxx():
-    ua='[FBAN/FB4A;FBAV/355.0.0.83.164;FBBV/15972112;FBDM/{density=6.2,width=1286,height=2249};FBLC/en_US;FBRV/60542419;FBCR/Ufone;FBMF/HMD Global;FBBD/samsung;FBPN/com.facebook.katana;FBDV/Samsung S757BL;FBSV/6.5;FBOP/1;FBCA/arm64-v8a:;]
+    ua = ["FBAN/FB4A;FBAV/355.0.0.83.164;FBBV/15972112;FBDM={density=2.6,width=1286,height=2249};FBLC=en_US;FBRV=605424219;FBBK/FBAN;FBMF/HMD Global;FBBBD/samsung;FBDV/Samsung SM875;FBOS/6.5;FBDR/QP1A;FBCA/arm64-v8a;"]
     return ua
 def method_crack():
     global methods
@@ -358,7 +358,7 @@ def method_crack():
     print(f'\x1b[38;5;196m[\033[38;5;46m1\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;92m●\033[38;5;46m graph')
     print(f'\x1b[38;5;196m[\033[38;5;46m2\x1b[38;5;196m]\033[38;5;46m Method \x1b[1;92m●\033[38;5;46m B-graph')
     print(f'\x1b[38;5;196m[\033[38;5;46m3\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;92m●\033[38;5;46m API')
-    print(f'\x1b[38;5;196m[\033[38;5;46m4\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;92m●\033[38;5;46m B-api')
+    print(f'\x1b[38;5;196m[\033[38;5;46m4\x1b[38;5;196m]  /3[38;5;46mMethod \x1b[1;92m●\033[38;5;46m B-api')
     print(f'\x1b[38;5;196m[\033[38;5;46m0\x1b[38;5;196m] \033[38;5;46mBack')
     print(f"\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
     option = input('\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m]\x1b[38;5;46mSelect Method : ')
@@ -971,3 +971,4 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
