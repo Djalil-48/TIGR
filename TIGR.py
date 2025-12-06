@@ -421,23 +421,27 @@ def method_crack():
     print(f'\x1b[38;5;196m[\033[38;5;46m3\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;92m●\033[38;5;46m API')
     print(f'\x1b[38;5;196m[\033[38;5;46m4\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;92m●\033[38;5;46m B-api')
     print(f'\x1b[38;5;196m[\033[38;5;46m0\x1b[38;5;196m] \033[38;5;46mBack')
-    print(f"\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-    option = input('\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m]\x1b[38;5;46mSelect Method : ')
-    if option =='1':
-        methods.append('methodA')
-        main_crack().crack(id)
-    elif option =='2':
-        methods.append('methodB')
-        main_crack().crack(id)
-    elif option =='3':
-        methods.append('methodC')
-        main_crack().crack(id)
-    elif option =='4':
-        methods.append('methodD')
-        main_crack().crack(id)
-		elif option == '0':
+    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+option = input('\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m]\x1b[38;5;46mSelect Method : ')
+
+if option == '1':
+    methods.append('methodA')
+    main_crack().crack(id)
+
+elif option == '2':
+    methods.append('methodB')
+    main_crack().crack(id)
+
+elif option == '3':
+    methods.append('methodC')
+    main_crack().crack(id)
+
+elif option == '4':
+    methods.append('methodD')
+    main_crack().crack(id)
+
+elif option == '0':
     Siam()
-    clear()
 #------------------[  METODE 1 ]-------------------#
 def M_file_1(ids,names,passlist):
                 try:
@@ -1059,6 +1063,7 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
 
 
