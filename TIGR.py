@@ -294,11 +294,7 @@ device = {
         'fbdv':model,
         'fbsv':fbsv}
 #------------------[  system logo   ]-------------------#        
-def Trial(PF):
-    global TrialExist
-    TrialExist="\n"+"-"*40+"\n     Free \033[1;92mTrial \033[1;97mFor Some Time "
-    TrialExist+="\n"+"-"*40+"\n       You Are A "+PF+" User "
-    menu()
+logo=(f"""
 \033[1;92m        `7MN.   `7MF'`7MMF'`YMM'   `MP' 
           MMN.    M    MM    VMb.  ,P   
  \033[1;31m         M YMb   M    MM     `MM.M'    
@@ -1063,6 +1059,7 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
 
 
