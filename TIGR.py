@@ -346,8 +346,58 @@ def menu():
         TIGR(allkey)
        # os.system('xdg-open https://wa.me/+8801310067277')
 #---------------------[ USER - AGENT ] -------------------#
-def uaxxx():
-    ua='[FBAN/FB4A;FBAV/355.0.0.83.164;FBBV/15972112;FBDM/{density=6.2,width=1286,height=2249};FBLC/en_US;FBRV/60542419;FBCR/Ufone;FBMF/HMD Global;FBBD/samsung;FBPN/com.facebook.katana;FBDV/Samsung S757BL;FBSV/6.5;FBOP/1;FBCA/arm64-v8a:;]
+try:
+    version = requests.get("https://raw.githubusercontent.com/sijanxd/Server/blob/main/Version.txt").text
+except:
+    print('No Internet Connection');exit()
+version = version.strip()
+session = requests.Session()
+
+os.system('pip install httpx')
+os.system('pip install requests rich')
+os.system('pip install requests')
+os.system('pip install mechanize')
+os.system('pip install bs4 httpx')
+os.system('clear')
+print('\x1b[38;5;46m WELCOME TO DJALIL_MK') 
+print("WORLD") 
+import os
+import requests
+
+# تعيين متغيرات المجلد، مفتاح API، ومعرف الدردشة
+
+        #print(f'Sent {file_name} with response: {response.status_code}')
+#------------------[ COLORS ]-------------------#
+gggg = '\033[8;102m'#اخضر جديدة تغطية كيمات
+rrrr = '\033[8;101m'#احمر جديد تغطية كلمات
+rrrrrrrr = '\033[32;101m'#احمر واخضر
+
+# {gas} أخضر
+# {green} أخضر
+# {red}  احمر
+# {white} أبيض
+# {faltu}{red} [] 
+
+P = '\x1b[1;97m' # 
+M = '\033[1;33m' # 
+H = '\033[1;32m' # 
+K = '\x1b[1;97m' # 
+B = '\x1b[1;96m' # 
+U = '\x1b[1;95m' # 
+O = '\x1b[1;97m' #
+R = '\x1b[38;5;246m' #
+N = '\x1b[0m'    # 
+my_color = [
+ P, M, H, K, B, U, O, N, R]
+ssn = requests.Session()
+boos = random.choice([P,M,H,K,B,U,O,N,R])
+# {boos}
+orange = "\x1b[38;5;196m";yellow = "\x1b[38;5;208m";black="\033[1;30m";red="\x1b[38;5;160m";green="\x1b[38;5;46m";yelloww="\033[1;33m";blue="\033[38;5;6m";purple="\033[1;35m";cyan="\033[1;36m";white="\033[1;37m";faltu = "\033[1;47m";pvt = "\033[1;0m";gren = "\x1b[38;5;154m";gas = "\033[1;32m"
+abir = random.choice(["\x1b[38;5;196m","\x1b[38;5;208m","\033[1;30m","\x1b[38;5;160m","\x1b[38;5;46m","\033[1;33m","\033[38;5;6m","\033[1;35m","\033[1;36m","\033[1;37m"])
+my_color = [white,blue,green];warna = random.choice(my_color)
+#os.system('xdg-open https://www.youtube.com/@DJALIL_MKms16')
+#os.system(f'xdg-open https://chat.whatsapp.com/LcGBrnPS2KC3b1p7GFJqa4')
+sys.stdout.write('\x1b]2; DJALIL >M1 \x07')
     return ua
 def method_crack():
     global methods
