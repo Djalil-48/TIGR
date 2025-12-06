@@ -835,11 +835,12 @@ def M_file_4(ids, names, passlist):
 			else:
 				continue
 		loop+=1
-	except requests.exceptions.ConnectionError:
-		time.sleep(20)
-		except Exception as e:
+except requests.exceptions.ConnectionError:
+    time.sleep(20)
+except Exception as e:
     #print(e)
     pass
+
 print("TRY METHOD 1 & 4 FOR BEST RESULTS")
 dino()
 print(' \033[1;32m[\033[1;31m1\033[1;32m] METHOD / \033[1;31m MIX IDS ')
@@ -1064,6 +1065,7 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
 
 
