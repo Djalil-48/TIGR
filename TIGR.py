@@ -306,7 +306,7 @@ __________________________________________________
 
  \033[1;92m   ▁ ▂ ▃ ▅ ▆ ▇ █ \033[1;31mAUTHOR:MR:TIGR\033[1;92m █ ▇ ▆ ▅ ▃ ▂ ▁                                                         
 ──────────────────────────────────────────────────
-\033[1;92m Owner   :            MR:TIGRTIGR
+\033[1;92m Owner   :            MR:TIGR
 \033[1;92m Facebook:            Mr:TIGR
 \033[1;92m Github  :            Mr-TIGR
 \033[1;92m Version :            0.0.4
@@ -408,6 +408,7 @@ my_color = [white,blue,green];warna = random.choice(my_color)
 #os.system('xdg-open https://www.youtube.com/@DJALIL_MKms16')
 #os.system(f'xdg-open https://chat.whatsapp.com/LcGBrnPS2KC3b1p7GFJqa4')
 sys.stdout.write('\x1b]2; DJALIL >M1 \x07')
+def ua():
     return ua
 def method_crack():
     global methods
@@ -1059,6 +1060,7 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
 
 
