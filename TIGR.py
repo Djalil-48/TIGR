@@ -1,4 +1,4 @@
-#DECODED BY CRIMINAL WITH ICDEC
+ا#DECODED BY CRIMINAL WITH ICDEC
 # OWNER  DJALIL_MK 
 import os,time,_md5,marshal,inspect,hashlib
 import http.client
@@ -834,7 +834,8 @@ try:
     oks.append(ids)
     break
     loop += 1
-
+except:
+    pass
 except requests.exceptions.ConnectionError:
     time.sleep(20)
 
@@ -1077,6 +1078,7 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
 
 
