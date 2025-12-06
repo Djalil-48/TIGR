@@ -747,7 +747,7 @@ def M_file_44(ids,names,passlist):
                             'generate_session_cookies': '1',
                             'meta_inf_fbmeta': '',
                             'advertiser_id': str(uuid.uuid4()),
-                            'currently_logged_in_ida: '0',
+                            'currently_logged_in_ida': '0',
                             'locale': "en_US",
                             'client_country_code': "US",
                             'method': 'auth.login',
@@ -921,3 +921,4 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
