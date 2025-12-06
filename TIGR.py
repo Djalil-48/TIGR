@@ -435,10 +435,9 @@ def method_crack():
     elif option =='4':
         methods.append('methodD')
         main_crack().crack(id)
-    elif option =='0':
-        Siam()
-   clear()
-   
+		elif option == '0':
+    Siam()
+    clear()
 #------------------[  METODE 1 ]-------------------#
 def M_file_1(ids,names,passlist):
                 try:
@@ -1060,6 +1059,7 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
 
 
