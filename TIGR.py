@@ -837,36 +837,37 @@ def M_file_4(ids, names, passlist):
 		loop+=1
 	except requests.exceptions.ConnectionError:
 		time.sleep(20)
-	except Exception as e:
-		#print(e)
-		pass
-	         	print("TRY METHOD 1 & 4 FOR BEST RESULTS")
-                dino()
-                print(' \033[1;32m[\033[1;31m1\033[1;32m] METHOD / \033[1;31m MIX IDS ')
-                print(' \033[1;32m[\033[1;31m2\033[1;32m] METHOD / \033[1;31m MIX IDS ')
-                print(' \033[1;32m[\033[1;31m3\033[1;32m] METHOD / \033[1;31m MIX IDS ')
-                print(' \033[1;32m[\033[1;31m4\033[1;32m] METHOD / \033[1;31m MIX IDS ')
-                dino()
-                mthd=input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
-                dino()
-                plist = []
-                ps_limit = 0 
-                clear()
-                print(" \033[1;32m[\033[1;31m1\033[1;32m] AUTO PASSWORD ")                                
-                print(" \033[1;32m[\033[1;31m2\033[1;32m] MANUAL PASSWORD ")
-                dino()
-                psx=input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
-                if psx in ['1','01']:
-                             plist.append('first first')
-                             plist.append('first last')
-                             plist.append('last first')
-                             plist.append('last last') 
-                else: 	
-                 try:
-                    dino()
-                    ps_limit = int(input(' How many passwords do you want to add ? '))                    
-                 except:
-                       ps_limit =1
+		except Exception as e:
+    #print(e)
+    pass
+print("TRY METHOD 1 & 4 FOR BEST RESULTS")
+dino()
+print(' \033[1;32m[\033[1;31m1\033[1;32m] METHOD / \033[1;31m MIX IDS ')
+print(' \033[1;32m[\033[1;31m2\033[1;32m] METHOD / \033[1;31m MIX IDS ')
+print(' \033[1;32m[\033[1;31m3\033[1;32m] METHOD / \033[1;31m MIX IDS ')
+print(' \033[1;32m[\033[1;31m4\033[1;32m] METHOD / \033[1;31m MIX IDS ')
+dino()
+mthd = input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
+dino()
+plist = []
+ps_limit = 0
+clear()
+print(" \033[1;32m[\033[1;31m1\033[1;32m] AUTO PASSWORD ")
+print(" \033[1;32m[\033[1;31m2\033[1;32m] MANUAL PASSWORD ")
+dino()
+psx = input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
+
+if psx in ['1', '01']:
+    plist.append('first first')
+    plist.append('first last')
+    plist.append('last first')
+    plist.append('last last')
+else:
+    try:
+        dino()
+        ps_limit = int(input(' How many passwords do you want to add? '))
+    except:
+		ps_limit =1
                 clear() 
                 print(' \033[1;32m[\033[1;31m–\033[1;32m] EXAMPLE : first last,firtslast,first123')
                 dino()
@@ -1063,6 +1064,7 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
 
 
