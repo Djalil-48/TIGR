@@ -1,4 +1,4 @@
-ا#DECODED BY CRIMINAL WITH ICDEC
+خا#DECODED BY CRIMINAL WITH ICDEC
 # OWNER  DJALIL_MK 
 import os,time,_md5,marshal,inspect,hashlib
 import http.client
@@ -826,7 +826,7 @@ def M_file_4(ids, names, passlist):
 try:
     if 'session_key' in po:
         pass
-    elif 'www.facebook.com' in po['error']['message']:
+    elif 'www.facebook.com' in po.get('error', {}).get('message', ''):
         pass
     else:
         continue
@@ -1077,6 +1077,7 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
 
 
