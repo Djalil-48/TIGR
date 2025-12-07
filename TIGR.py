@@ -935,48 +935,66 @@ def rcrack(uid,pwx,tl):
         sys.stdout.write(f'\r\033[1;92m[NIX]\033[1;92m] %s|\33[1;31m[OK]:- %s \r'%(loop,len(oks))),
         sys.stdout.flush()
     except:
-        pass 
-############            
+        pass ('').close()
 
-##########
-   
-def main_apv():
-    os.system("clear")
-    print(logo)
-    uuid = str(os.geteuid())
-    Xyteee=('Nix1x6b7b5c%s85b8n9nfdi%s'%(uuid,uuid))
-    print(logo)
-    os.system("clear");print(logo)
-    print(f" Your Key : \x1b[1;31m"+Xyteee)
-    print("\x1b[1;92m--------------------------------------------------")
-    try:
-        system = requests.get("https://github.com/Mr-Nix8/Paid/blob/main/Approve.txt").text 
-        if Xyteee in system:
-            print()
-            msg = str(os.geteuid()) 
-            time.sleep(1) 
-            menu()
-            pass 
-        else: 
-            print('\033[1;92m Now it will work well in all countries')
-            print('\033[1;92m-----------------------------------------------------\033[1;97m')
-            print('\033[1;92m[\033[1;92m•\033[1;92m]\033[1;92m Notes : Nix Tools Can buy in all countries!')
-            print('\033[1;92m-----------------------------------------------------\033[1;97m')
-            print('\033[1;92m [\033[1;92m1\033[1;92m]\033[1;92m 8$ \033[1;92mApproval For 1 month')
-            print(' \033[1;92m[\033[1;92m2\033[1;92m]\033[1;92m 6$ \033[1;92mApproval For 15 days')
-            print(' \033[1;92m[\033[1;92m3\033[1;92m]\033[1;92m 3$ \033[1;92mApproval For 7 days \033[1;37m')
-            print('\033[1;92m-----------------------------------------------------')
-            Picchi = input(' Select Buy Option : ')
-            os.system("clear")
-            print(logo)
-            print(f" \033[1;92mYour Key :\033[31;1m{Xyteee}")
-            print("\x1b[1;92m Tools    : FB Cloning");print(" \033[1;92m\n \033[1;92m\033[1;92mNote: If You Are Free User Don't Come IB\033[0;0m");print('\n\x1b[1;92m [•] File Crack \x1b[1;92m\n [•] Random Crack \n [•] Exit Program')
-            print("-----------------------------------------------------")
-            url_wa = "https://api.whatsapp.com/send?phone=+8801332718196&text="
-            choice = input(" Enter your choice  : ")
-            tks = ("Hi Nix Sir, I Need To Buy Your Nix Tools Version 0.0.4 Premium Please Accept My Key To Premium\n\n Name : "+choice+"\n Key : "+Xyteee+"\n Buy Select : "+Picchi)
-            subprocess.check_output(["am", "start", url_wa+(tks)]);time.sleep(2)
-            print('-----------------------------------------------------\n Run again with permission from admin')
+#------------------[  approval  ]-------------------#        
+def newkey():
+    ff = requests.get(link)
+    u = str(os.getuid())  # الحصول على UID النظام
+    pl = str(platform.platform())  # معلومات النظام
+    pl = pl.replace('.', '').replace("-", "")[::-1].upper()  # تعديل وتحويل إلى أحرف كبيرة مقلوبة
+    kk = u + pl[6:6] + platform.uname().version.replace(' ', '').replace(':', '').upper()[::-1].replace('PP', '').replace('#', '')[:12] + u
+    
+    # لا يوجد تشفير Base85 هنا
+    key = kk  # المفتاح يتم تحديده بدون تشفير
+    
+    # التحقق من البيانات المرسلة
+    if "XXFXXFXX" in ff.text:
+        if kk in ff.text:
+            if key in ff.text:
+                return 'Trial', '\033[1;91mPaid\033[1;97m'
+        else:
+            return "Trial", "\033[1;92mFree\033[1;97m"
+    
+    if ff.text == 'null':
+        return 'Napv' + kk
+    if kk in ff.text:
+        if key in ff.text:
+            return 'Apv'
+        else:
+            return 'Fuck'
+    else:
+        return 'Napv' + kk 
+    
+def approval():
+  clear()
+  try:
+    sec = newkey()
+    if sec=='Fuck':Fuck()
+    if 'Trial' in sec:
+        Trial(sec[1])
+    if 'Napv' in sec:
+      boos = random.choice([P, M, H, K, B, U, O, N])
+      print(f" \033[1;32m[\033[1;31m√\033[1;32m] YOUR KEY 🔐 \033[1;37m : {boos}DJALIL_MK+\033[1;32m"+sec.replace('Napv',''))
+      print('\033[1;34m─────────────────────────────────────────────')
+      print(' \033[1;32m[\033[1;31m–\033[1;32m] You are not premuim user first buy premuim ')
+      print('\033[1;34m-─────────────────────────────────────────────')
+      print(f"\033[1;32m[\033[1;31m–\033[1;32m] {boos} Binance \033[1;33m >> \033[1;31m ID : 782102873 ")
+      print('\033[1;34m-─────────────────────────────────────────────')
+      print("\033[1;32m[\033[1;31m–\033[1;32m] 15$ Approval For 1 month  ")
+      print("\033[1;32m[\033[1;31m–\033[1;32m] 10$ Approval For 15 days  ")
+      print("\033[1;32m[\033[1;31m–\033[1;32m] 5$ Approval For 7 days  ")        
+      print('\033[1;34m─────────────────────────────────────────────')     
+      print(" \033[1;32m[\033[1;31m–\033[1;32m] Note : \033[1;32mPAY AND TRY")
+      print('\033[1;34m─────────────────────────────────────────────')
+      input(' \033[1;32m[\033[1;31m–\033[1;32m] Press Enter To Go To WhatsApp')
+      os.system('am start https://wa.me/+213783848793')
+      approval()
+    if sec=='Apv':menu()
+    else:exit()
+  except KeyboardInterrupt:exit()
+  except Exception as e:e=base64.b16encode(str(e).encode('ascii'));print('Something went wrong error code : '+e.decode('ascii'));exit() 
+
 #------------------[  END  ]-------------------#
 menu()
 exit()
@@ -984,9 +1002,5 @@ while True: requests
 raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
-open('').close()
-
-
-
-
+open('').
 
