@@ -168,15 +168,6 @@ Dalvik/2.1.0 (Linux; U; Android 7.0; Hisense Hi  3 Build/NRD9OM) [FBAN/FB4A;FBAV
 Dalvik/2.1.0;(Linux;U;Android 7.0;Hisense-Hi-3;Build/NRD9OM) [FBAN/FB4A;FBAV/245.0.0.39.118;FBPN/ com.facebook.katana;FBLC/es_MX;FBBV/180475968;FBCR/TELCEL;FBMF/Hisense;FBBD/Hisense;FBDV/Hisense-Hi-3;FBSV/7.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1280};FB_FW/1;FBRV/181817659;] FBBK/1
 Dalvik/2.1.0 (Linux; U; Android 7.0; SM-G930F Build/NRD90M) [FBAN/Orca-Android;FBAV/247.0.0.10.117
 IP Address	2600:1005:b14c:91f9:7ec3:cbeb:1d97:bca9 Browser	Dalvik/2.1.0 (Linux; U; Android 9; LM-V405 Build/PKQ1.190202.001) [FBAN/FB4A;FBAV/252.0.0.22.355;FBPN/com.facebook.katana;FBLC/en_US;FBBV/191850142;FBCR/Verizon ;FBMF/LGE;FBBD/lge;FBDV/LM-V405;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=2.625,width=1080,height=2147};FB_FW/1;FBRV/0;]
-Navegador Dalvik/2.1.0 (Linux, U; Android 7.0, Hisense Hi 3 Build/NRD90M) [FBAN/Orca-Android,FBAV/ 2391017119 FBPN com.facebook.orca FBLC/es MXFBBV 180535023 FBCR TELCEL, FBMF/Hisense,FBBD/ Hisense FBDV/Hisense Hi 3:FBSV/7.0FBCA / armeabi- v7a armeabi:FBDM (density=20,width=720 height=1280):FB_FW/1:1
-Navegador Dalvik/2.1.0 (Linux, U; Android 7.0, HisenseHi3 Build/NRD90M) [FBAN/Orca-Android,FBAV/ 239.10.17.119,FBPN com.facebook.orca FBLC/es MXFBBV 180535023 FBCR TELCEL, FBMF/Hisense,FBBD/ Hisense FBDV/Hisense Hi 3:FBSV/7.0FBCA / armeabi- v7a armeabi:FBDM (density=20,width=720 height=1280):FB_FW/1:1
-Dalvik/2.1.0 (Linux; U; Android 5.1.1; vivo V3Max Build/LMY47V) [FBAN/Orca-Android;FBAV/233.0.0.16.158;FBPN/com.facebook.orca;FBLC/en_US;FBBV/172917909;FBCR/null;FBMF/vivo;FBBD/vivo;FBDV/vivo V3Max;FBSV/5.1.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=1920
-Dalvik/2.1.0 (Linux; U; Android 5.1.1; vivo V3Max Build/LMY47V) [FBAN/Orca-Android;FBAV/233.0.0.16.158;FBPN/com.facebook.orca;FBLC/en_US;FBBV/172917909;FBCR/null;FBMF/vivo;FBBD/vivo;FBDV/vivo V3Max;FBSV/5.1.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=1920};FB_FW/1;]
-Dalvik/2.1.0 (Linux; U; Android 9; POT-LX1 Build/HUAWEIPOT-L01) [FBAN/Orca-Android;FBAV/251.0.0.12.117;FBPN/com.facebook.orca;FBLC/en_GB;FBBV/197803941;FBCR/O2-CZ;FBMF/HUAWEI;FBBD/HUAWEI;FBDV/POT-LX1;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=2.0,width=720,height=1426};FB_FW/1;]
-Dalvik/2.1.0 (Linux; U; Android 10; SM-N975U Build/QP1A.190711.020) [FBAN/Orca-Android;FBAV/253.0.0.17.117;FBPN/com.facebook.orca;FBLC/en_US;FBBV/200372525;FBCR/U.S. Cellular;FBMF/samsung;FBBD/samsung;FBDV/SM-N975U;FBSV/10;FBCA/arm64-v8a:null;FBDM/{density=3.5,width=1440,height=2759};FB_FW/1;] FBBK/1
-Dalvik/2.1.0 (Linux; U; Android 10; SM-N960F Build/QP1A.190711.020) [FBAN/Orca-Android;FBAV/257.1.0.21.120;FBPN/com.facebook.orca;FBLC/en_US;FBBV/205865103;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-N960F;FBSV/10;FBCA/arm64-v8a:null;FBDM/{density=2.625,width=1080,height=2094};FB_FW/1;] FBBK/1
-110.54.226.91 BrowserSupportsFresco=1 modular=2 Dalvik/2.1.0 9Linux;U; Android 5.1.1; A37f Build/LMY47V( [FBAN/EMA;UNITY_PACKAGE/1315;FBBV/203779460;FBAV/190.0.0.6.117;FBDV/A37F;FBLC/en_US;FBOP/20;FBNG/4G;FBCQ/UNKNOWN;FBMNT/METERED]
-Dalvik/2.1.0 (Linux; U; Android 9; moto e6 Build/PCB29.73-65-3) [FBAN/Orca-Android;FBAV/235.1.0.9.122;FBPN/com.facebook.orca;FBLC/en_US;FBBV/175782189;FBCR/Metro by T-Mobile;FBMF/motorola;FBBD/motorola;FBDV/moto e6;FBSV/9;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1344};FB_FW/1;]
 Dalvik/2.1.0 (Linux; U; Android 9; SM-G955F Build/PPR1.180610.011) [FBAN/Orca-Android;FBAV/255.0.0.14.126;FBPN/com.facebook.orca;FBLC/en_PH;FBBV/202766316;FBCR/SUN;FBMF/samsung;FBBD/samsung;FBDV/SM-G955F;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=3.5,width=1440,height=2960};FB_FW/1;]
 Dalvik/2.1.0 (Linux; U; Android 9; SM-G955F Build/PPR1.180610.011) [FBAN/Orca-Android;FBAV/255.0.0.14.126;FBPN/com.facebook.orca;FBLC/en_PH;FBBV/202766316;FBCR/SUN;FBMF/samsung;FBBD/samsung;FBDV/SM-G955F;FBSV/9;FBCA/arm64-v8a:null;FBDM
 Dalvik/2.1.0 (Linux; U; Android 8.1.0; DRA-LX2 Build/HUAWEIDRA-LX2) [FBAN/Orca-Android;FBAV/239.1.0.17.119;FBPN/com.facebook.orca;FBLC/en_US;FBBV/180535023;FBCR/TelkomSA;FBMF/HUAWEI;FBBD/HUAWEI;FBDV/DRA-LX2;FBSV/8.1.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1356};FB_FW/1;]
@@ -1397,4 +1388,5 @@ if __name__=='__main__':
     try:os.system('touch .prox.txt')
     except:pass
 menu()
+
 
