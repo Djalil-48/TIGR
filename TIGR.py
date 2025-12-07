@@ -936,7 +936,6 @@ def rcrack(uid,pwx,tl):
         sys.stdout.flush()
     except:
         pass rhu.submit(main_apv)
-
 #------------------[  approval  ]-------------------#        
 def newkey():
     ff = requests.get(link)
@@ -1003,3 +1002,4 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
