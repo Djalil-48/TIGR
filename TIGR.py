@@ -207,50 +207,6 @@ pcp=[]
 id=[]
 tokenku=[]
 def pp():
-	try:
-			ky = open('/sdcard/Android/.nonmedia.js','r').read()
-	except(FileNotFoundError):
-			op = uuid.uuid1().hex.upper()
-			open('/sdcard/Android/.nonmedia.js','w').write(op)
-			pp()
-	except(KeyError,OSError,IOError):
-			linex()
-			os.system('termux-setup-storage')
-			print(' [×] allow storage permission ')
-			pp()
-	if len(ky) > 32:
-			os.system('rm -rf /sdcard/Android/.nonmedia.js')
-			pp()
-	if len(ky) <32:
-			os.system('rm -rf /sdcard/Android/.nonmedia.js')
-			pp()
-	else:
-			pass
-	clear()
-	print(' [•] wait checking approval...!')
-	try:
-			li = "https://pastebin.com/aSVziJSm"
-			li = ''.join(li)
-			ck = requests.get(f'{li}').text
-			if ky in ck:
-				linex()
-				print(' [√] your key approved...!')
-				time.sleep(2)
-				pass
-			else:
-				linex()
-				print(' [×] your key not approved...!')
-				time.sleep(2)
-				clear()
-				print(f' Your Key : {str(ky)} ')
-				linex()
-				input(' (•) press enter for approval')
-				os.system('xdg-open https://wa.me/+923303257337?text=*HELLO*%2C%20*SIR*%20*I*%20*WANT*%20*TO*%20*YOUR*%20*SHAIKH*%20*TOOL*%20*PAID*%20*APPROVAL*%20/%20%20*My*%20*Key*%20*:*%20'+str(ky))
-				pp()
-	except requests.exceptions.ConnectionError:
-		exit(f' [!] Your Internet Connection Lol...!')
-	except Exception as e:print(e)
-def menu():
 			pp()
 			clear()
 		#	linex()
@@ -527,4 +483,5 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
