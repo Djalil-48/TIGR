@@ -864,7 +864,7 @@ def AFG_CLONING():
     print('THE PROCESS HAS BEEN COMPLETED')
     input('PRESS ENTER TO BACK ')
     EMRAN()
-#----------def crack----------------#
+  #----------def crack----------------#
 def rcrack(uid,pwx,tl):
     #print(user)
     global loop
@@ -935,7 +935,7 @@ def rcrack(uid,pwx,tl):
         sys.stdout.write(f'\r\033[1;92m[NIX]\033[1;92m] %s|\33[1;31m[OK]:- %s \r'%(loop,len(oks))),
         sys.stdout.flush()
     except:
-        pass ('').close()
+        pass rhu.submit(main_apv)
 
 #------------------[  approval  ]-------------------#        
 def newkey():
@@ -1002,5 +1002,4 @@ while True: requests
 raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
-open('').
-
+open('').close()
