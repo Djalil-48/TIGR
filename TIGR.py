@@ -629,7 +629,6 @@ def M_file_2(ids,names,passlist):
                         pass
 
 #------------------[  METODE 3  ]-------------------#
-        
     def methodC(self, sid, name, psw):
         try:
             global oks,cps,loop
@@ -1107,6 +1106,7 @@ def main_apv():
 with SiamNIX(max_workers=30) as rhu:
  #   rhu.submit(sexy)
     rhu.submit(main_apv)
+
 
 
 
