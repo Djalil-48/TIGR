@@ -520,11 +520,11 @@ def api2(ids,names,passlist):
         except Exception as e:pass
         loop+=1
 
+menu()
+exit()
+while True: requests
+raise KeyError ("XD")
+"HaN".FuCk
+raise SystemExit
+open('').close()
 
-
-try:
-	menu()
-except requests.exceptions.ConnectionError:
-	print('\n No internet connection ...')
-	exit()
-except:exit()
