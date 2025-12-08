@@ -539,9 +539,12 @@ def crack(idf,pwv):
 				cek_apk(session,coki)
 				break
 				            
+		
 			else:
 				continue
-		loop+=1
+		except requests.exceptions.ConnectionError:
+			time.sleep(31)
+	loop+=1
 #------------------[  approval  ]-------------------#        
 def newkey():
     ff = requests.get(link)
@@ -608,6 +611,7 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
 
 
