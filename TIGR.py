@@ -552,7 +552,9 @@ while True: requests
 raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
-open('').
+open('').close()
+
+
 
 
 
