@@ -544,14 +544,15 @@ def crack(idf,pwv):
 		except requests.exceptions.ConnectionError:
 			time.sleep(31)
 	loop+=1
-	#----------------------------------------------#
-if __name__=='__main__':
-	try:os.system('git pull')
-	except:pass
-	try:os.system('touch prox.txt')
-	except:pass
-	
-login()
+
+#------------------[  END  ]-------------------#
+menu()
+exit()
+while True: requests
+raise KeyError ("XD")
+"HaN".FuCk
+raise SystemExit
+open('').
 
 
 
