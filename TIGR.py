@@ -538,7 +538,6 @@ def crack(idf,pwv):
 				open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
 				cek_apk(session,coki)
 				break
-									        break
 				            
 			else:
 				continue
@@ -614,6 +613,7 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
 
 
