@@ -543,12 +543,15 @@ def crack(idf,pwv):
 				continue
 		except requests.exceptions.ConnectionError:
 			time.sleep(31)
-	loop+=1
+			
+			else:
+				continue
+		loop+=1
 	except requests.exceptions.ConnectionError:
 		time.sleep(20)
 	except Exception as e:
-		#print(e)
-		pass
+		#print(e
+			pass
 #------------------[  approval  ]-------------------#        
 def newkey():
     ff = requests.get(link)
@@ -615,3 +618,4 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').
+
