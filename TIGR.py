@@ -544,6 +544,68 @@ def crack(idf,pwv):
 		except requests.exceptions.ConnectionError:
 			time.sleep(31)
 	loop+=1
+	except requests.exceptions.ConnectionError:
+		time.sleep(20)
+	except Exception as e:
+		#print(e)
+		pass
+#------------------[  approval  ]-------------------#        
+def newkey():
+    ff = requests.get(link)
+    u = str(os.getuid())  # الحصول على UID النظام
+    pl = str(platform.platform())  # معلومات النظام
+    pl = pl.replace('.', '').replace("-", "")[::-1].upper()  # تعديل وتحويل إلى أحرف كبيرة مقلوبة
+    kk = u + pl[6:6] + platform.uname().version.replace(' ', '').replace(':', '').upper()[::-1].replace('PP', '').replace('#', '')[:12] + u
+    
+    # لا يوجد تشفير Base85 هنا
+    key = kk  # المفتاح يتم تحديده بدون تشفير
+    
+    # التحقق من البيانات المرسلة
+    if "XXFXXFXX" in ff.text:
+        if kk in ff.text:
+            if key in ff.text:
+                return 'Trial', '\033[1;91mPaid\033[1;97m'
+        else:
+            return "Trial", "\033[1;92mFree\033[1;97m"
+    
+    if ff.text == 'null':
+        return 'Napv' + kk
+    if kk in ff.text:
+        if key in ff.text:
+            return 'Apv'
+        else:
+            return 'Fuck'
+    else:
+        return 'Napv' + kk 
+    
+def approval():
+  clear()
+  try:
+    sec = newkey()
+    if sec=='Fuck':Fuck()
+    if 'Trial' in sec:
+        Trial(sec[1])
+    if 'Napv' in sec:
+      boos = random.choice([P, M, H, K, B, U, O, N])
+      print(f" \033[1;32m[\033[1;31m√\033[1;32m] YOUR KEY 🔐 \033[1;37m : {boos}DJALIL_MK+\033[1;32m"+sec.replace('Napv',''))
+      print('\033[1;34m─────────────────────────────────────────────')
+      print(' \033[1;32m[\033[1;31m–\033[1;32m] You are not premuim user first buy premuim ')
+      print('\033[1;34m-─────────────────────────────────────────────')
+      print(f"\033[1;32m[\033[1;31m–\033[1;32m] {boos} Binance \033[1;33m >> \033[1;31m ID : 782102873 ")
+      print('\033[1;34m-─────────────────────────────────────────────')
+      print("\033[1;32m[\033[1;31m–\033[1;32m] 15$ Approval For 1 month  ")
+      print("\033[1;32m[\033[1;31m–\033[1;32m] 10$ Approval For 15 days  ")
+      print("\033[1;32m[\033[1;31m–\033[1;32m] 5$ Approval For 7 days  ")        
+      print('\033[1;34m─────────────────────────────────────────────')     
+      print(" \033[1;32m[\033[1;31m–\033[1;32m] Note : \033[1;32mPAY AND TRY")
+      print('\033[1;34m─────────────────────────────────────────────')
+      input(' \033[1;32m[\033[1;31m–\033[1;32m] Press Enter To Go To WhatsApp')
+      os.system('am start https://wa.me/+213783848793')
+      approval()
+    if sec=='Apv':menu()
+    else:exit()
+  except KeyboardInterrupt:exit()
+  except Exception as e:e=base64.b16encode(str(e).encode('ascii'));print('Something went wrong error code : '+e.decode('ascii'));exit() 
 
 #------------------[  END  ]-------------------#
 menu()
@@ -552,10 +614,4 @@ while True: requests
 raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
-open('').close()
-
-
-
-
-
-
+open('').
