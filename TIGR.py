@@ -431,10 +431,19 @@ def menu():
                     print(' \033[1;32m[\033[1;31m–\033[1;32m] TOTAL UID  \033[1;33m| \033[1;32mMETHOD \033[1;33m: \033[1;37m'+total_ids+f'\033[1;33m >> \033[1;37mM'+mthd+f' ')
                     linex()
                     for user in fo:
-                            ids,names = user.split('|')
-                    
-                            passlist = plist
-                            print("id|name")
+                       if '|' in user:
+					parts = user.split('|', 1)
+                    if len(parts) < 2:	
+					   continue
+					 ids, names = parts
+                     ids = ids.strip()	
+	  		          names = names.strip()
+					
+	                      	  passlist = plist
+		                            	else:
+											continue
+					 						
+                              print("id|name")
                             if mthd in ['1','01']:
                                     crack_submit.submit(M_file_1,ids,names,passlist) 
                             elif mthd in ['2','02']:
@@ -927,4 +936,5 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
