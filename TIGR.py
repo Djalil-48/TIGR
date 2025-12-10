@@ -432,7 +432,7 @@ def menu():
                     linex()
                     for user in fo:
                        if '|' in user:
-					parts = user.split('|', 1)
+					parts = user.split('|'1)
                     if len(parts) < 2:	
 					   continue
 					 ids, names = parts
@@ -936,5 +936,6 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
 
