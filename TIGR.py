@@ -426,7 +426,7 @@ def menu():
                 cx=input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
                 if cx in ['y','Y','yes','Yes','1']:
                     pcp.append('y')
-#else: 	
+					
 try:
     ids, names = user.split('|')
 except ValueError:
@@ -935,4 +935,5 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
