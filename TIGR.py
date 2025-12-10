@@ -431,8 +431,6 @@ try:
     ids, names = user.split('|')
 except ValueError:
     print("خطأ: يجب أن تكون القيمة بالشكل id|name")
-    
-                else:
                     pcp.append('n')
                 with tred(max_workers=30) as crack_submit:
                     clear()
@@ -935,5 +933,6 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
 
