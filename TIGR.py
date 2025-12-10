@@ -432,7 +432,7 @@ def menu():
                     linex()
                     for user in fo:
                             ids,names = user.split('|')
-                            except ValueError:
+                    
                             passlist = plist
                             print("id|name")
                             if mthd in ['1','01']:
@@ -927,3 +927,4 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
