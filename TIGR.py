@@ -425,15 +425,14 @@ def menu():
                 dino()
                 cx=input(' \033[1;32m[\033[1;31m–\033[1;32m] CHOOSE : ')
                 if cx in ['y','Y','yes','Yes','1']:
-				else:
+else:
     pcp.append('n')
     with tred(max_workers=30) as crack_submit:
         clear()
         total_ids = str(len(fo))
-        print(" \033[1;32m\033[1;31m-\033[1;32m IF NO RESULT \033[1;33m\033[1;31mON\033[1;33m\033[1;32m AIRPLANE MODE ")
-        print(" \033[1;32m SIM NAME \033[1;33m"+carrier)
-        print(" \033[1;32m TOTAL UID \033[1;33m"+total_ids)
-        linex()
+        print(" \033[1;32m[\033[1;31m-\033[1;32m] IF NO RESULT \033[1;31mCHECK YOUR IDS ")
+        print(" \033[1;32m[\033[1;31m-\033[1;32m] SIM NAME \033[1;31mCHECKED ")
+        print(" \033[1;32m[\033[1;31m-\033[1;32m] TOTAL UID \033[1;31m" + total_ids)
 
         parts = user.split('|')
 
@@ -445,36 +444,29 @@ def menu():
 
         passlist = plist
 
-        if mthd in ['1','01']:
+        if mthd in ['1', '01']:
             crack_submit.submit(M_file_1, ids, names, passlist)
-
-        elif mthd in ['2','02']:
+        elif mthd in ['2', '02']:
             crack_submit.submit(M_file_2, ids, names, passlist)
-
-        elif mthd in ['3','03']:
+        elif mthd in ['3', '03']:
             crack_submit.submit(M_file_3, ids, names, passlist)
-
-        elif mthd in ['4','04']:
+        elif mthd in ['4', '04']:
             crack_submit.submit(M_file_4, ids, names, passlist)
-
-        elif mthd in ['5','05']:
+        elif mthd in ['5', '05']:
             crack_submit.submit(M_file_5, ids, names, passlist)
-
-        elif mthd in ['6','06']:
+        elif mthd in ['6', '06']:
             crack_submit.submit(M_file_6, ids, names, passlist)
-
-        elif mthd in ['7','07']:
+        elif mthd in ['7', '07']:
             crack_submit.submit(M_file_7, ids, names, passlist)
 
-linex()
-dino()
-print('\033[1;32m\033[1;31m-\033[1;32m Behind every hackers smile ... a victims tear!')
-print('\033[1;32m\033[1;31m-\033[1;32m The process has completed')
-print('\033[1;32m\033[1;31m-\033[1;32m OK/CP : ' + str(len(oks)) + '/' + str(len(cps)))
-dino()
-input(' Press enter to back ')
-os.system('python DJALIL_MK.py')	pcp.append('y')		
-					
+    linex()
+    dino()
+    print('\033[1;32m[\033[1;31m-\033[1;32m] Behind every hackers … ')
+    print('\033[1;32m[\033[1;31m-\033[1;32m] The process has completed')
+    print('\033[1;32m[\033[1;31m-\033[1;32m] OK/CP : ' + str(len(oks)))
+    dino()
+    input(' Press enter to back ')
+    os.system('python DJALIL_MK.py')
             elif xd in ['0','00']:
                 exit(' Thanls For Your Use ')
             elif xd in ['2','02']:
@@ -946,5 +938,6 @@ raise KeyError ("XD")
 "HaN".FuCk
 raise SystemExit
 open('').close()
+
 
 
