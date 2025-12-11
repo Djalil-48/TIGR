@@ -438,7 +438,6 @@ def menu():
                     print(' \033[1;32m[\033[1;31m–\033[1;32m] SIM NAME   \033[1;33m: \033[1;37m'+carrier+f' ')
                     print(' \033[1;32m[\033[1;31m–\033[1;32m] TOTAL UID  \033[1;33m| \033[1;32mMETHOD \033[1;33m: \033[1;37m'+total_ids+f'\033[1;33m >> \033[1;37mM'+mthd+f' ')
                     linex() 
-                except requests.exceptions.ConnectionError:
                         time.sleep(10)
                 except Exception as e:
                         pass
@@ -955,5 +954,6 @@ raise SystemExit
 open('').close()
 
                 
+
 
 
