@@ -517,7 +517,7 @@ def menu():
                             elif mthd in ['7','07']:
                                       crack_submit.submit(M_file_7,ids,names,passlist)
                 dino()
-             print('\033[1;32m...\033[1;32m Behind every hackers smile...')
+        print('\033[1;32m...\033[1;32m Behind every hackers smile...')
         print('\033[1;32m...\033[1;32m The process has completed')
         print('\033[1;32m...\033[1;32m OK/CP : '+str(len(oks))+'/'+str(len(cps)))
         dino()
