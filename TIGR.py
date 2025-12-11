@@ -1038,7 +1038,7 @@ def M_file_3(ids, names, passlist):
         global ok, loop, sim_id
         boos = random.choice(["P", "M", "H", "K", "B", "U", "O", "N"])
         sys.stdout.write(f'\r\r\033[1;37m[{boos}VENOM-𝐌3\033[1;37m]\033[1;97m %s|\033[1;92mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
-        fn = names.split(' ')[0]
+       fn = names.split(' ')[0]
         sys.stdout.flush()
         
         try:
@@ -1347,3 +1347,4 @@ except requests.exceptions.ConnectionError:
         print('\n No internet connection ...')
         exit()
 except Exception as e:pass
+
