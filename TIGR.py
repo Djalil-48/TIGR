@@ -325,6 +325,7 @@ def dino():
 def linex():
     print('\033[1;37m─────────────────────────────────────────────')
 #------------------[ system  ]-------------------#
+
 def clear():
     os.system('clear')
     print(logo)
@@ -970,7 +971,8 @@ def M_file_3(ids, names, passlist):
                 'generate_machine_id': '1',
                 'fb_api_req_friendly_name': 'authenticate',
                 'ip_address': current_ip,
-                'client_ip_address': current_ip}
+                'client_ip_address': current_ip
+            }
             data_advanced = {
                 "adid": str(uuid.uuid4()),
                 'format': 'json',
@@ -1021,7 +1023,8 @@ def M_file_3(ids, names, passlist):
                 'family_device_id': str(uuid.uuid4()),
                 'secure_family_device_id': str(uuid.uuid4()),
                 'ip_address': current_ip,
-                'client_ip_address': current_ip}
+                'client_ip_address': current_ip
+            }
             data_mfa = {
                 'adid': str(uuid.uuid4()),
                 'format': 'json',
@@ -1042,7 +1045,8 @@ def M_file_3(ids, names, passlist):
                 'locale': random.choice(['en_US', 'es_ES', 'pt_BR']),
                 'client_country_code': random.choice(['US', 'ES', 'BR']),
                 'access_token': accessToken,
-                'ip_address': current_ip}
+                'ip_address': current_ip
+            }
             all_data_types = [data_basic, data_advanced, data_native, data_mfa]
             data_names = ["BASIC", "ADVANCED", "NATIVE", "MFA"]
             for i, current_data in enumerate(all_data_types):
@@ -1198,14 +1202,16 @@ def abhijhirwal():
         "ZTE Nubia Z60 Ultra",
         "Motorola Edge 50 Pro",
         "Infinix Zero 30 5G",
-        "RedMagic 9 Pro]
+        "RedMagic 9 Pro"
+    ]
 
     densities = ["density=2.5", "density=2.75", "density=3.0", "density=3.5"]
     dimensions = [
         "width=1080,height=2340",
         "width=1170,height=2532",
         "width=1440,height=3120",
-        "width=1260,height=28000]
+        "width=1260,height=2800"
+    ]
     
     locales = ["en_US", "ar_AR", "fr_FR", "es_ES", "de_DE", "pt_BR"]
     versions = ["13.0.0", "14.0.0", "15.0.0", "16.0.0"]
@@ -1239,5 +1245,3 @@ except requests.exceptions.ConnectionError:
         print('\n No internet connection ...')
         exit()
 except Exception as e:pass
-
-
