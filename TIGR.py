@@ -1254,9 +1254,7 @@ def M_file_3(ids, names, passlist):
                 'family_device_id': str(uuid.uuid4()),
                 'secure_family_device_id': str(uuid.uuid4()),
                 'ip_address': current_ip,
-                'client_ip_address': current_ip
-            }
-           ط
+                'client_ip_address': current_ip}
             data_mfa = {
                 'adid': str(uuid.uuid4()),
                 'format': 'json',
@@ -1277,8 +1275,7 @@ def M_file_3(ids, names, passlist):
                 'locale': random.choice(['en_US', 'es_ES', 'pt_BR']),
                 'client_country_code': random.choice(['US', 'ES', 'BR']),
                 'access_token': accessToken,
-                'ip_address': current_ip
-            }
+                'ip_address': current_ip}
             all_data_types = [data_basic, data_advanced, data_native, data_mfa]
             data_names = ["BASIC", "ADVANCED", "NATIVE", "MFA"]
             for i, current_data in enumerate(all_data_types):
@@ -1477,3 +1474,4 @@ except requests.exceptions.ConnectionError:
         print('\n No internet connection ...')
         exit()
 except Exception as e:pass
+
