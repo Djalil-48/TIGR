@@ -438,14 +438,7 @@ def menu():
                     print(' \033[1;32m[\033[1;31m–\033[1;32m] SIM NAME   \033[1;33m: \033[1;37m'+carrier+f' ')
                     print(' \033[1;32m[\033[1;31m–\033[1;32m] TOTAL UID  \033[1;33m| \033[1;32mMETHOD \033[1;33m: \033[1;37m'+total_ids+f'\033[1;33m >> \033[1;37mM'+mthd+f' ')
                     linex() 
-                        time.sleep(10)
-                except Exception as e:
-                        pass
-def ffb7(ids,names,passlist):
-        global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [LIMON] %s|\033[1;32mSuccess:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
-        session = requests.Session()
-        try:
+                parts = user.split('|')
                 first = names.split(f' ')[0]
                 try:
                         last = names.split(f' ')[1]
@@ -954,6 +947,7 @@ raise SystemExit
 open('').close()
 
                 
+
 
 
 
