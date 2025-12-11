@@ -449,22 +449,16 @@ def menu():
                 for fikr in passlist:
                        if mthd in ['1', '01']:
         crack_submit.submit(M_file_1, ids, names, passlist)
-
     elif mthd in ['2', '02']:
         crack_submit.submit(M_file_2, ids, names, passlist)
-
     elif mthd in ['3', '03']:
         crack_submit.submit(M_file_3, ids, names, passlist)
-
     elif mthd in ['4', '04']:
-        crack_submit.submit(M_file_4, ids, names, passlist)
-
+        crack_submit.submit(M_file_4, ids, names, passlist
     elif mthd in ['5', '05']:
         crack_submit.submit(M_file_5, ids, names, passlist)
-
     elif mthd in ['6', '06']:
-        crack_submit.submit(M_file_6, ids, names, passlist)
-
+       crack_submit.submit(M_file_6, ids, names, passlist)
     elif mthd in ['7', '07']:
         crack_submit.submit(M_file_7, ids, names, passlist)
        dino()
@@ -947,6 +941,7 @@ raise SystemExit
 open('').close()
 
                 
+
 
 
 
