@@ -1,4 +1,4 @@
-DECODED BY CRIMINAL WITH ICDEC
+#DECODED BY CRIMINAL WITH ICDEC
 # OWNER  DJALIL_MK 
 import os,time,_md5,marshal,inspect,hashlib
 import http.client
@@ -1245,3 +1245,4 @@ except requests.exceptions.ConnectionError:
         print('\n No internet connection ...')
         exit()
 except Exception as e:pass
+
