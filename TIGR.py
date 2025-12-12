@@ -520,9 +520,9 @@ def menu():
                     print('\033[1;32m...\033[1;32m Behind every hackers smile...')
                     print('\033[1;32m...\033[1;32m The process has completed')
                     print('\033[1;32m...\033[1;32m OK/CP : '+str(len(oks))+'/'+str(len(cps)))
-        dino()
-input(' Press enter to back ')
-os.system('python DJALIL_MK.py')
+                dino()
+                  input(' Press enter to back ')
+                  os.system('python DJALIL_MK.py')
             elif xd in ['0','00']:
                 exit(' Thanls For Your Use ')
             elif xd in ['2','02']:
