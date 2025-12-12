@@ -516,13 +516,13 @@ def menu():
                                       crack_submit.submit(M_file_6,ids,names,passlist)
                             elif mthd in ['7','07']:
                                       crack_submit.submit(M_file_7,ids,names,passlist)
-                dino()
+                        dino()
                     print('\033[1;32m...\033[1;32m Behind every hackers smile...')
                     print('\033[1;32m...\033[1;32m The process has completed')
                     print('\033[1;32m...\033[1;32m OK/CP : '+str(len(oks))+'/'+str(len(cps)))
                 dino()
-                  input(' Press enter to back ')
-                  os.system('python DJALIL_MK.py')
+                            input(' Press enter to back ')
+                        os.system('python DJALIL_MK.py')
             elif xd in ['0','00']:
                 exit(' Thanls For Your Use ')
             elif xd in ['2','02']:
