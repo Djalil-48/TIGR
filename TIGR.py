@@ -1,4 +1,4 @@
-h#DECODED BY CRIMINAL WITH ICDEC
+#DECODED BY CRIMINAL WITH ICDEC
 # OWNER MR VIPERS 
 import os,time,_md5,marshal,inspect,hashlib
 import http.client
